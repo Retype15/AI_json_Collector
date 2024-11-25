@@ -1,0 +1,39 @@
+{
+    "zones_with_problems": ["west" , "middle", "east"], 
+    "date": "", //Format: "YYmmdd", Example: "20240812"
+    "url": "", 
+    "prediction": {
+        "availability": ,  
+        "demand_max": ,
+        "impact": ,
+        "deficit": ,
+        "backup": 
+    },
+    "morning_info": {
+        "time": "", //Format: "HHmm", Example: "0730"
+        "availability": , 
+        "demand": , 
+        "deficit":  
+    },
+	
+    "broken": {
+        //Format: "<CTE_ID>": [<Patana(Unity)>], Example: "AG": [1,2], "MG": [5,6]
+        },
+    "maintenance": {
+        //Format: "<CTE_ID>": [<Patana(Unity)>], Example: "AG": [1,4]
+    },
+    "limitations": ,
+        
+    "distributed": {
+        "motors_with_problems": ,
+        "total_impact": ,
+        "fuel_problems": ,
+        "ships_with_problems": ,
+        "motors_impact": 
+    },
+    "impact": {
+        "total_hours": //Format: "HHmm", Example: "0730",
+        "max": ,
+        "max_hour": //Format: "HHmm", Example: "0730" 
+    }
+}
