@@ -41,7 +41,11 @@ No escribas los comentarios.
 ```
 
 ## Ejecución del Proyecto:
-Una vez configurado el preprompt.txt, simplemente ejecuta el script principal de tu proyecto y el modelo de razonamiento autocompletará el archivo JSON basado en los datos de entrada proporcionados.
+Una vez configurado el preprompt.txt, simplemente ejecuta el script principal de tu proyecto y espera a que el modelo de razonamiento se inicie, y luego el programa, donde usted le enviara el texto en el primer cuadro y presionara una de las opciones:
+- Enviar: Envia el texto para ser procesado en la rama principal y lo mostrará en el recuadro de respuesta, donde se podra editar a conveniencia.
+- Procesar y guardar: autocompletará el archivo JSON basado en los datos de entrada proporcionados y guardara el archivo en segundo plano y paralelo al proceso principal.
+- Respuesta: Guarda el texto de respuesta en un archivo json en docs, Importante: la primera linea define el nombre que tendra el archivo, por lo que es importante definirla para un nombramiento correcto.
+
 
 ## Contribuciones:
 Las contribuciones son bienvenidas. Si encuentras algún error o tienes alguna sugerencia, por favor abre un issue o envía un pull request.

@@ -51,7 +51,7 @@ class QueryThread(QThread):
         
 class QuickSaveThread(QThread):
     finished = pyqtSignal(str)  
-    
+        
     def __init__(self, client, query): 
         super().__init__() 
         self.client = client 
@@ -110,7 +110,7 @@ class MainWindow(QWidget):
         self.layout.addWidget(self.button)
         
         # Botón para guardar la respuesta rapidamente
-        self.quick_save_button = QPushButton("Enviado y guardado Rapido")
+        self.quick_save_button = QPushButton("Procesar y guardar")
         self.quick_save_button.clicked.connect(self.quick_save)
         self.layout.addWidget(self.quick_save_button)
 
