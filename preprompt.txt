@@ -14,7 +14,7 @@ Rellena el siguiente json con la información anterior sin ´´´ de apertura ni
         "backup": 
     },
     "morning_info": {
-        "time": "", //Format: "HHmm"
+        "time": "HHmm:Null if clear",
         "availability": , 
         "demand": , 
         "deficit":  
@@ -32,9 +32,9 @@ Rellena el siguiente json con la información anterior sin ´´´ de apertura ni
         "motors_impact": 
     },
     "impact": {
-        "total_hours": //Format: "HHmm"
+        "total_hours": "HHmm:Null if clear",
         "max": ,
-        "max_hour": //Format: "HHmm"
+        "max_hour": "HHmm:Null if clear"
     }
 }
 

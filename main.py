@@ -105,7 +105,7 @@ class MainWindow(QWidget):
         self.layout.addWidget(self.text_input)
         
         # Botón para enviar la consulta
-        self.button = QPushButton("Enviar")
+        self.button = QPushButton("Procesar")
         self.button.clicked.connect(self.send_query)
         self.layout.addWidget(self.button)
         
