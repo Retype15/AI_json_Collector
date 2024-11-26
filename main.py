@@ -84,7 +84,7 @@ class QuickSaveThread(QThread):
             first_line = "error_in_name"
         with open(f"docs/{first_line}.json", "w", encoding="utf-8") as file: 
             file.write(remaining_text)
-        self.finished.emit("Guardado rápido completado")
+        self.finished.emit("Guardado rápido completado de first_line")
         
 
 
@@ -120,7 +120,7 @@ class MainWindow(QWidget):
         self.layout.addWidget(self.result_label)
         
         self.result_output = QTextEdit()
-        self.result_output.setReadOnly(True)
+        #self.result_output.setReadOnly(True)
         self.layout.addWidget(self.result_output)
 
         # Indicador de procesamiento

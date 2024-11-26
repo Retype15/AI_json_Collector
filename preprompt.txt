@@ -31,8 +31,8 @@ Rellena el siguiente json con la información anterior sin ´´´ de apertura ni
     "distributed": {
         "motors_with_problems": ,
         "total_impact": ,
-        "combustible_problems": ,
-        "ships_with_problems": ,
+        "combustible_problems": , // that mean centrales de generación distribuida with fuel problems
+        "ships_with_problems": , // that mean patanas with problems
         "motors_impact": 
     },
     "impact": {
