@@ -18,8 +18,9 @@ Seguir estos pasos es bastante sencillo. Asegúrate de tener Python instalado (p
 1. **Instalar Bibliotecas:**
    Instala las bibliotecas necesarias utilizando pip:
    ```sh
-   pip install datetime python-dateutil PyQt5 gradio_client```
-
+   pip install datetime python-dateutil PyQt5 gradio_client
+	```
+	
 2. **Configurar el Prompt:**
 	Escribe en el archivo preprompt.txt el prompt que deseas pasar al modelo, incluyendo la estructura básica del JSON y explicaciones detalladas. Se recomienda hacer comentarios sobre la línea que indique cómo debería ser el dato que se guarde, el formato, ejemplos, etc.
 
@@ -29,8 +30,14 @@ Ejemplo de contenido en preprompt.txt:
 {
     "fecha": "YYYYMMDD", // Formato de fecha: AñoMesDía, Ejemplo: 20240812
     "nombre": "string", // Nombre del usuario, Ejemplo: "Juan Pérez"
+	"edad": , // Edad del usuario, Ejemplo: 22
     ...
 }
+Datos solamente del usuario que mas hayan nombrado
+
+En valores vacios usar Null.
+No escribas los comentarios.
+
 ```
 
 ## Ejecución del Proyecto:
