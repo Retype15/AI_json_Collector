@@ -84,7 +84,7 @@ class QuickSaveThread(QThread):
             first_line = "error_in_name"
         with open(f"docs/{first_line}.json", "w", encoding="utf-8") as file: 
             file.write(remaining_text)
-        self.finished.emit("Guardado rápido completado de first_line")
+        self.finished.emit(f"Guardado rápido completado de {first_line}")
         
 
 
