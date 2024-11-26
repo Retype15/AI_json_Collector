@@ -1,0 +1,40 @@
+{
+    "zones_with_problems": ["west", "middle", "east"],
+    "date": "20240213",
+    "url": "http://www.cubadebate.cu/noticias/2024/02/13/une-pronostica-afectacion-de-1-378-mw-durante-pico-nocturno-de-este-martes/",
+    "prediction": {
+        "availability": 1742,
+        "demand_max": 3050,
+        "impact": 1378,
+        "deficit": 1308,
+        "backup": 65
+    },
+    "morning_info": {
+        "time": "07:00",
+        "availability": 1650,
+        "demand": 2200,
+        "deficit": 582
+    },
+    "broken": {
+        "Felton": [2],
+        "Renté": [5]
+    },
+    "maintenance": {
+        "Mariel": [8],
+        "Santa Cruz": [3],
+        "CTE Cienfuegos": [4]
+    },
+    "limitations": 338,
+    "distributed": {
+        "motors_with_problems": null,
+        "total_impact": 27,
+        "combustible_problem": null,
+        "snips_with_problems": null,
+        "motors_impact": 27
+    },
+    "impact": {
+        "total_hours": null,
+        "max": 1183,
+        "max_hour": "19:00"
+    }
+}

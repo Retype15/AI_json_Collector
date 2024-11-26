@@ -26,18 +26,21 @@ class QueryThread(QThread):
             with open("preprompt.txt", 'r', encoding='utf-8') as archivo:
                 json_file = archivo.read()  
         except FileNotFoundError: 
-            self.result_output.setPlainText("El archivo no se encontró.")
+            print("El archivo no se encontró.")
         except IOError: 
-            self.result_output.setPlainText("Hubo un error al leer el archivo.")
-        
-        result = self.client.predict(
-            query=self.query + json_file,
-            history=[],
-            system="You are Jessy, and Jessy only can response the user query in .json format file",
-            radio="72B",
-            api_name="/model_chat"
-        )
-        response_text = result[1][0][1]['text']
+            print("Hubo un error al leer el archivo.")
+        response_text = ""
+        try:
+            result = self.client.predict(
+                query=self.query + json_file,
+                history=[],
+                system="You are Jessy, and Jessy only can response the user query in .json format file",
+                radio="72B",
+                api_name="/model_chat"
+            )
+            response_text = result[1][0][1]['text']
+        except error:
+            response_text = "An Error ocurred... Please try again"
         self.result_ready.emit(response_text)
 
 class MainWindow(QWidget):
@@ -118,19 +121,19 @@ class MainWindow(QWidget):
 
     def send_query(self):
         # Validar y obtener la fecha inicial
-        if not self.current_date:
-            date_str = self.date_input.text()
-            try:
-                self.current_date = parser.parse(date_str)
-            except ValueError:
-                self.result_output.setPlainText("Fecha no válida. Por favor, use el formato YYYYMMDD.")
-                return
+        date_str = self.date_input.text()
+        try:
+            self.current_date = parser.parse(date_str)
+        except ValueError:
+            self.result_output.setPlainText("Fecha no válida. Por favor, use el formato YYYYMMDD.")
+            return
 
         # Mostrar mensaje de procesamiento
         self.status_label.setText("Procesando...")
 
         # Obtener el texto ingresado por el usuario
         user_text = self.text_input.toPlainText()
+        self.result_output.setPlainText("")
 
         # Iniciar el subproceso para la consulta
         self.query_thread = QueryThread(self.client, user_text)
@@ -154,7 +157,7 @@ class MainWindow(QWidget):
             # Actualizar la fecha al día siguiente
             self.current_date += timedelta(days=1)
             # Actualizar el campo de entrada de fecha con la nueva fecha
-            self.date_input.setText(self.current_date.strftime("%y%m%d"))
+            self.date_input.setText(self.current_date.strftime("%Y%m%d"))
         else:
             self.result_output.setPlainText("Debe ingresar una fecha inicial válida.")
 

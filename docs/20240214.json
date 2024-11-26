@@ -1,0 +1,39 @@
+{
+    "zones_with_problems": ["west", "middle", "east"],
+    "date": "20240214",
+    "url": "http://www.cubadebate.cu/noticias/2024/02/14/une-pronostica-afectacion-de-casi-1000-mw-durante-pico-nocturno-de-este-miercoles/",
+    "prediction": {
+        "availability": 2173,
+        "demand_max": 3100,
+        "impact": 997,
+        "deficit": 927,
+        "backup": null
+    },
+    "morning_info": {
+        "time": "07:00",
+        "availability": 1850,
+        "demand": 1995,
+        "deficit": 145
+    },
+    "broken": {
+        "FT": [2]
+    },
+    "maintenance": {
+        "MR": [8],
+        "SC": [3],
+        "CF": [4]
+    },
+    "limitations": 450,
+    "distributed": {
+        "motors_with_problems": 98,
+        "total_impact": 1096,
+        "combustible_problem": 100,
+        "snips_with_problems": 7,
+        "motors_impact": 54
+    },
+    "impact": {
+        "total_hours": 24,
+        "max": 1381,
+        "max_hour": "18:30"
+    }
+}
