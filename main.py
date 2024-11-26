@@ -1,5 +1,6 @@
 import sys
 import json
+import re
 from datetime import datetime, timedelta
 from dateutil import parser
 
@@ -10,6 +11,11 @@ from PyQt5.QtGui import QFont
 from PyQt5.QtCore import Qt, QThread, pyqtSignal
 
 from gradio_client import Client
+
+def clean_filename(filename): 
+    pattern = r'[<>:"/\\|?*]' 
+    clean_filename = re.sub(pattern, '', filename) 
+    return clean_filename
 
 class QueryThread(QThread):
     result_ready = pyqtSignal(str)
@@ -42,6 +48,45 @@ class QueryThread(QThread):
         except error:
             response_text = "An Error ocurred... Please try again"
         self.result_ready.emit(response_text)
+        
+class QuickSaveThread(QThread):
+    finished = pyqtSignal(str)  
+    
+    def __init__(self, client, query): 
+        super().__init__() 
+        self.client = client 
+        self.query = query 
+    def run(self): 
+        json_file = "" 
+        try: 
+            with open("preprompt.txt", 'r', encoding='utf-8') as archivo: 
+                json_file = archivo.read() 
+        except FileNotFoundError: 
+            print("El archivo no se encontró.") 
+        except IOError: 
+            print("Hubo un error al leer el archivo.") 
+        response_text = "" 
+        try: 
+            result = self.client.predict(
+                query=self.query + json_file, 
+                history=[], 
+                system="You are Jessy, and Jessy only can response the user query in .json format file and in the first line must write what is defined between the <>", 
+                radio="72B", api_name="/model_chat" 
+            ) 
+            response_text = result[1][0][1]['text'] 
+        except error: 
+            response_text = "An Error ocurred... Please try again" 
+            
+        # Guardar la respuesta 
+        first_line, remaining_text = response_text.split('\n', 1)
+        first_line = clean_filename(first_line)
+        if len(first_line) <= 2:
+            first_line = "error_in_name"
+        with open(f"docs/{first_line}.json", "w", encoding="utf-8") as file: 
+            file.write(remaining_text)
+        self.finished.emit("Guardado rápido completado")
+        
+
 
 class MainWindow(QWidget):
     def __init__(self):
@@ -51,13 +96,6 @@ class MainWindow(QWidget):
 
         # Layout principal
         self.layout = QVBoxLayout()
-
-        # Ingreso de fecha inicial simplificado
-        self.date_label = QLabel("Ingrese la fecha inicial:")
-        self.layout.addWidget(self.date_label)
-
-        self.date_input = QLineEdit()
-        self.layout.addWidget(self.date_input)
 
         # Ingreso de texto del usuario
         self.label = QLabel("Ingrese el texto:")
@@ -70,6 +108,12 @@ class MainWindow(QWidget):
         self.button = QPushButton("Enviar")
         self.button.clicked.connect(self.send_query)
         self.layout.addWidget(self.button)
+        
+        # Botón para guardar la respuesta rapidamente
+        self.quick_save_button = QPushButton("Enviado y guardado Rapido")
+        self.quick_save_button.clicked.connect(self.quick_save)
+        self.layout.addWidget(self.quick_save_button)
+
         
         # Mostrar la respuesta
         self.result_label = QLabel("Respuesta:")
@@ -114,20 +158,10 @@ class MainWindow(QWidget):
             }
         """)
 
-        # Definir la fecha actual
-        self.current_date = None
         self.client = Client("Qwen/Qwen2.5")
         self.setLayout(self.layout)
 
     def send_query(self):
-        # Validar y obtener la fecha inicial
-        date_str = self.date_input.text()
-        try:
-            self.current_date = parser.parse(date_str)
-        except ValueError:
-            self.result_output.setPlainText("Fecha no válida. Por favor, use el formato YYYYMMDD.")
-            return
-
         # Mostrar mensaje de procesamiento
         self.status_label.setText("Procesando...")
 
@@ -145,21 +179,31 @@ class MainWindow(QWidget):
         self.result_output.setPlainText(response_text)
         # Actualizar mensaje de estado
         self.status_label.setText("Proceso completado")
-
+        
     def save_response(self):
-        # Guardar la respuesta en un archivo con la fecha actual
-        if self.current_date:
-            file_date = self.current_date.strftime("%Y%m%d")
-            response_text = self.result_output.toPlainText()
-            with open(f"docs/{file_date}.json", "w", encoding="utf-8") as file:
-                file.write(response_text)
+        # Guardar la respuesta en un archivo con el nombre definido en la primera linea
+        response_text = self.result_output.toPlainText()
+        first_line, remaining_text = response_text.split('\n', 1)
+        first_line = clean_filename(first_line)
+        if len(first_line) <= 2:
+            first_line = "error_in_name"
+        with open(f"docs/{clean_filename(first_line)}.json", "w", encoding="utf-8") as file:
+            file.write(remaining_text)
+        self.status_label.setText("Guardado completado")
 
-            # Actualizar la fecha al día siguiente
-            self.current_date += timedelta(days=1)
-            # Actualizar el campo de entrada de fecha con la nueva fecha
-            self.date_input.setText(self.current_date.strftime("%Y%m%d"))
-        else:
-            self.result_output.setPlainText("Debe ingresar una fecha inicial válida.")
+    def quick_save(self):
+        # Obtener el texto ingresado por el usuario
+        user_text = self.text_input.toPlainText() 
+        # Iniciar el subproceso para la consulta y guardado rápido 
+        self.quick_save_thread = QuickSaveThread(self.client, user_text)
+        self.quick_save_thread.finished.connect(self.display_save_status)
+        self.quick_save_thread.start()
+    
+    
+    def display_save_status(self, message):
+        self.status_label.setText(message)
+
+    
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)

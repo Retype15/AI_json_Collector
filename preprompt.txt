@@ -1,6 +1,7 @@
 
 Rellena el siguiente json con la información anterior sin ´´´ de apertura ni cierre:
 
+<Escribe aqui la fecha en formato: YYmmdd>
 {
     "zones_with_problems": ["west" , "middle", "east"], 
     "date": "", //Format: "YYmmdd", Example: "20240812"
@@ -41,7 +42,21 @@ Rellena el siguiente json con la información anterior sin ´´´ de apertura ni
     }
 }
 
-En valores vacios usar Null.
-No escribbas los comentarios.
+CTE_ID:
+"MG" = "CTE Máximo Gómez"
+"OP" = "CTE Otto Parellada"
+"EG" = "CTE Ernesto Guevara"
+"AG" = "CTE Antonio Guiteras"
+"CM" = "CTE Carlos Manuel de Céspedes"
+"DO" = "CTE Diez de Octubre"
+"LR" = "CTE Lidio Ramón Pérez"
+"AM" = "CTE Antonio Maceo"
+"EV" = "Energas Varadero"
+"EB" = "Energas Boca de Jaruco"
 
-IMPORTANTE: Solo puedes escribir el json y nada más!
+"MA" = "CTE Mariel"
+"SC" = "Santa Cruz"
+"FT" = "Felton"
+
+En valores vacios usar Null.
+No escribas los comentarios.
