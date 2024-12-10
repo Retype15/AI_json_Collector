@@ -1,138 +1,76 @@
 import sys
-import json
 import re
-from datetime import datetime, timedelta
-from dateutil import parser
-
+import uuid  # Para generar identificadores únicos
 from PyQt5.QtWidgets import (
-    QApplication, QWidget, QVBoxLayout, QLabel, QLineEdit, QPushButton, QTextEdit
+    QApplication, QWidget, QVBoxLayout, QLabel, QTextEdit, QPushButton, QTreeWidget, QTreeWidgetItem
 )
 from PyQt5.QtGui import QFont
 from PyQt5.QtCore import Qt, QThread, pyqtSignal
-
 from gradio_client import Client
 
-def clean_filename(filename): 
-    pattern = r'[<>:"/\\|?*]' 
-    clean_filename = re.sub(pattern, '', filename) 
-    return clean_filename
+# Utilidad para limpiar nombres de archivos
+def clean_filename(filename):
+    pattern = r'[<>:"/\\|?*]'
+    return re.sub(pattern, '', filename)
 
-class QueryThread(QThread):
-    result_ready = pyqtSignal(str)
+# Subproceso para manejar consultas al modelo
+class QuickSaveThread(QThread):
+    status_update = pyqtSignal(str, str, str)  # Señal para actualizar el estado (process_id, mensaje, estado)
+    finished = pyqtSignal(str, str, str)  # Señal al completar el proceso (process_id, mensaje final, estado)
 
-    def __init__(self, client, query):
+    def __init__(self, client, query, process_id):
         super().__init__()
         self.client = client
         self.query = query
+        self.process_id = process_id  # Identificador único del proceso
 
     def run(self):
         json_file = ""
+        self.status_update.emit(self.process_id, "Leyendo archivo preprompt.txt...", "in_progress")
         
         try:
             with open("preprompt.txt", 'r', encoding='utf-8') as archivo:
-                json_file = archivo.read()  
-        except FileNotFoundError: 
-            print("El archivo no se encontró.")
-        except IOError: 
-            print("Hubo un error al leer el archivo.")
+                json_file = archivo.read()
+        except FileNotFoundError:
+            self.status_update.emit(self.process_id, "Error: El archivo preprompt.txt no se encontró.", "error")
+            return
+        except IOError:
+            self.status_update.emit(self.process_id, "Error al leer el archivo preprompt.txt.", "error")
+            return
+
+        self.status_update.emit(self.process_id, "Enviando la consulta al modelo...", "in_progress")
         response_text = ""
         try:
             result = self.client.predict(
                 query=self.query + json_file,
                 history=[],
-                system="You are Jessy, and Jessy only can response the user query in .json format file",
+                system="You are Jessy, and Jessy only can respond to the user query in JSON format, and write just first line the json the filename or the name chosen by the user and json in the second.",
                 radio="72B",
                 api_name="/model_chat"
             )
             response_text = result[1][0][1]['text']
-        except error:
-            response_text = "An Error ocurred... Please try again"
-        self.result_ready.emit(response_text)
-        
-class QuickSaveThread(QThread):
-    finished = pyqtSignal(str)  
-        
-    def __init__(self, client, query): 
-        super().__init__() 
-        self.client = client 
-        self.query = query 
-    def run(self): 
-        json_file = "" 
-        try: 
-            with open("preprompt.txt", 'r', encoding='utf-8') as archivo: 
-                json_file = archivo.read() 
-        except FileNotFoundError: 
-            print("El archivo no se encontró.") 
-        except IOError: 
-            print("Hubo un error al leer el archivo.") 
-        response_text = "" 
-        try: 
-            result = self.client.predict(
-                query=self.query + json_file, 
-                history=[], 
-                system="You are Jessy, and Jessy only can response the user query in .json format file and in the first line must write what is defined between the <>", 
-                radio="72B", api_name="/model_chat" 
-            ) 
-            response_text = result[1][0][1]['text'] 
-        except error: 
-            response_text = "An Error ocurred... Please try again" 
-            
-        # Guardar la respuesta 
-        first_line, remaining_text = response_text.split('\n', 1)
-        first_line = clean_filename(first_line)
-        if len(first_line) <= 2:
-            first_line = "error_in_name"
-        with open(f"docs/{first_line}.json", "w", encoding="utf-8") as file: 
-            file.write(remaining_text)
-        self.finished.emit(f"Guardado rápido completado de {first_line}")
-        
+        except Exception as e:
+            self.status_update.emit(self.process_id, f"Error: Fallo al procesar la consulta. {str(e)}", "error")
+            return
 
+        self.status_update.emit(self.process_id, "Procesando la respuesta del modelo...", "in_progress")
+        try:
+            first_line, remaining_text = response_text.split('\n', 1)
+            first_line = clean_filename(first_line)
+            if len(first_line) <= 2:
+                first_line = "error_in_name"
+            with open(f"docs/{first_line}.json", "w", encoding="utf-8") as file:
+                file.write(remaining_text)
+            self.finished.emit(self.process_id, f"Guardado rápido completado: {first_line}.json", "completed")
+        except Exception as e:
+            self.finished.emit(self.process_id, f"Error al guardar el archivo: {str(e)}", "error")
 
+# Ventana principal de la aplicación
 class MainWindow(QWidget):
     def __init__(self):
         super().__init__()
         
         self.setWindowTitle("Chatbot Query Program")
-
-        # Layout principal
-        self.layout = QVBoxLayout()
-
-        # Ingreso de texto del usuario
-        self.label = QLabel("Ingrese el texto:")
-        self.layout.addWidget(self.label)
-        
-        self.text_input = QTextEdit()
-        self.layout.addWidget(self.text_input)
-        
-        # Botón para enviar la consulta
-        self.button = QPushButton("Procesar")
-        self.button.clicked.connect(self.send_query)
-        self.layout.addWidget(self.button)
-        
-        # Botón para guardar la respuesta rapidamente
-        self.quick_save_button = QPushButton("Procesar y guardar")
-        self.quick_save_button.clicked.connect(self.quick_save)
-        self.layout.addWidget(self.quick_save_button)
-
-        
-        # Mostrar la respuesta
-        self.result_label = QLabel("Respuesta:")
-        self.layout.addWidget(self.result_label)
-        
-        self.result_output = QTextEdit()
-        #self.result_output.setReadOnly(True)
-        self.layout.addWidget(self.result_output)
-
-        # Indicador de procesamiento
-        self.status_label = QLabel("")
-        self.layout.addWidget(self.status_label)
-
-        # Botón para guardar la respuesta
-        self.save_button = QPushButton("Guardar Respuesta")
-        self.save_button.clicked.connect(self.save_response)
-        self.layout.addWidget(self.save_button)
-
-        # Definir la configuración visual
         self.setFont(QFont("Arial", 12))
         self.setStyleSheet("""
             QWidget {
@@ -141,7 +79,7 @@ class MainWindow(QWidget):
             QLabel {
                 color: #333;
             }
-            QLineEdit, QTextEdit {
+            QTextEdit {
                 background-color: #fff;
                 border: 1px solid #ccc;
                 border-radius: 4px;
@@ -156,54 +94,165 @@ class MainWindow(QWidget):
             QPushButton:hover {
                 background-color: #4cae4c;
             }
+            QPushButton:checked {
+                background-color: #337ab7;
+                color: #fff;
+            }
         """)
 
+        # Layout principal
+        self.layout = QVBoxLayout()
+
+        self.program_mode_label = QLabel("En este modo, puedes escribir tu propio código Python para ejecutar un proceso.")
+        self.program_mode_label.setVisible(False)
+        self.layout.addWidget(self.program_mode_label)
+
+
+        # Botón estilizado para cambiar entre modos
+        self.mode_toggle = QPushButton("Modo: Texto", self)
+        self.mode_toggle.setCheckable(True)
+        self.mode_toggle.setChecked(False)
+        self.mode_toggle.clicked.connect(self.toggle_mode)
+        self.layout.addWidget(self.mode_toggle)
+
+        # Entrada de texto
+        self.label = QLabel("Ingrese el texto:")
+        self.layout.addWidget(self.label)
+
+        # Campo de texto adicional para el modo "programa"
+        self.code_input = QTextEdit(self)
+        self.code_input.setPlaceholderText("Escribe tu código Python aquí...")
+        self.code_input.setVisible(False)  # Oculto por defecto
+        self.layout.addWidget(self.code_input)
+
+        self.text_input = QTextEdit()
+        self.layout.addWidget(self.text_input)
+        
+        # Botón para guardar rápidamente
+        self.quick_save_button = QPushButton("Procesar y Guardar")
+        self.quick_save_button.clicked.connect(self.quick_save)
+        self.layout.addWidget(self.quick_save_button)
+
+        # Estado de procesos
+        self.status_label = QLabel("")
+        self.layout.addWidget(self.status_label)
+
+        # Árbol de procesos
+        self.process_tree = QTreeWidget()
+        self.process_tree.setHeaderLabels(["Proceso", "Estado"])
+        self.layout.addWidget(self.process_tree)
+        self.process_items = {}  # Diccionario para rastrear procesos
+
+        # Cliente de la API
         self.client = Client("Qwen/Qwen2.5")
         self.setLayout(self.layout)
+        self.threads = []  # Lista para rastrear subprocesos activos
 
-    def send_query(self):
-        # Mostrar mensaje de procesamiento
-        self.status_label.setText("Procesando...")
 
-        # Obtener el texto ingresado por el usuario
-        user_text = self.text_input.toPlainText()
-        self.result_output.setPlainText("")
+    def toggle_mode(self):
+        if self.mode_toggle.isChecked():
+            self.mode_toggle.setText("Modo: Programa")
+            self.text_input.setVisible(False)
+            self.code_input.setVisible(True)
+        else:
+            self.mode_toggle.setText("Modo: Texto")
+            self.text_input.setVisible(True)
+            self.code_input.setVisible(False)
 
-        # Iniciar el subproceso para la consulta
-        self.query_thread = QueryThread(self.client, user_text)
-        self.query_thread.result_ready.connect(self.display_result)
-        self.query_thread.start()
-
-    def display_result(self, response_text):
-        # Mostrar la respuesta en la interfaz
-        self.result_output.setPlainText(response_text)
-        # Actualizar mensaje de estado
-        self.status_label.setText("Proceso completado")
-        
-    def save_response(self):
-        # Guardar la respuesta en un archivo con el nombre definido en la primera linea
-        response_text = self.result_output.toPlainText()
-        first_line, remaining_text = response_text.split('\n', 1)
-        first_line = clean_filename(first_line)
-        if len(first_line) <= 2:
-            first_line = "error_in_name"
-        with open(f"docs/{clean_filename(first_line)}.json", "w", encoding="utf-8") as file:
-            file.write(remaining_text)
-        self.status_label.setText("Guardado completado")
 
     def quick_save(self):
-        # Obtener el texto ingresado por el usuario
-        user_text = self.text_input.toPlainText() 
-        # Iniciar el subproceso para la consulta y guardado rápido 
-        self.quick_save_thread = QuickSaveThread(self.client, user_text)
-        self.quick_save_thread.finished.connect(self.display_save_status)
-        self.quick_save_thread.start()
-    
-    
-    def display_save_status(self, message):
-        self.status_label.setText(message)
+        process_id = str(uuid.uuid4())
 
-    
+        if self.mode_toggle.isChecked():  # Modo programa
+            user_code = self.code_input.toPlainText()
+
+            # Crear un entorno seguro para ejecutar el código del usuario
+            local_scope = {
+                "send_query": self.send_custom_query,  # Permitir que el usuario llame a send_query
+                "self": self,
+            }
+
+            try:
+                exec(user_code, {}, local_scope)  # Ejecutar el código del usuario
+            except Exception as e:
+                self.status_label.setText(f"Error en el código: {str(e)}")
+                return  # Evitar continuar si hay errores
+        else:  # Modo texto (predeterminado)
+            user_text = self.text_input.toPlainText()
+
+            # Iniciar el subproceso de guardado rápido
+            quick_save_thread = QuickSaveThread(self.client, user_text, process_id)
+            quick_save_thread.status_update.connect(lambda msg: self.update_process_state(process_id, msg, "in_progress"))
+            quick_save_thread.finished.connect(lambda: self.update_process_state(process_id, "Completado", "completed"))
+            quick_save_thread.finished.connect(lambda: self.cleanup_thread(quick_save_thread))  # Limpieza
+            quick_save_thread.start()
+
+            # Añadir el subproceso a la lista de subprocesos activos
+            self.threads.append(quick_save_thread)
+
+            # Añadir un estado inicial a la lista
+            self.update_process_state(process_id, "Iniciando proceso...", "in_progress")
+
+    def update_process_state(self, process_id, message, status):
+        if process_id not in self.process_items:
+            # Si no existe un proceso para este ID, crea uno
+            process_item = QTreeWidgetItem([f"Proceso {process_id[:8]}", message])
+            process_item.setForeground(1, Qt.blue)  # Color azul para estado inicial
+            self.process_tree.addTopLevelItem(process_item)
+            self.process_items[process_id] = process_item
+        else:
+            process_item = self.process_items[process_id]
+
+        # Actualizar el mensaje del proceso
+        process_item.setText(1, message)
+
+        # Actualizar el color del estado
+        if status == "completed":
+            process_item.setForeground(1, Qt.green)
+        elif status == "error":
+            # Mantener el color rojo solo si es un error
+            process_item.setForeground(1, Qt.red)
+        else:
+            # Azul para estados en progreso
+            process_item.setForeground(1, Qt.blue)
+
+
+    def send_custom_query(self, query=""):
+        """
+        Este método permite que el usuario envíe una consulta personalizada desde su código.
+        """
+        process_id = str(uuid.uuid4())
+
+        # Iniciar el subproceso de guardado rápido
+        quick_save_thread = QuickSaveThread(self.client, query, process_id)
+        quick_save_thread.status_update.connect(lambda msg: self.update_process_state(process_id, msg, "in_progress"))
+        quick_save_thread.finished.connect(lambda: self.update_process_state(process_id, "Completado", "completed"))
+        quick_save_thread.finished.connect(lambda: self.cleanup_thread(quick_save_thread))  # Limpieza
+        quick_save_thread.start()
+
+        # Añadir el subproceso a la lista de subprocesos activos
+        self.threads.append(quick_save_thread)
+
+        # Añadir un estado inicial a la lista
+        self.update_process_state(process_id, "Iniciando proceso...", "in_progress")
+
+    def cleanup_thread(self, thread):
+        if thread in self.threads:
+            self.threads.remove(thread)
+
+
+    def closeEvent(self, event):
+        """
+        Se asegura de detener cualquier subproceso en ejecución antes de cerrar la ventana.
+        """
+        for thread in self.threads:
+            if thread.isRunning():
+                thread.quit()
+                thread.wait()
+
+        super().closeEvent(event)
+
+
 
 if __name__ == "__main__":
     app = QApplication(sys.argv)

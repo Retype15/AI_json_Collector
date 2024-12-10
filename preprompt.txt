@@ -1,58 +1,65 @@
 
-Rellena el siguiente json con la información anterior sin ´´´ de apertura ni cierre:
+Rellena el siguiente json con informacion inventada sobre informacion de restaurantes y bares de la Habana, cuba.
 
-<Escribe aqui la fecha en formato: YYmmdd>
+<town located and name of the local here, format: "'municipe'-'name'">
 {
-    "zones_with_problems": ["west" , "middle", "east"], 
-    "date": "", //Format: "YYmmdd"
-    "url": "", 
-    "prediction": {
-        "availability": ,  
-        "demand_max": ,
-        "impact": ,
-        "deficit": ,
-        "backup": 
+    "name": "Name of the local",
+    "phone": "Phone",
+    "email": "Email",
+    "web": "Website",
+    "est_type": "(Restaurant, Bar)",
+    "bus_type": "(State, Private)",
+    "cuisine": "(Cuban, Chinese, Italian, Mexican, Japanese, Others)",
+    "hours": {
+        "open": "HH:mm",
+        "close": "HH:mm",
+        "days": "[\"Mon\",\"Tue\",\"Wed\",\"Thu\",\"Fri\",\"Sat\",\"Sun\"]"
     },
-    "morning_info": {
-        "time": "HHmm:Null if clear",
-        "availability": , 
-        "demand": , 
-        "deficit":  
-    },
-	
-    "broken": { }, //Format: "<CTE_ID>": [<Patana(Unity)>], Example: "AG": [1,2], "MG": [5,6]
-    "maintenance": { }, //Format: "<CTE_ID>": [<Patana(Unity)>], Example: "AG": [1,4]
-    "limitations": ,
-        
-    "distributed": {
-        "motors_with_problems": ,
-        "total_impact": ,
-        "combustible_problems": , // that mean centrales de generación distribuida with fuel problems
-        "ships_with_problems": , // that mean patanas with problems
-        "motors_impact": 
-    },
-    "impact": {
-        "total_hours": "HHmm:Null if clear",
-        "max": ,
-        "max_hour": "HHmm:Null if clear"
+    "cap": "Capacity",
+    "reservations": "[\"Online\",\"Phone\",\"In Person\",\"Others\"]",
+    "delivery": "[\"Home\",\"Takeaway\",\"On-site\",\"Others\"]",
+    "level": "(Economic, Medium, High, Luxurious)",
+    "payment": "[\"Cash\",\"Card\",\"Transfer\",\"Others\"]",
+    "promo": "10%, 2x1, etc.",
+    "rating": "0 to 5, Float",
+    "reviews": "Count",
+    "amenities": "[\"WiFi\",\"Accessible\",\"Live Music\",\"Outdoor\",\"Pet Friendly\"]",
+    "fb": "Facebook URL (optional)",
+    "ig": "Instagram URL (optional)",
+    "twitter": "Twitter URL (optional)",
+    "menu": [
+        "explanation": "Menu items",
+        {
+            "id": "ID",
+            "name": "Food name",
+            "price": "Price",
+            "type": "(Starter, Main, Side, Dessert, Drink, Other)"
+        }
+    ],
+    "clients": [
+        "explanation": "Client details",
+        {
+            "name": "Name",
+            "age": "Age",
+            "gender": "(Male, Female, Other, Prefer not to say)",
+            "frequency": "(First, Occasionally, Regularly, Frequently)",
+            "preference": "(Nothing, Vegetarian, Vegan, Gluten-Free, Lactose-Free, Others)",
+            "spend": "Expenditure",
+            "food_pref": "Food preference ID",
+            "rating": "Rating 1 to 5",
+            "recommend": "0 = No, 1 = Yes"
+        }
+    ],
+    "location": {
+        "street": "Street",
+        "council": "Council",
+        "town": "municipe",
+        "province": "Province",
+        "zip": "Postal Code",
+        "country": "Country",
+        "coords": "Coordinates \"x,y\""
     }
 }
 
-CTE_ID:
-"MG" = "CTE Máximo Gómez"
-"OP" = "CTE Otto Parellada"
-"EG" = "CTE Ernesto Guevara"
-"AG" = "CTE Antonio Guiteras"
-"CM" = "CTE Carlos Manuel de Céspedes"
-"DO" = "CTE Diez de Octubre"
-"LR" = "CTE Lidio Ramón Pérez"
-"AM" = "CTE Antonio Maceo"
-"EV" = "Energas Varadero"
-"EB" = "Energas Boca de Jaruco"
-"MA" = "CTE Mariel"
-"SC" = "Santa Cruz"
-"FT" = "Felton"
-"NC" = "Nuevitas"
-
 En valores donde no se encuentren datos usar Null, si es un dicc o arreglo dejar vacío.
-No escribas los comentarios ni rellenes valores con datos de los comentarios.
+No escribas los comentarios en el json final.
