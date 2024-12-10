@@ -179,7 +179,7 @@ class MainWindow(QWidget):
 
             # Crear un entorno seguro para ejecutar el código del usuario
             local_scope = {
-                "send_query": self.send_custom_query,  # Permitir que el usuario llame a send_query
+                "send_query": self.send_query,  # Permitir que el usuario llame a send_query
                 "active_processes": self.get_active_processes,
                 #"self": self,
             }
@@ -192,18 +192,7 @@ class MainWindow(QWidget):
         else:  # Modo texto (predeterminado)
             user_text = self.text_input.toPlainText()
 
-            # Iniciar el subproceso de guardado rápido
-            quick_save_thread = QuickSaveThread(self.client, user_text, process_id)
-            quick_save_thread.status_update.connect(lambda: self.update_process_state(process_id, "En progreso...", "in_progress"))
-            quick_save_thread.finished.connect(lambda: self.update_process_state(process_id, "Completado", "completed"))
-            quick_save_thread.finished.connect(lambda: self.cleanup_thread(quick_save_thread))  # Limpieza
-            quick_save_thread.start()
-
-            # Añadir el subproceso a la lista de subprocesos activos
-            self.threads.append(quick_save_thread)
-
-            # Añadir un estado inicial a la lista
-            self.update_process_state(process_id, "Iniciando proceso...", "in_progress")
+            self.send_query(query=user_text)
 
     def update_process_state(self, process_id, message, status):
         if process_id not in self.process_items:
@@ -233,7 +222,7 @@ class MainWindow(QWidget):
             if process_id in self.process_times:
                 del self.process_times[process_id]
 
-    def send_custom_query(self, query=""):
+    def send_query(self, query=""):
         """
         Este método permite que el usuario envíe una consulta personalizada desde su código.
         """
