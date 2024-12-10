@@ -180,8 +180,8 @@ class MainWindow(QWidget):
             # Crear un entorno seguro para ejecutar el código del usuario
             local_scope = {
                 "send_query": self.send_custom_query,  # Permitir que el usuario llame a send_query
-                "active_processes": get_active_processes,
-                "self": self,
+                "active_processes": self.get_active_processes,
+                #"self": self,
             }
 
             try:
