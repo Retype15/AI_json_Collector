@@ -1,0 +1,62 @@
+{
+    "name": "El Malecón",
+    "phone": "+53 78654321",
+    "email": "elmalecon@habana.com",
+    "web": "www.elmalecon.com",
+    "est_type": "Bar",
+    "bus_type": "Private",
+    "cuisine": "Cuban",
+    "hours": {
+        "open": "12:00",
+        "close": "02:00",
+        "days": ["Mon","Tue","Wed","Thu","Fri","Sat","Sun"]
+    },
+    "cap": 150,
+    "reservations": ["Phone","In Person"],
+    "delivery": ["Home","Takeaway"],
+    "level": "Medium",
+    "payment": ["Cash","Card"],
+    "promo": "10%",
+    "rating": 4.2,
+    "reviews": 120,
+    "amenities": ["WiFi","Live Music","Outdoor"],
+    "fb": "https://facebook.com/elmaleconhabana",
+    "ig": "https://instagram.com/elmaleconhabana",
+    "twitter": "https://twitter.com/elmaleconhabana",
+    "menu": [
+        {
+            "id": "1",
+            "name": "Mojo de Cerdo",
+            "price": "10 CUC",
+            "type": "Main"
+        },
+        {
+            "id": "2",
+            "name": "Cerveza Bucanero",
+            "price": "3 CUC",
+            "type": "Drink"
+        }
+    ],
+    "clients": [
+        {
+            "name": "Juan Pérez",
+            "age": 35,
+            "gender": "Male",
+            "frequency": "Regularly",
+            "preference": "Nothing",
+            "spend": "20 CUC",
+            "food_pref": "1",
+            "rating": 5,
+            "recommend": 1
+        }
+    ],
+    "location": {
+        "street": "Malecón Avenue",
+        "council": "Habana Vieja",
+        "town": "La Habana",
+        "province": "La Habana",
+        "zip": "10100",
+        "country": "Cuba",
+        "coords": "23.1199,-82.3502"
+    }
+}
