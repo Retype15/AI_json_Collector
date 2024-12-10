@@ -1,11 +1,12 @@
 import sys
 import re
+import time  # Agregar esta importación para rastrear tiempos en segundos
 import uuid  # Para generar identificadores únicos
 from PyQt5.QtWidgets import (
     QApplication, QWidget, QVBoxLayout, QLabel, QTextEdit, QPushButton, QTreeWidget, QTreeWidgetItem
 )
 from PyQt5.QtGui import QFont
-from PyQt5.QtCore import Qt, QThread, pyqtSignal
+from PyQt5.QtCore import Qt, QThread, pyqtSignal, QTimer
 from gradio_client import Client
 
 # Utilidad para limpiar nombres de archivos
@@ -71,6 +72,7 @@ class MainWindow(QWidget):
         super().__init__()
         
         self.setWindowTitle("Chatbot Query Program")
+        self.resize(600, 500)
         self.setFont(QFont("Arial", 12))
         self.setStyleSheet("""
             QWidget {
@@ -121,7 +123,7 @@ class MainWindow(QWidget):
 
         # Campo de texto adicional para el modo "programa"
         self.code_input = QTextEdit(self)
-        self.code_input.setPlaceholderText("Escribe tu código Python aquí...")
+        self.code_input.setPlaceholderText("Escribe tu código Python aquí...\n usa el metodo send_query(optional query=\"texto extra\")\n metodo active_processes() devuelve la lista de procesos activos")
         self.code_input.setVisible(False)  # Oculto por defecto
         self.layout.addWidget(self.code_input)
 
@@ -140,6 +142,10 @@ class MainWindow(QWidget):
         # Árbol de procesos
         self.process_tree = QTreeWidget()
         self.process_tree.setHeaderLabels(["Proceso", "Estado"])
+        # Configurar anchos de columnas
+        self.process_tree.setColumnWidth(0, 200)  # Columna "Proceso"
+        self.process_tree.setColumnWidth(1, 300)  # Columna "Estado"
+
         self.layout.addWidget(self.process_tree)
         self.process_items = {}  # Diccionario para rastrear procesos
 
@@ -147,6 +153,11 @@ class MainWindow(QWidget):
         self.client = Client("Qwen/Qwen2.5")
         self.setLayout(self.layout)
         self.threads = []  # Lista para rastrear subprocesos activos
+
+        self.process_times = {}  # Diccionario para rastrear tiempos de inicio de cada proceso
+        self.timer = QTimer(self)  # Temporizador global para actualizar el estado
+        self.timer.timeout.connect(self.update_progress_times)
+        self.timer.start(1000)  # Actualización cada segundo
 
 
     def toggle_mode(self):
@@ -169,6 +180,7 @@ class MainWindow(QWidget):
             # Crear un entorno seguro para ejecutar el código del usuario
             local_scope = {
                 "send_query": self.send_custom_query,  # Permitir que el usuario llame a send_query
+                "active_processes": get_active_processes,
                 "self": self,
             }
 
@@ -182,7 +194,7 @@ class MainWindow(QWidget):
 
             # Iniciar el subproceso de guardado rápido
             quick_save_thread = QuickSaveThread(self.client, user_text, process_id)
-            quick_save_thread.status_update.connect(lambda msg: self.update_process_state(process_id, msg, "in_progress"))
+            quick_save_thread.status_update.connect(lambda: self.update_process_state(process_id, "En progreso...", "in_progress"))
             quick_save_thread.finished.connect(lambda: self.update_process_state(process_id, "Completado", "completed"))
             quick_save_thread.finished.connect(lambda: self.cleanup_thread(quick_save_thread))  # Limpieza
             quick_save_thread.start()
@@ -200,6 +212,7 @@ class MainWindow(QWidget):
             process_item.setForeground(1, Qt.blue)  # Color azul para estado inicial
             self.process_tree.addTopLevelItem(process_item)
             self.process_items[process_id] = process_item
+            self.process_times[process_id] = time.time()
         else:
             process_item = self.process_items[process_id]
 
@@ -215,7 +228,10 @@ class MainWindow(QWidget):
         else:
             # Azul para estados en progreso
             process_item.setForeground(1, Qt.blue)
-
+        # Eliminar el proceso del rastreador de tiempos si ya no está en progreso
+        if status in ["completed", "error"]:
+            if process_id in self.process_times:
+                del self.process_times[process_id]
 
     def send_custom_query(self, query=""):
         """
@@ -225,7 +241,7 @@ class MainWindow(QWidget):
 
         # Iniciar el subproceso de guardado rápido
         quick_save_thread = QuickSaveThread(self.client, query, process_id)
-        quick_save_thread.status_update.connect(lambda msg: self.update_process_state(process_id, msg, "in_progress"))
+        quick_save_thread.status_update.connect(lambda: self.update_process_state(process_id, "En progreso...", "in_progress"))
         quick_save_thread.finished.connect(lambda: self.update_process_state(process_id, "Completado", "completed"))
         quick_save_thread.finished.connect(lambda: self.cleanup_thread(quick_save_thread))  # Limpieza
         quick_save_thread.start()
@@ -240,6 +256,53 @@ class MainWindow(QWidget):
         if thread in self.threads:
             self.threads.remove(thread)
 
+    def update_progress_times(self):
+        """
+        Actualiza los tiempos de los procesos en progreso cada segundo.
+        """
+        current_time = time.time()  # Tiempo actual en segundos
+
+        for process_id, start_time in list(self.process_times.items()):
+            elapsed_time = int(current_time - start_time)  # Tiempo transcurrido en segundos
+
+            if elapsed_time > 120:  # Límite de 2 minutos
+                self.stop_process(process_id, reason="El proceso excedió el límite de tiempo (2 minutos).")
+            else:
+                # Actualizar el estado del proceso con el tiempo transcurrido
+                if process_id in self.process_items:
+                    process_item = self.process_items[process_id]
+                    process_item.setText(1, f"En progreso... {elapsed_time} seg")
+
+
+    def stop_process(self, process_id, reason="El proceso excedió el límite de tiempo."):
+        """
+        Detiene un subproceso por su ID y actualiza su estado en la interfaz.
+        """
+        if process_id in self.process_items:
+            process_item = self.process_items[process_id]
+            process_item.setText(1, f"Error: {reason}")
+            process_item.setForeground(1, Qt.red)  # Actualizar el color a rojo
+
+        # Finalizar el subproceso asociado si está activo
+        for thread in self.threads:
+            if thread.process_id == process_id and thread.isRunning():
+                thread.terminate()  # Forzar la terminación del subproceso
+                thread.wait()  # Esperar que se detenga completamente
+                self.threads.remove(thread)  # Limpiar la lista de subprocesos
+
+        # Eliminar el proceso del rastreador de tiempos
+        if process_id in self.process_times:
+            del self.process_times[process_id]
+
+
+    def get_active_processes(self):
+        active_processes = []
+        for thread in self.threads:
+            if thread.isRunning():  # Verifica si el subproceso aún está en ejecución
+                active_processes.append(thread.process_id)
+
+        return active_processes
+
 
     def closeEvent(self, event):
         """
@@ -247,8 +310,9 @@ class MainWindow(QWidget):
         """
         for thread in self.threads:
             if thread.isRunning():
-                thread.quit()
+                thread.terminate()
                 thread.wait()
+                self.threads.remove(thread)
 
         super().closeEvent(event)
 
