@@ -46,6 +46,8 @@ Puedes instalar estas bibliotecas ejecutando el siguiente comando en tu terminal
 pip install datetime python-dateutil PyQt5 gradio_client
 ```
 
+---
+
 ## Configuración inicial
 ### Preparar el archivo de prompt (preprompt.txt):
 
@@ -102,17 +104,20 @@ En el modo código, puedes escribir un script como el siguiente para realizar co
 
 ```python
 import random
-
-# Envía una consulta personalizada al modelo
-for i in range(0,int(random.random())*100)
-	send_query(query=f"Inventate los datos de la persona para rellenar el json, y de nombre del archivo usa su propio nombre")
+"""
+Envía una consulta personalizada al modelo, y llamamos al metodo send_query() con el texto inicial, que se completa con
+el texto en el archivo preprompt.txt y se crea un subproceso donde se envia la solicitud al modelo de lenguaje natural 
+para procesar.
+"""
+for i in range(0,int(random.random())*100) 
+	send_query(query=f"Inventate los datos de la persona para rellenar el json, y de nombre del archivo usa \"nombre\"")
 ```
 
 Esto ejecutará la consulta y mostrará el progreso en el sistema de log en tiempo real.
 
 ---
 
-##Contribuciones
+## Contribuciones
 ¡Las contribuciones son bienvenidas! Si encuentras algún error o tienes ideas para nuevas funcionalidades, no dudes en:
 
 1. Abrir un issue en el repositorio del proyecto.
@@ -121,7 +126,7 @@ Esto ejecutará la consulta y mostrará el progreso en el sistema de log en tiem
 
 ---
 
-##Créditos
+## Créditos
 **AI JSON Collector** fue desarrollado como una herramienta para facilitar y acelerar el manejo de archivos JSON, con especial énfasis en la simplicidad y la eficiencia.
 
 ¡Gracias por usar AI JSON Collector! 🎉
