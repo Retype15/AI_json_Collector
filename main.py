@@ -2,6 +2,7 @@ import sys
 import re
 import time  # Agregar esta importación para rastrear tiempos en segundos
 import uuid  # Para generar identificadores únicos
+import json
 from PyQt5.QtWidgets import (
     QApplication, QWidget, QVBoxLayout, QLabel, QTextEdit, QPushButton, QTreeWidget, QTreeWidgetItem
 )
@@ -17,13 +18,15 @@ def clean_filename(filename):
 # Subproceso para manejar consultas al modelo
 class QuickSaveThread(QThread):
     status_update = pyqtSignal(str, str, str)  # Señal para actualizar el estado (process_id, mensaje, estado)
-    finished = pyqtSignal(str, str, str)  # Señal al completar el proceso (process_id, mensaje final, estado)
+    finished = pyqtSignal(str, str, str, str)  # Señal al completar el proceso (process_id, mensaje final, estado, texto de respuesta)
 
-    def __init__(self, client, query, process_id):
+    def __init__(self, client, query, process_id, save_to_file=True, post_process_callback=None):
         super().__init__()
         self.client = client
         self.query = query
         self.process_id = process_id  # Identificador único del proceso
+        self.save_to_file = save_to_file  # Determina si guardar el archivo
+        self.post_process_callback = post_process_callback
 
     def run(self):
         json_file = ""
@@ -54,20 +57,31 @@ class QuickSaveThread(QThread):
             self.status_update.emit(self.process_id, f"Error: Fallo al procesar la consulta. {str(e)}", "error")
             return
 
-        self.status_update.emit(self.process_id, "Procesando la respuesta del modelo...", "in_progress")
-        try:
+        #self.status_update.emit(self.process_id, "Procesando la respuesta del modelo...", "in_progress")
+        if response_text.startswith('{'):
+            first_line, remaining_text = f"no_name_{self.process_id}", response_text
+        else:
             first_line, remaining_text = response_text.split('\n', 1)
-            first_line = clean_filename(first_line)
-            if len(first_line) <= 2:
-                first_line = "error_in_name"
-            with open(f"docs/{first_line}.json", "w", encoding="utf-8") as file:
-                file.write(remaining_text)
-            self.finished.emit(self.process_id, f"Guardado rápido completado: {first_line}.json", "completed")
-        except Exception as e:
-            self.finished.emit(self.process_id, f"Error al guardar el archivo: {str(e)}", "error")
+        if self.save_to_file:
+            try:
+                first_line = clean_filename(first_line)
+                if len(first_line) <= 2:
+                    first_line = f"error_in_name_{self.process_id}"
+                if self.save_to_file:
+                    with open(f"docs/{first_line}.json", "w", encoding="utf-8") as file:
+                        file.write(remaining_text)
+                self.finished.emit(self.process_id, f"Guardado rápido completado: {first_line}.json", "completed", remaining_text)
+            except Exception as e:
+                self.finished.emit(self.process_id, f"Error al guardar el archivo: {str(e)}", "error", "")
+        else:
+            self.finished.emit(self.process_id, f"Proceso completado!", "completed", remaining_text)
+
+        if self.post_process_callback:
+            self.post_process_callback(remaining_text)
 
 # Ventana principal de la aplicación
 class MainWindow(QWidget):
+    CONFIG_FILE = "config.json"
     def __init__(self):
         super().__init__()
         
@@ -158,6 +172,8 @@ class MainWindow(QWidget):
         self.timer = QTimer(self)  # Temporizador global para actualizar el estado
         self.timer.timeout.connect(self.update_progress_times)
         self.timer.start(1000)  # Actualización cada segundo
+        
+        self.load_configuration()
 
 
     def toggle_mode(self):
@@ -222,16 +238,23 @@ class MainWindow(QWidget):
             if process_id in self.process_times:
                 del self.process_times[process_id]
 
-    def send_query(self, query=""):
+    def send_query(self, query="", save_to_file=True, post_process=None, wait_for_previous=False):
         """
-        Este método permite que el usuario envíe una consulta personalizada desde su código.
+        Enviar una consulta al modelo con opciones de post-procesamiento y sincronización.
         """
+        if wait_for_previous:
+            # Esperar a que todos los procesos previos se completen
+            for thread in self.threads:
+                thread.wait()
+
         process_id = str(uuid.uuid4())
 
-        # Iniciar el subproceso de guardado rápido
-        quick_save_thread = QuickSaveThread(self.client, query, process_id)
+        # Crear el subproceso de QuickSaveThread con el callback de post-procesamiento
+        quick_save_thread = QuickSaveThread(self.client, query, process_id, save_to_file, post_process)
         quick_save_thread.status_update.connect(lambda: self.update_process_state(process_id, "En progreso...", "in_progress"))
-        quick_save_thread.finished.connect(lambda: self.update_process_state(process_id, "Completado", "completed"))
+        quick_save_thread.finished.connect(
+            lambda process_id, message, status, response_text: self.handle_query_completion(process_id, message, status, response_text)
+        )
         quick_save_thread.finished.connect(lambda: self.cleanup_thread(quick_save_thread))  # Limpieza
         quick_save_thread.start()
 
@@ -240,6 +263,21 @@ class MainWindow(QWidget):
 
         # Añadir un estado inicial a la lista
         self.update_process_state(process_id, "Iniciando proceso...", "in_progress")
+
+    def handle_query_completion(self, process_id, message, status, response_text):
+        """
+        Maneja la finalización de un proceso, actualizando el estado en la interfaz
+        y mostrando el resultado si corresponde.
+        """
+        self.update_process_state(process_id, message, status)
+
+        if status == "completed":
+            self.status_label.setText(f"Proceso {process_id[:8]} completado: {message}")
+        elif status == "error":
+            self.status_label.setText(f"Error en el proceso {process_id[:8]}: {message}")
+        else:
+            self.status_label.setText(f"Proceso {process_id[:8]} en estado desconocido.")
+
 
     def cleanup_thread(self, thread):
         if thread in self.threads:
@@ -292,6 +330,35 @@ class MainWindow(QWidget):
 
         return active_processes
 
+    def load_configuration(self):
+        """
+        Carga el archivo de configuración y restaura el estado del programa.
+        """
+        try:
+            with open(self.CONFIG_FILE, "r", encoding="utf-8") as config_file:
+                config = json.load(config_file)
+                # Restaurar texto y código guardados
+                self.text_input.setPlainText(config.get("text_input", ""))
+                self.code_input.setPlainText(config.get("code_input", ""))
+        except FileNotFoundError:
+            # Si no existe el archivo, continuar con valores por defecto
+            pass
+        except json.JSONDecodeError as e:
+            print(f"Error al cargar la configuración: {str(e)}")
+
+    def save_configuration(self):
+        """
+        Guarda el estado actual del programa en un archivo de configuración.
+        """
+        config = {
+            "text_input": self.text_input.toPlainText(),
+            "code_input": self.code_input.toPlainText(),
+        }
+        try:
+            with open(self.CONFIG_FILE, "w", encoding="utf-8") as config_file:
+                json.dump(config, config_file, indent=4, ensure_ascii=False)
+        except IOError as e:
+            print(f"Error al guardar la configuración: {str(e)}")
 
     def closeEvent(self, event):
         """
@@ -302,7 +369,8 @@ class MainWindow(QWidget):
                 thread.terminate()
                 thread.wait()
                 self.threads.remove(thread)
-
+        
+        self.save_configuration()
         super().closeEvent(event)
 
 
