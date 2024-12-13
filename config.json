@@ -1,4 +1,4 @@
 {
-    "text_input": "CONFIG_FILE = \"config.json\"",
-    "code_input": "def ejemplo_post_proceso(respuesta):\n    print(f\"Post-proceso: {respuesta}\")\n\nsend_query(query=\"nombre del lugar: Tumbao de negros\", post_process=ejemplo_post_proceso, wait_for_previous=True)\nsend_query(query=\"nombre del lugar: Ajiconpollo\", post_process=ejemplo_post_proceso, wait_for_previous=True)\n"
+    "text_input": "Extract menus to json",
+    "code_input": "send_query(query=\"nombre del lugar: Ajiconpollo\", wait_for_previous=False)\n"
 }
