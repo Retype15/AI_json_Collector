@@ -1,0 +1,237 @@
+{
+    "General info":{
+        "name":"GaraG",
+        "Phone number":"",
+        "Type":"Bar-Restaurante",
+        "Specialty":"Comida Mixta",
+        "Website":"",
+        "Schedule":"Lunes-Domingo 12pm-12am",
+        "Payment methods":"Efectivo-Transferecia",
+        "Capacity":"media",
+        "Location": {
+            "Provincia":"La Habana",
+            "Municipio":"San Miguel del Padron",
+            "Direccion":"C. Guanabacoa #1214 % B y C, Los Angeles"
+        },
+        "Facilities":{
+            "Parking":null,
+            "Wifi":null,
+            "Delivery":null,
+            "Reservation":null
+        },
+        "Menu":{
+            "Starters":{
+                    "Picadera GaraG":{
+                        "Price":"3500",
+                        "Description":""
+                    },
+                    "Toston Alfredo":{
+                        "Price":"750",
+                        "Description":""
+                    },
+                    "Eperlan":{
+                        "Price":"1650",
+                        "Description":""
+                    },
+                    "Fajitas de pollo":{
+                        "Price":"1225",
+                        "Description":""
+                    },
+                    "Fajitas de cerdo":{
+                        "Price":"1550",
+                        "Description":""
+                    },
+                    "Croquetas de Mima":{
+                        "Price":"750",
+                        "Description":""
+                    },
+                    "Ceviche":{
+                        "Price":"900",
+                        "Description":""
+                    },
+                    "Tacos de Carnita":{
+                        "Price":"1205",
+                        "Description":""
+                    },
+                    "Tacos Marinesos":{
+                        "Price":"1295",
+                        "Description":""
+                    },
+                    "Ensalada Fria":{
+                        "Price":"750",
+                        "Description":""
+                    },
+                    "Coctel de Camaron":{
+                        "Price":"1250",
+                        "Description":""
+                    }
+                },
+            "Main dishes": {
+                    "Napoles (pasta)":{
+                        "Price":"930",
+                        "Description":""
+                    },
+                    "Napoles (pizza)":{
+                        "Price":"930",
+                        "Description":""
+                    },
+                    "Anti Hawaiana":{
+                        "Price":"1555",
+                        "Description":""
+                    },
+                    "Lechocita":{
+                        "Price":"1595",
+                        "Description":""
+                    },
+                    "5 Quesos":{
+                        "Price":"1650",
+                        "Description":""
+                    },
+                    "Filete de pescado grille":{
+                        "Price":"1920",
+                        "Description":""
+                    },
+                    "Filete de pescado empanado":{
+                        "Price":"1980",
+                        "Description":""
+                    },
+                    "Filete de pescado GaraG":{
+                        "Price":"2225",
+                        "Description":""
+                    },
+                    "Canciller":{
+                        "Price":"2150",
+                        "Description":""
+                    },
+                    "Filete Alfredo":{
+                        "Price":"2150",
+                        "Description":""
+                    },
+                    "Masas de pescado al ajito":{
+                        "Price":"1920",
+                        "Description":""
+                    },
+                    "Pargo frito":{
+                        "Price":"2150",
+                        "Description":""
+                    },
+                    "Pollo frito":{
+                        "Price":"1350",
+                        "Description":""
+                    },
+                    "Bistec de pollo grille":{
+                        "Price":"1350",
+                        "Description":""
+                    },
+                    "Pollo empanado":{
+                        "Price":"1450",
+                        "Description":""
+                    },
+                    "Cordon Blue":{
+                        "Price":"1925",
+                        "Description":""
+                    },
+                    "Bistec de cerdo encebollado":{
+                        "Price":"1950",
+                        "Description":""
+                    },
+                    "Cerdo grille":{
+                        "Price":"1700",
+                        "Description":""
+                    },
+                    "Cerdo empanado":{
+                        "Price":"1750",
+                        "Description":""
+                    },
+                    "Cerdo Uruguayo":{
+                        "Price":"1955",
+                        "Description":""
+                    },
+                    "Masa de cerdo frita":{
+                        "Price":"2200",
+                        "Description":""
+                    },
+                    "Cerdo asado":{
+                        "Price":"2150",
+                        "Description":""
+                    },
+                    "Camaron al ajillo":{
+                        "Price":"2300",
+                        "Description":""
+                    },
+                    "Camaron grille":{
+                        "Price":"2105",
+                        "Description":""
+                    },
+                    "Camaron enchilado":{
+                        "Price":"2230",
+                        "Description":""
+                    },
+                    "Camaron emapanado":{
+                        "Price":"2290",
+                        "Description":""
+                    },
+                    "Aporreado de res":{
+                        "Price":"1950",
+                        "Description":""
+                    },
+                    "Ropa vieja":{
+                        "Price":"1930",
+                        "Description":""
+                    },
+                    "Arroz frito especial":{
+                        "Price":"1350",
+                        "Description":""
+                    },
+                    "Arroz frito":{
+                        "Price":"1200",
+                        "Description":""
+                    },
+                    "Ensalada estacion":{
+                        "Price":"350",
+                        "Description":""
+                    },
+                    "Vegetal salteado":{
+                        "Price":"350",
+                        "Description":""
+                    }
+
+                },
+            "Guarniciones": {
+                   "":{
+                        "Price":"",
+                        "Description":""
+                    }
+                },
+            "Desserts": {
+                   "Copa de helado":{
+                        "Price":"400",
+                        "Description":""
+                    },
+                    "Copa lolita":{
+                        "Price":"650",
+                        "Description":""
+                    },
+                    "Cake a la moda":{
+                        "Price":"850",
+                        "Description":""
+                    },
+                    "Batido de helado":{
+                        "Price":"750",
+                        "Description":""
+                    }
+                },
+            "Drinks": {
+                    "":{
+                        "Price":"",
+                        "Description":""
+                    }
+            },
+            "Additions": {
+                    "":{
+                        "Price":""
+                    }
+            }
+        }
+    }
+}

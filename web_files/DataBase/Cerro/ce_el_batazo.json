@@ -1,0 +1,63 @@
+{
+    "municipality": "ce",
+    "name": "El Batazo",
+    "address": "Primelles 356 entre Santa Teresa y Daois",
+    "contacts": {
+        "phone": [
+            "+53 58050408"
+        ],
+        "website": null,
+        "facebook": null,
+        "instagram": null
+    },
+    "ratings": {},
+    "owner": "Particular",
+    "type": "Bar-Restaurante",
+    "specialty": "Pizzeria",
+    "hours": {
+        "monday": "1100_2200",
+        "tuesday": "1100_2200",
+        "wednesday": "1100_2200",
+        "thursday": "1100_2200",
+        "friday": "1100_2200",
+        "saturday": "1100_2200",
+        "sunday": ""
+    },
+    "services": {
+        "parking": false,
+        "reservations": false,
+        "delivery": true,
+        "power plant": false
+    },
+    "payment_methods": [
+        "cup",
+        "usd",
+        "mlc",
+        "zelle"
+    ],
+    "menu": {
+        "breakfasts": {},
+        "starters": {},
+        "main_courses": {
+            "Pizza de queso": 750,
+            "Pizza de chorizo": 930,
+            "Pizza de jamón": 930,
+            "Pizza de hawaiana": 1130,
+            "Pizza de cebolla": 950,
+            "Pizza de ají": 950,
+            "Pizza de atún": 1250,
+            "Pizza de aceitunas": 950,
+            "Pizza de peperoni": 1050,
+            "Espaguetis": 600,
+            "Espaguetis de jamón": 780,
+            "Hamburguesa strike": 550,
+            "Hamburguesa doble play": 1000,
+            "Hamburguesa homerun": 1300
+        },
+        "additions": {},
+        "fittings": {},
+        "desserts": {},
+        "drinks": {},
+        "plus": {}
+    }
+}

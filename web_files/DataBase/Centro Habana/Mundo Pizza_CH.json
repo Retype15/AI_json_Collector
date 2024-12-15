@@ -1,0 +1,187 @@
+{
+    "ID": 301,
+    "locality": {
+        "mun": "Centro Habana",
+        "locator": {
+            "phones": {
+                "mobile": 53372715,
+                "landline": null
+            },
+            "plus_code": "4J7M+C9J, La Habana"
+        }
+    },
+    "name": "Mundo Pizza",
+    "type_cuisine": ["Internacional","Bares para comer","Pizzas"],
+    "schedule": {
+        "monday": {
+            "opening": "12:00",
+            "closing": "22:00"
+        },
+        "tuesday": {
+            "opening": "12:00",
+            "closing": "22:00"
+        },
+        "wednesday": {
+            "opening": "12:00",
+            "closing": "22:00"
+        },
+        "thursday": {
+            "opening": "12:00",
+            "closing": "22:00"
+        },
+        "friday": {
+            "opening": "12:00",
+            "closing": "22:00"
+        },
+        "saturday": {
+            "opening": "12:00",
+            "closing": "22:00"
+        },
+        "sunday": {
+            "opening": "12:00",
+            "closing": "22:00"
+        }
+    },
+    "quality": {
+        "qualification_google": 4.6,
+        "qualification_tripadvisor": 4.0,
+        "qualification_facebook": 4.1
+    },
+    "reservation_options": false,
+    "social_networks": ["Instagram","Facebook","WhatsApp"],
+    "payment_options": ["Efectivo","Transfermovil"],
+    "service_details": ["A la carta", "A domicilio"],
+    "menu": {
+        "breakfasts": [null],
+        "starters": [
+            {
+                "item": "Croquetas Caseras",
+                "price": 590.00,
+                "description": null
+            },
+            {
+                "item": "Tostones Criollos",
+                "price": 540.00,
+                "description": null
+            },
+            {
+                "item": "Focaccia",
+                "price": 560.00,
+                "description": "Pizza Blanca, Aceite de Oliva, Hierbas Aromáticas"
+            },
+            {
+                "item": "Pizza Rossa",
+                "price": 590.00,
+                "description": "Salsa de Tomate, ajo, aceite"
+            }
+        ],
+        "main_courses": [],
+        "pizzas": [
+            {
+                "item": "Pizza Metro Criolla",
+                "price": 2800.00,
+                "description": "Salsa de Tomate, queso criollo, aromatizada con albahaca"
+            },
+            {
+                "item": "Pizza Metro Casa",
+                "price": 3700.00,
+                "description": "Salsa de Tomate, queso, jamón, salsa pesto, vegetales grillados"
+            },
+            {
+                "item": "Pizza Metro Gouda",
+                "price": 5100.00,
+                "description": "Salsa de Tomate, queso Gouda, aromatizada con albahaca"
+            },
+            {
+                "item": "Pizza Metro Elección",
+                "price": 5150.00,
+                "description": "Salsa de Tomate, Queso  4 agregos no repetidos a elección del cliente"
+            },
+            {
+                "item": "Pizza 1/2 Metro Mix",
+                "price": 2500.00,
+                "description": "4 ingredientes de la casa"
+            },
+            {
+                "item": "Pizza 1/2 Metro Elección",
+                "price": 2700.00,
+                "description": "2 ingredientes incluidos a elección"
+            }
+        ],
+        "pasta": [
+            {
+                "item": "Espaguetis",
+                "price": 950.00,
+                "description": "Salsa de Tomate, queso Gouda"
+            },
+            {
+                "item": "Lasagna",
+                "price": 1250.00,
+                "description": "Salsa de Tomate, bechamel, jamón, queso"
+            },
+            {
+                "item": "Espaguetis al Pesto",
+                "price": 1050.00,
+                "description": "Salsa Pesto, queso Gouda"
+            },
+            {
+                "item": "Espaguetis del Dia",
+                "price": 1600.00,
+                "description": "Inspiración de Mundo Pizza, preguntar al camarero"
+            }
+        ],
+        "desserts": [
+            {
+                "item": "Postre del Dia",
+                "price": 650.00,
+                "description": null
+            },
+            {
+                "item": "Pizza a Chocolate",
+                "price": 815.00,
+                "description": null
+            },
+            {
+                "item": "Helado 3 Gracias",
+                "price": 500.00,
+                "description": null
+            }
+        ]
+    },
+    "drinks": {
+        "alcoholic_drinks": [
+            {
+                "item": "Cerveza",
+                "price": 300.00,
+                "description": null
+            }
+        ],
+        "non-alcoholic": [
+            {
+                "item": "Refresco",
+                "price": 250.00,
+                "description": null
+            },
+            {
+                "item": "Energizante",
+                "price": 390.00,
+                "description": null
+            },
+            {
+                "item": "Jugo Cajita",
+                "price": 250.00,
+                "description": null
+            },
+            {
+                "item": "Yogurt",
+                "price": 250.00,
+                "description": null
+            },
+            {
+                "item": "Malta",
+                "price": 300.00,
+                "description": null
+            }
+        ]
+    }
+}

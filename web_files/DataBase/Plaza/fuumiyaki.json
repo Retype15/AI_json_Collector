@@ -1,0 +1,149 @@
+{
+    "type_of_establishment": ["restaurant"],
+    "name": "Fuumiyaki",
+    "address": {
+        "city": "La Habana",
+        "district": "Plaza de la Revolución",
+        "streets": "Ave 26/23 y 25, Vedado",
+        "coordinates": {
+            "latitude": 23.12226101881169,
+            "longitude": -82.40508001808305
+        }
+    },
+    "schedule": {
+        "monday": [{ "open": "1200", "close": "2350" }],
+        "tuesday": [{ "open": "1200", "close": "2350" }],
+        "wednesday": [{ "open": "1200", "close": "2350" }],
+        "thursday": [{ "open": "1200", "close": "2350" }],
+        "friday": [{ "open": "1200", "close": "2350" }],
+        "saturday": [{ "open": "1200", "close": "2350" }],
+        "sunday": [{ "open": "1200", "close": "2350" }]
+    },
+    "kind_of_food": "japanesse",
+    "menu": {
+        "breakfast": [false],
+        "appetizer": [
+            { "name": "Ceviche de Pescado", "price": 1000 },
+            { "name": "Ceviche Mixto", "price": 1500 },
+            { "name": "Gyozas", "price": 850 },
+            { "name": "Rice paper camarones/langosta/pulpo", "price": 1400 },
+            { "name": "Rice paper pescado", "price": 1400 },
+            { "name": "Rice paper pollo/cerdo", "price": 900 },
+            { "name": "Rollitos Primavera", "price": 500 },
+            { "name": "Sashimi de pescado", "price": 1200 },
+            { "name": "Sopa de Miso", "price": 750 },
+            { "name": "Tartar de pescado", "price": 1200 }
+        ],
+        "main course": [
+            { "name": "Bocados de Langosta en Tempura", "price": 2500 },
+            { "name": "Bocados de tempura de camarones", "price": 2500 },
+            { "name": "Bocados de tempura de Cerdo", "price": 1900 },
+            { "name": "Bocados de tempura de Pescado", "price": 2200 },
+            { "name": "Bocados de tempura de Pollo", "price": 1600 },
+            { "name": "Chop suey de camarones", "price": 2000 },
+            { "name": "Chop suey de cerdo", "price": 1800 },
+            { "name": "Chop suey de langosta", "price": 2000 },
+            { "name": "Chop suey de pollo", "price": 1500 },
+            { "name": "Chow mein de camarones", "price": 2000 },
+            { "name": "Chow mein de cerdo", "price": 1850 },
+            { "name": "Chow mein de langosta", "price": 2000 },
+            { "name": "Chow mein de pollo", "price": 1550 },
+            { "name": "Danza de la reina", "price": 2800 },
+            { "name": "Enchilado de camarones", "price": 2700 },
+            { "name": "Enchilado de langosta", "price": 2700 },
+            { "name": "Kanji bol", "price": 2200 },
+            { "name": "Ramen", "price": 2200 },
+            { "name": "Shioyaki de pescado", "price": 2500 },
+            { "name": "Shogayaki de cerdo", "price": 2200 },
+            { "name": "Tacos de Camarones", "price": 1600 },
+            { "name": "Tacos de Cerdo", "price": 1400 },
+            { "name": "Tacos de Langosta", "price": 1500 },
+            { "name": "Tacos de Pollo", "price": 1100 },
+            { "name": "Tacos de Ropa vieja", "price": 1300 },
+            { "name": "Teriyaki de Camarones", "price": 2600 },
+            { "name": "Teriyaki de Cerdo", "price": 2000 },
+            { "name": "Teriyaki de Langosta", "price": 2600 },
+            { "name": "Teriyaki de Pollo", "price": 1700 },
+            { "name": "Yaki Tori de Camarones", "price": 2500 },
+            { "name": "Yaki Tori de Cerdo", "price": 1800 },
+            { "name": "Yaki Tori de Langosta", "price": 2500 },
+            { "name": "Yaki Tori de Pollo", "price": 1500 },
+            { "name": "Yakisoba de Camarones", "price": 2000 },
+            { "name": "Yakisoba de Cerdo", "price": 1850 },
+            { "name": "Yakisoba de Langosta", "price": 2000 },
+            { "name": "Yakisoba de Pollo", "price": 1550 }
+        ],
+        "side": [null],
+        "beverages": [
+            { "name": "Agua Mineral Carbonatada Ciego Montero", "price": 150 },
+            { "name": "Agua Natural Ciego Montero", "price": 350 },
+            { "name": "Cerveza Bucanero", "price": 500 },
+            { "name": "Cerveza Cristal", "price": 500 },
+            { "name": "Refresco Santa Isabel", "price": 350 },
+            { "name": "Refresco Santa Limón", "price": 350 },
+            { "name": "Refresco Santa Naranja", "price": 350 },
+            { "name": "Vino tinto Casillero del Diablo Reserva", "price": 10000 },
+            { "name": "Vino tinto Trapiche Reserva", "price": 8000 },
+            { "name": "Havana Club 7 años", "price": 600 },
+            { "name": "Seleccion de Maestros", "price": 750 },
+            { "name": "Pacto Navío", "price": 750 },
+            { "name": "Santiago Añejo", "price": 550 },
+            { "name": "Santiago 11 años", "price": 800 },
+            { "name": "Clan Campbell", "price": 550 },
+            { "name": "Jameson", "price": 650 },
+            { "name": "Ballantines", "price": 600 },
+            { "name": "Chivas 12 años", "price": 750 },
+            { "name": "Chivas XV", "price": 1000 },
+            { "name": "Chivas 18 años", "price": 1150 },
+            { "name": "Mojito", "price": 700 },
+            { "name": "Daiquirí", "price": 700 },
+            { "name": "Caipirinha", "price": 750 },
+            { "name": "Caipiroska", "price": 750 },
+            { "name": "Cubanito", "price": 800 },
+            { "name": "Bloody Mary", "price": 850 },
+            { "name": "Piña Colada", "price": 850 },
+            { "name": "Mimosa", "price": 500 },
+            { "name": "Gin Tonic", "price": 850 },
+            { "name": "Sangría", "price": 850 },
+            { "name": "Tequila Sunrise", "price": 600 },
+            { "name": "Margarita", "price": 850 },
+            { "name": "Old Fashion", "price": 800 },
+            { "name": "Sake", "price": 650 },
+            { "name": "Mojito Sake", "price": 650 },
+            { "name": "Umeshu Mojito", "price": 600 },
+            { "name": "Matcha Highball", "price": 750 },
+            { "name": "Chuchai", "price": 650 },
+            { "name": "Café Expresso", "price": 200 },
+            { "name": "Café Cortado", "price": 300 },
+            { "name": "Té", "price": 300 }
+        ],
+        "vines": [
+            null
+        ],
+        "cocktail": [
+            null
+        ],
+        "desserts": [
+            { "name": "Ración de tarta flan", "price": 850 },
+            { "name": "Toffee", "price": 850 }
+        ]
+    },
+    "service": {
+        "delivery": true,
+        "take_away": null,
+        "reserve": true
+    },
+    "pay_meth": {
+        "cash": true,
+        "transfer": true,
+        "credit_card": null
+    },
+    "contact": {
+        "instagram": "https://www.instagram.com/fuumiyaki/?hl=es",
+        "facebook": "https://www.facebook.com/fuumiyaki.cuba/",
+        "whatsapp": "https://wa.me/message/5236LDLSXO4HG1",
+        "tel": "+5352832188",
+        "e_mail": null,
+        "web": "https://www.fuumiyaki.com/"
+    }
+}

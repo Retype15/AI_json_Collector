@@ -1,0 +1,290 @@
+{
+    "Name": "MMCafeteria",
+    "Type": "Cafeteria-Restaurante",
+    "Phone_Number": "72611382",
+    "Web_Page": "Cafeteria MM",
+    "Ownership": "Particular",
+    "Operating_Hours": {
+        "Monday":   ["09:00-10:00"],
+        "Tuesday":  ["09:00-10:00"],
+        "Wendsday": ["09:00-10:00"],
+        "Thursday": ["09:00-10:00"],
+        "Friday":   ["09:00-10:00"],
+        "Saturday": ["10:00-00:00"],
+        "Sunday":   ["10:00-00:00"]
+    }, 
+    "Location": {
+        "District": "Marianao",
+        "Address": "Avenida 41",
+        "Coordinates": "23º5'22''N,82º25'17''W"
+    },
+    "Cuisine": "Variada",
+    "Menu": {
+        "Breakfast": {
+            "Egg": [null],
+            "Tortilla": [null],
+            "Hambuerguer": {
+                "Hamburguesa clasica": {
+                    "Price": 400
+                },
+                "Hamburguesa de queso": {
+                    "Price": 600
+                },
+                "Hamburguesa de jamon": {
+                    "Price": 550
+                },
+                "Hamburguesas jamon y queso": {
+                    "Price": 700
+                }
+            },
+            "Sandwich": [null],
+            "Bread": [null]
+        },
+        "Appetizers": {
+            "Papas fritas": {
+                "Price": 650
+            },
+            "Croquetas": {
+                "Price": 550
+            },
+            "Fritura de malanga": {
+                "Price": 550
+            },
+            "Tostones rellenos": {
+                "Price": 650
+            },
+            "Ensalada fria de jamon": {
+                "Price": 800
+            },
+            "Ensalada fria de atun": {
+                "Price": 900
+            },
+            "Fajitas de Pechuga salteada": {
+                "Price": 1200
+            },
+            "Fajitas de Pechuga empanada": {
+                "Price": 1450
+            },
+            "Fajitas de Cerdo salteadas": {
+                "Price": 1300
+            },
+            "Fajitas de cerdo empanada": {
+                "Price": 1350
+            },
+            "Eperlan": {
+                "Price": 1350
+            },
+            "Coctel de camarones":{
+                "Price": 2100
+            }
+        },
+        "Main_Courses": {
+            "Taco de cerdo":{
+                "Price": 1200
+            },
+            "Taco de camaron":{
+                "Price": 1400
+            },
+            "taco de pollo":{
+                "Price": 1100
+            },
+            "taco de res":{
+                "Price": 1300
+            },
+            "Pasta": {
+                "Crema de queso": {
+                    "Price": 800
+                },
+                "Lasagña Boloñesa": {
+                    "Price": 1700
+                },
+                "Espaguettis napolitano": {
+                    "Price": 700
+                }
+            },
+            "Pizza": {
+                "Pizzas Napolitanas, 32 cm": {
+                    "Price": 750
+                },
+                "Pizzas jamon": {
+                    "Price": 1100
+                },
+                "Pizzas Bacón": {
+                    "Price": 1650
+                },
+                "Pizzas Pimiento": {
+                    "Price": 1050
+                },
+                "Pizzas Cebolla": {
+                    "Price": 950
+                },
+                "Pizzas Hawaiana": {
+                    "Price": 1350
+                },
+                "Pizzas Atún": {
+                    "Price": 1650
+                },
+                "Pizzas Camarón": {
+                    "Price": 1350
+                },
+                "Pizzas Ropa Vieja": {
+                    "Price": 1500
+                },
+                "Pizzas De Chorizo": {
+                    "Price": 1100
+                },
+                "Pizzas MM": {
+                    "Price": 1800
+                }
+            },
+            "Pork": {
+                "Bistec de Cerdo Grille": {
+                    "Price": 1400
+                },
+                "Cerdo Bistec Empanizado": {
+                    "Price": 1600
+                },
+                "Bistec de Cerdo Uruguayo": {
+                    "Price": 1950
+                },
+                "Masa de Cerdo Salteada": {
+                    "Price": 1350
+                },
+                "Lomo de Cerdo": {
+                    "Price": 1500
+                },
+                "Fricase de Cerdo ": {
+                    "Price": 1400
+                }
+            },
+            "Chicken": {
+                "Bistec de Pollo Gordon Blue": {
+                    "Price": 1900
+                },
+                "Bistec de Pechuga Gordon Blue": {
+                    "Price": 1900
+                },
+                "Pechuga de Pollo Grille": {
+                    "Price": 1500
+                },
+                "Pechuga de Pollo Empanada": {
+                    "Price": 1400
+                }
+            },
+            "Beef": {
+                "Vaca Frita": {
+                    "Price": 1900
+                },
+                "Ropa Vieja": {
+                    "Price": 1900
+                }
+            },
+            "Sea": {
+                "Pescado Grille": {
+                    "Price": 1500
+                },
+                "Pescado Empanizado": {
+                    "Price": 1900
+                },
+                "Enchilado de Camarón": {
+                    "Price": 1400
+                },
+                "Camarón al Ajillo": {
+                    "Price": 1700
+                },
+                "Camaron Empanado": {
+                    "Price": 2000
+                },
+                "Canciller 190Grs": {
+                    "Price": 2000
+                },
+                "Langosta": {
+                    "Price": 2100
+                },
+                "Cazuela de mariscos": {
+                    "Price": 2100
+                },
+                "Canciller 180 Grs": {
+                    "Price": 2000
+                }
+            },
+            "Extras": {
+                "Arroz Blanco": {
+                    "Price": 200
+                },
+                "Arroz Congrí": {
+                    "Price": 300
+                },
+                "Arroz Frito": {
+                    "Price": 1550
+                },
+                "Arroz Imperial": {
+                    "Price": 1650
+                },
+                "Paella": {
+                    "Price": 2100
+                },
+                "Arroz frito de cerdo,pollo y mejillon": {
+                    "Price": 1450
+                }
+            }
+        },
+        "Desserts": {
+            "Helado CID": {
+                "Price": 850
+            }
+        },
+        "Beverages": {
+            "agua": {
+                "Price": 130
+            },
+            "Refresco Santa": {
+                "Price": 200
+            },
+            "Sprite": {
+                "Price": 450
+            },
+            "Santa isabel": {
+                "Price": 250
+            },
+            "Energizante": {
+                "Price": 260
+            },
+            "Cristal V": {
+                "Price": 245
+            },
+            "Cristal B": {
+                "Price": 200
+            },
+            "Bucanero": {
+                "Price": 240
+            },
+            "Jugo Lata": {
+                "Price": 265
+            }
+        },
+        "most_sold": {
+            "Dish": ["Casuela de mariscos","Cerdo Grille"],
+            "Drink": ["Cerveza","Refresco"]
+        },
+        "least_sold": {
+            "Dish": ["Vaca frita"],
+            "Drink": [null]
+        }
+    },
+    "Other Info": {
+        "Entertainment": ["Musica grabada"],
+        "Facilities": [null],
+        "Payments_Options": {
+            "Cash": "Si",
+            "Credit_Card": "Si",
+            "Mobile_Payment": "Si"
+        },
+        "Accepted_Currencies": {
+            "National_Currency": "Si",
+            "US_Dollars": "Si",
+            "Euros": "Si",
+            "Others": "Si"
+        }
+    }
+}

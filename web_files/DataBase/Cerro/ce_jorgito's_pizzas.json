@@ -1,0 +1,81 @@
+{
+    "municipality": "ce",
+    "name": "Jorgito's Pizzas",
+    "address": "Pedroso entre Infanta y Cruz del Pader",
+    "contacts": {
+        "phone": [
+            "+53 54031349",
+            "78780156"
+        ],
+        "website": null,
+        "facebook": null,
+        "instagram": null
+    },
+    "ratings": {
+        "google": 4
+    },
+    "owner": "Particular",
+    "type": "Restaurante",
+    "specialty": "Pizzeria",
+    "hours": {
+        "monday": "1100_2300",
+        "tuesday": "1100_2300",
+        "wednesday": "1100_2300",
+        "thursday": "1100_2300",
+        "friday": "1100_2300",
+        "saturday": "1100_2300",
+        "sunday": "1100_2300"
+    },
+    "services": {
+        "parking": false,
+        "reservations": false,
+        "delivery": true,
+        "power plant": false
+    },
+    "payment_methods": [
+        "cup",
+        "usd",
+        "mlc"
+    ],
+    "menu": {
+        "breakfasts": {},
+        "starters": {},
+        "main_courses": {
+            "Pizza de napolitana": 850,
+            "Pizza de chorizo": 1000,
+            "Pizza de jamón": 1000,
+            "Pizza de hawaiana": 1150,
+            "Pizza de cebolla": 1000,
+            "Espaguetis": 850,
+            "Espaguetis de jamón": 1100,
+            "Espaguetis de chorizo": 1000,
+            "Hamburguesa ": 1200,
+            "Hamburguesa jamón y queso": 1650,
+            "Hamburguesa onbazar": 2700
+        },
+        "additions": {
+            "Jamón": 180,
+            "Piña": 180,
+            "Pimiento": 250,
+            "Cebolla": 300,
+            "Chorizo": 170,
+            "Hawaiana": 250,
+            "Queso Gouda": 300,
+            "Queso Nacinal": 180,
+            "Queso Mozzarella": 240
+        },
+        "fittings": {},
+        "desserts": {},
+        "drinks": {
+            "Café expreso": 180,
+            "Café cortado": 220,
+            "Capuchino": 450,
+            "Café bombón": 450,
+            "Piña colada": 600,
+            "Piña colada (alchol)": 750,
+            "Limonada frapé": 400,
+            "Malteada": 500
+        },
+        "plus": {}
+    }
+}

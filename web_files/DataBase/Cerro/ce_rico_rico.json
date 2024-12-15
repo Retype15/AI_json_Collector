@@ -1,0 +1,87 @@
+{
+    "municipality": "ce",
+    "name": "Rico Rico",
+    "address": "Calle Ayestarán entre Perfecto Lacoste y Aranguren",
+    "contacts": {
+        "phone": [
+            "78701632"
+        ],
+        "website": null,
+        "facebook": "RicoRicopizzeria",
+        "instagram": "@ricoricopizzeria"
+    },
+    "ratings": {
+        "google": 2.4
+    },
+    "owner": "particular",
+    "type": "Restaurante",
+    "specialty": "Comida Italiana",
+    "hours": {
+        "monday": "0900_2300",
+        "tuesday": "0900_2300",
+        "wednesday": "0900_2300",
+        "thursday": "0900_2300",
+        "friday": "0900_2300",
+        "saturday": "0900_2300",
+        "sunday": "0900_2300"
+    },
+    "services": {
+        "parking": true,
+        "reservations": false,
+        "delivery": true,
+        "power plant": false
+    },
+    "payment_methods": [
+        "cup"
+    ],
+    "menu": {
+        "breakfasts": {},
+        "starters": {
+            "Ensalada fria de atun (pequeña)": 645,
+            "Ensalada fria de atun (mediana)": 1200,
+            "Ensalada fria de atun (grande)": 2205,
+            "Ensalada fria de jamon y queso (pequeña)": 495,
+            "Pizzeta de Napole": 230,
+            "Pizzeta de Chorizo": 325,
+            "Bastones de Queso": 780,
+            "Empanadas Gallegas": 380,
+            "Tequeños": 350
+        },
+        "main_courses": {
+            "Pizza Napoles": 920,
+            "Pasta Napoles": 920,
+            "Pasta Carbonara": 1000,
+            "Calzone Napoles": 1090,
+            "Megacalzone": 1440,
+            "Lasaña Boloñesa": 1550,
+            "Lasaña de Jamon": 1490
+        },
+        "additions": {
+            "Aceitunas": 220,
+            "Piña": 220,
+            "Cebolla": 400,
+            "Atun": 550,
+            "Chorizo": 2390,
+            "Bacon": 360,
+            "Jamon": 320,
+            "Jamon serrano": 480,
+            "Parmesano": 350,
+            "Gouda": 360,
+            "Lomo ahumado": 380,
+            "Queso azul": 300
+        },
+        "fittings": {},
+        "desserts": {
+            "Pastelito de ojaldre de guayaba o coco": 260,
+            "Pastelito de ojaldre de jamon y queso": 280,
+            "Flan": 590
+        },
+        "drinks": {
+            "Frappi Rico": 180,
+            "Mega Bati Bati": 990,
+            "Super Bati Bati": 785,
+            "Bati Frutas": 675
+        },
+        "plus": {}
+    }
+}

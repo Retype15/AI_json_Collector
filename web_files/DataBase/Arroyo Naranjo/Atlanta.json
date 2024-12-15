@@ -1,0 +1,236 @@
+{
+    "name": "Atlanta",
+    "location": {
+        "municipality":"Arroyo Naranjo",
+        "address":"Atlanta #9, entre Calzada de Porvenir y Calzada de 10 de octubre, La Palma",
+        "coordinates_latitude_length" : "23.075162, -82.358295"
+    },
+    "phone_number": "+53 59694801",
+    "food_type":"variado",
+    "schedule": {
+        "opening": "10:00 am",
+        "closure": "10:00 pm",
+        "days_of_the_week": "todos los dias"
+    },
+    "quality":"Muy Bueno",
+    "social_media": {
+        "instagram":"cafeatlanta",
+        "facebook":null
+    },
+    "menu": {
+        "breakfast":null,
+        "started": {
+            "croquetas de la casa":850.00,
+            "ensalada de pollo":950.00,
+            "tostones rellenos":850.00,
+            "frituras de malanga":650.00,
+            "garbanzos fritos":1200.00,
+            "eperlán de picar":1200.00,
+            "fajitas de pollo": 950.00,
+            "ceviche ATLANTA":950.00
+        },
+        "tacos":{
+            "tacos ATLANTA": 1650.00
+        },
+        "strong_dishes":{
+            "arroz frito":1200.00,
+            "arroz frito especial": 1400.00,
+            "paella valenciana": 1500.00,
+            "paella mixta":1650.00,
+            "arroz con pollo a la chorrera": 1500.00,
+            "bistec de cerdo grillé":1600.00,
+            "masas de cerdo fritas":2000.00,
+            "bistec uruguayo de cerdo":2500.00,
+            "filete de pescado grillé":1850.00,
+            "filete de pescado con queso":2200.00,
+            "filete canciller":2500.00,
+            "pollo frito/asado":1500.00,
+            "pechuga de pollo grillé": 1600.00,
+            "pechuga gratinada":1850.00,
+            "pechuga princesa":2000.00,
+            "Cordon Bleu":2500.00,
+            "lomo ahumado grille":1850.00,
+            "lomo ahumado gratinado c/queso":2150.00,
+            "lomo ahumado a la piña": 2000.00,
+            "pechugón ATLANTA":2650.00
+           
+           
+            },
+        "pastas": {
+            "spaghetti Napolitano": 950.00,
+            "lasagna de jamón": 950.00
+
+        },
+        "pizzas": {
+            "pizza napolitana":   950.00,
+            "pizza ATLANTA": 1800.00
+
+        },
+        "pizza_pasta_add-on": {
+            "queso gouda": 250.00,
+            "jamón visking":250.00,
+            "queso Azul": 650.00,
+            "lomo ahumado":450.00,
+            "jamón pierna": 450.00,
+            "bacon":650.00,
+            "cebolla": 200.0,
+            "piña":200.00,
+            "pimientos": 200.00,
+            "aceitunas":450.00,
+            "chorizo criollo":250.00,
+            "atún":650.00,
+            "chorizo vela":650.00,
+            "champiñones":650.00,
+            "jamón serrano":920.00,
+            "queso Parmesano":820.00
+
+        },
+        "side_dishes":{
+           "arroz blanco": 320.00,
+            "ensalada mixta":320.00,
+            "arroz congrís":480.00,
+            "vianda frita": 320.00
+
+        },
+        "desserts":{ 
+            "icecream_flavors":{
+               " suero de helados":850.00
+          
+            }
+
+        },
+        "hamburgers_and_sandwichs":{
+            "sandwich de jamón y queso": 850.00,
+            "sandwich de Media Noche": 1650.00,
+            "sandwich Cubano": 1650.00,
+            "sandwich de atún":  1300.00,
+            "Cheeseburguer": 1200.00,
+            "hamburguesa ATLANTA": 1500.00
+            
+        },
+        "hamburgers_add-on":null,
+        "aperitivos":null,
+        "snacks":null,
+        "creams_and_soup":null,
+        "digestive":null,
+        "liquids": {
+            "alcoholic_drinks":{
+                "cocktails":{
+                    "chelada":200.00,
+                    "michelada (servicio)":250.00,
+                    "roncollins":600.00,
+                    "calimocho":600.00,
+                    "tinto de verano":700.00,
+                    "caipiroska":700.00,
+                    "caipirinha":700.00,
+                    "caipirisima":700.00,
+                    "canchanchara":600.00,
+                    "piña colada":700.00,
+                    "cubalibre":650.00,
+                    "sangría":700.00,
+                    "mojito":700.00,
+                    "daiquirí":700.00,
+                    "cubata":800.00,
+                    "cubanito":800.00,
+                    "sex on the beach":800.00,
+                    "bloody mary":800.00,
+                    "gintonic":900.00,
+                    "vodkatonic":900.00,
+                    "margarita":900.00,
+                    "jaggerbull":1250.00,
+                    "negroni":1550.00
+                },
+                "bottles":null,
+                "drinks_with": {
+                    "ginebra":{
+                        "ginebra de la casa":350.00,
+                        "ginebra Beefeater":500.00,
+                        "ginebra Tanqueray":700.00,
+                        "ginebra Gordons":1000.00
+
+                    },
+                    "tequila":{
+                        "tequila silver de la casa":700.00,
+                        "tequila reposado de la casa":750.00,
+                        "tequila Olmeca silver":750.00,
+                        "tequila Olmeca reposado":800.00,
+                        "tequila Olmeca dark":800.00,
+                        "tequila Patrón silver":1550.00,
+                        "tequila Patrón reposado":1700.00
+
+                    },
+                    "vodka":{
+                        "vodka de la casa":350.00,
+                        "vodka Absolut":650.00,
+                        "vodka Grey Goose":1550.00
+
+                    },
+                    "whiskey":{
+                        "whisky de la casa":400.00,
+                        "william lawson":500.00,
+                        "VAT 69":500.00,
+                        "Ballantines":650.00,
+                        "Jhonie W. etiqueta roja":700.00,
+                        "Jhonie W. etiq. negra":1250.00,
+                        "Buchanans deluxe":1550.00,
+                        "Chivas Regal":1200.00
+
+                    },
+                    "ron":{
+                        "ron h.c. blanco": 350.00,
+                        "ron h.c. 3 años":400.00,
+                        "ron h.c. reserva":500,
+                        "ron h.c 7 años":550.00,
+                        "ron santiago c. blanca":500.00,
+                        "ron santiago 8 años":1000.00,
+                        "ron santiago 11 años":1450.00,
+                        "ron santiango 12 años":1550.00
+
+                    }
+
+                },
+                "beers":{
+                    "cerveza Cristal (lata)":350.00,
+                    "cerveza Cristal (botella)":400.00,
+                    "cerveza Bucanero":350.00,
+                    "cerveza Corona":550.00,
+                    "cerveza Heineken":500.00,
+                    "otras cervezas importadas":300.00
+                }
+            },
+            "water":{
+                "agua natural":250.000
+            },
+            "soft_drinks":{
+                "refrescos importados (lata)":350.00 
+            },
+            "juices":{
+                "jugos naturales":350.00,
+                "batidos de frutas":600.00
+            },
+            "lemonade":null,
+            "red bull":650.00,
+            "malta":{
+                "malta Bucanero":400.00,
+                "maltas (otras marcas)":350.00
+            },
+            "copas":{
+                "copa de vino de la casa":420.00,
+                "copa de vino Frontera":500.00
+            },
+            "coffees":{
+                "cate expreso":250.00,
+                "café cortado":320.00,
+                "café bombón":400.00,
+                "capuchino":450.00,
+                "frapuchino":500.00,
+                "frapuchino con helado":880.00
+            }
+        }
+        
+    },
+    "10%_of_the_service": false,
+    "5%_of_the_service": false,
+    "reservation":false,
+    "type_of_currency": "cup"
+}

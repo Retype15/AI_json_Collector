@@ -1,0 +1,345 @@
+{
+    "type": "Bar-Restaurante",
+    "name": "Café D la Esquina", 
+    "location": {
+        "address": "Paseo #101, esq. a 5ta., Vedado",
+        "municipe": "Plaza de la Revolucion",
+        "province": "La Habana"
+    },
+    "sector": "privado",
+    
+    "qualification": 4,
+    
+    "specialized_food": ["Comida cubana", "caribeña", "americana"],
+
+    "payment method": ["Efectivo", "Transferencia"],
+    
+    "phone": 78362565,
+    
+    "capacity": 50,
+    
+    "reservation":  true,
+
+    "parking": true,
+
+    "delivery": true,
+
+    "wifi": false,
+
+    "electric generator": false,
+    
+    "hours": {
+        "monday": "8:00am - 11:00pm",  
+        "tuesday": "8:00am - 11:00pm",
+        "wednesday": "8:00am - 11:00pm",
+        "thursday": "8:00am - 11:00pm",
+        "friday": "8:00am - 11:00pm",
+        "saturday": "8:00am - 11:00pm",
+        "sunday": "8:00am - 11:00pm"
+    },
+    "menu":    {
+            "starters": [
+                {
+                    "item_name": "Pizza Tacos Mix",
+                    "price": 2600,
+                    "description": " 3 masas de pizza tipo taco con queso tipo mozzarella y ropa vieja de pollo o cerdo"
+                },
+                {
+                    "item_name": "Tabla de la casa",
+                    "price": 4200,
+                    "description": " Tabla con jamón serrano, jamón cocido, aceitunas, queso azul, empellitas, pico de gallo y bambinas"
+                },
+                {
+                    "item_name": "Canoa de Olga",
+                    "price": 800,
+                    "description": "Tamal de maíz con empellitas y toque de pesto "
+                },
+                {
+                    "item_name": "Trío de pizzeta Margarita",
+                    "price": 1000,
+                    "description": "3 pizzas pequeñas, queso tipo mozzarella y salsa de tomate "
+                },
+                {
+                    "item_name": "Tapa Hot Dog",
+                    "price": 2200,
+                    "description": "5 masas de pizza enrollada con queso tipo mozzarella, perro caliente, mayonesa, ketchup y mostaza "
+                },
+                {
+                    "item_name": "Trío de pizzeta especial",
+                    "price":1300 ,
+                    "description": "1 pizza pequeña con queso tipo mozzarella y salsa de tomate, 1 pizza pequeña con queso tipo mozzarella, salsa de tomate y jamón, 1 pizza pequena con queso tipo mozzarella, salsa de tomate y jamón serrano "
+                }
+            ],
+                
+            "mains": [
+                {
+                    "item_name": "Falso Sushi",
+                    "price": 2600,
+                    "description": " 5 rollitos de masa de pizza picados en forma de sushi con queso tipo mozzarella y tomate (jamón, queso azul o gouda, atún)"
+                },
+                {
+                    "item_name": "Rollo Criollo",
+                    "price": 1900,
+                    "description": "Masa de pizza enrollada, queso tipo mozzarella y lechón asado "
+                },
+                {
+                    "item_name": "Rollo La Esquina",
+                    "price": 1900,
+                    "description": "Ropa vieja de res, plátano maduro frito y queso tipo mozarella "
+                },
+                {
+                    "item_name": "Plato Campesino",
+                    "price": 2500,
+                    "description": "Lechón asado o ropa vieja de res, tamal, ensalada de vegetales, vianda, arroz y frijoles "
+                }
+            ],
+
+            "fittings": [
+                {
+                    "item_name": "",
+                    "price": "",
+                    "description": " "
+                }
+            ],
+
+            "pizza": [
+                {
+                    "item_name": "",
+                    "price": "",
+                    "description": " "
+                }
+            ],
+
+            "paste": [
+                {
+                    "item_name": "Pasta clásica",
+                    "price": 1300,
+                    "description": ""
+                },
+                {
+                    "item_name": "Pasta al pesto",
+                    "price": 1500,
+                    "description": " "
+                },
+                {
+                    "item_name": "Pasta  Ragú/Bolognesa",
+                    "price": 1800,
+                    "description": ""
+                },
+                {
+                    "item_name": "Pasta Carbonara",
+                    "price": 2200,
+                    "description": ""
+                }
+            ],
+
+            "additions": [
+                {
+                    "item_name": "Cebolla",
+                    "price": 120,
+                    "description": " "
+                },
+                {
+                    "item_name": "Champiñón",
+                    "price": 170,
+                    "description": " "
+                },
+                {
+                    "item_name": "Queso Gouda",
+                    "price": 200,
+                    "description": " "
+                },
+                {
+                    "item_name": "Jamón Embuchado",
+                    "price": 100,
+                    "description": " "
+                },
+                {
+                    "item_name": "Bacon",
+                    "price": 150,
+                    "description": " "
+                }
+            ],
+
+            "sandwich": [
+                {
+                    "item_name": " ",
+                    "price": "",
+                    "description": " "
+                }
+            ],
+
+            "desserts": [
+                {
+                    "item_name": "Tarta de la casa",
+                    "price": 700,
+                    "description": " "
+                }
+            ],
+            "cocktails": [
+                {
+                    "item_name": "Mojito",
+                    "price": 700
+                },
+                {
+                    "item_name": "Mojito Especial",
+                    "price": 750
+                },
+                {
+                    "item_name": "Pina Colada",
+                    "price": 900
+                },
+                {
+                    "item_name": "Daikirí",
+                    "price": 700
+                },
+                {
+                    "item_name": "Margarita",
+                    "price": 1000
+                },
+                {
+                    "item_name": "Sangría",
+                    "price": 750
+                },
+                {
+                    "item_name": "Caipirina",
+                    "price": 750
+                },
+                {
+                    "item_name": "Caipiroska",
+                    "price": 750
+                },
+                {
+                    "item_name": "Gin Tonic",
+                    "price": 900
+                },
+                {
+                    "item_name": "Vodka Tonic",
+                    "price": 900
+                },
+                {
+                    "item_name": "Limonada natural",
+                    "price": 450
+                },
+                {
+                    "item_name": "Limonada Lizzie sin ron",
+                    "price": 700
+                },
+                {
+                    "item_name": "Limonada Lizzie con ron",
+                    "price": 750
+                }
+            ],
+
+            "drinks": [
+                {
+                    "item_name": "Agua gaseada importada",
+                    "price": 1050
+                },
+                {
+                    "item_name": "Agua natural pequeña",
+                    "price": 300
+                },
+                {
+                    "item_name": "Agua natural grande",
+                    "price": 500
+                },
+                {
+                    "item_name": "Agua gaseada nacional",
+                    "price": 500
+                },
+                {
+                    "item_name": "Agua Tónica nacional",
+                    "price": 350
+                },
+                {
+                    "item_name": "Refresco nacional",
+                    "price": 350
+                },
+                {
+                    "item_name": "Refresco importado",
+                    "price": 350
+                },
+                {
+                    "item_name": "Cerveza importada",
+                    "price": 400
+                },
+                {
+                    "item_name": "Cerveza nacional superior",
+                    "price": 550
+                },
+                {
+                    "item_name": "jugo de frutas naturales",
+                    "price": 250
+                },
+                {
+                    "item_name": "Copa de vino tinto",
+                    "price": 600
+                },
+                {
+                    "item_name": "Copa de vino blanco",
+                    "price": 600
+                },
+                {
+                    "item_name": "Energizante",
+                    "price": 600
+                },
+                {
+                    "item_name": "Malta",
+                    "price": 450
+                },
+                {
+                    "item_name": "Batido de helado",
+                    "price": 650
+                },
+                {
+                    "item_name": "Batido de frutas",
+                    "price": 450
+                }
+            ],
+
+            "infusions": [
+                {
+                    "item_name": "expresso ",
+                    "price": 200
+                },
+                {
+                    "item_name": "Capuccino",
+                    "price": 350
+                    
+                },
+                {
+                    "item_name": "Frapuccino",
+                    "price": 700
+                },
+                {
+                    "item_name": "Americano",
+                    "price": 220
+                },
+                {
+                    "item_name": "Cortado",
+                    "price": 260
+                },
+                {
+                    "item_name": "Café con leche",
+                    "price": 350
+                },
+                {
+                    "item_name": "Carajillo",
+                    "price": 360
+                },
+                {
+                    "item_name": "Café Bombón",
+                    "price": 600
+                },
+                {
+                    "item_name": "Café frío",
+                    "price": 300
+                },
+                {
+                    "item_name": "Té",
+                    "price": 250
+                }
+            ]
+        }  
+} 

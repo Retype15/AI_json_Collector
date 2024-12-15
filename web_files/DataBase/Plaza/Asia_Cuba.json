@@ -1,0 +1,409 @@
+{
+    "type": "Bar-Restaurante",
+    "name": "Asia Cuba", 
+    "location": {
+        "address": " Calle 6 ##562 entre 23 y 25, Vedado",
+        "municipe": "Plaza de la Revolucion",
+        "province": "La Habana"
+    },
+    "sector": "privado",
+    
+    "qualification": 5,
+    
+    "specialized_food": ["Comida asiática"],
+
+    "payment method": ["Efectivo", "Transferencia"],
+    
+    "phone": 50956929,
+    
+    "capacity": 40,
+    
+    "reservation":true ,
+
+    "parking": true,
+
+    "delivery": false,
+
+    "wifi": true,
+
+    "electric generator": true,
+    
+    "hours": {
+        "monday": "7:30am - 11:00pm ",  
+        "tuesday": "7:00am - 3:30pm ",
+        "wednesday": null,
+        "thursday": "7:30am - 11:00pm ",
+        "friday": "7:30am - 11:00pm ",
+        "saturday": "7:30am - 11:00pm ",
+        "sunday": " 7:30am - 11:00pm"
+    },
+    "menu":    {
+            "starters": [
+                {
+                    "item_name": "Caribe Zen Roll",
+                    "price": 1840,
+                    "description": "Láminas de arroz rellenas de ensalada tropical,frutas de temporada,lechuga, frutabomba,pepino,pina,con una reducción de soja especiada y salmorejo oriental para dipear"
+                },
+                {
+                    "item_name": "Tartar Sakura Tango Saigon",
+                    "price": 2500,
+                    "description": "Tartar de aguacate braseado,mango y camarón al ajillo con cebolla caramelizada,crujientes de wanton y vinagreta de mango "
+                },
+                {
+                    "item_name": "Satay de Sumatra",
+                    "price": 1550,
+                    "description": " Bastones marinados de calabaza en tempura con salsa satay a base de cacahuete con culantro y trocitos de pina"
+                },
+                {
+                    "item_name": "Croquetas Sonaderas de pollo/ropa vieja",
+                    "price": 1800,
+                    "description": " "
+                },
+                {
+                    "item_name": "Mano del Dragón",
+                    "price": 2080,
+                    "description": "Wonton ravioli chino cocido relleno de cerdo y camaron, sobre una cama de cremade huevo y soja "
+                },
+                {
+                    "item_name": "Rey Mono",
+                    "price": 2080,
+                    "description": " Gyoza cocida al vapor y pasada por plancha con demi-glace de carne de res"
+                }, 
+                {
+                    "item_name": "Dragón del mar",
+                    "price": 2400,
+                    "description": " Siu Mai,gyoza cocida al vapor con forma de timbal,rellena de pargo y nata con salsa de pimienta"
+                }
+     
+            
+
+            ],
+                
+            "mains": [
+                {
+                    "item_name": "Bonito Tai Red",
+                    "price": 3840,
+                    "description": "Bonito confitado con especias,bañado con curri rojo thai,potente y equilibrado para sentir bien los sabores del bonito con arroz basmati"
+                },
+                {
+                    "item_name": "Maki Saiko Ebi Hana",
+                    "price": 2080,
+                    "description": "Arroz envuelto en alga nori, relleno de bonito, queso crema y verduras "
+                },
+                {
+                    "item_name": "Brasa Patagonia",
+                    "price": 6560,
+                    "description": " El más basto,vacío a la brasa corte nipon  en tiras con puré de boniato y Sichuan, acompanado de chimichurri asiático"
+                },
+                {
+                    "item_name": "Langosta Coco Verde",
+                    "price": 5760,
+                    "description": "Cola de lamgosta con mantequilla al ajillo y un suave curri verde de coco acompanado de arroz basmati"
+                },
+                {
+                    "item_name": "Uramaki Umi no Haikiri",
+                    "price": 1950,
+                    "description": " Alga nori rellena de calamar en tempura y verduras encurtidas, envueltas en arroz"
+                },
+                {
+                    "item_name": "Nigiri Ika no Yume",
+                    "price": 2400,
+                    "description": "Bolitas de arroz marinado en salsa de res,bonito marinado con un velo de guanciale y salsa a base de wasabi "
+                },
+                {
+                    "item_name": "Brocheta Dak Galbi",
+                    "price": 3840,
+                    "description": "Brocheta de pollo marinada con soja, miel, jengibre ,con piña en canela, verduras asadas y salsa teriyaki "
+                },
+                {
+                    "item_name": "Brocheta Gochu Vermounth Harmony",
+                    "price": 4480,
+                    "description": "Brocheta de cerdo marinada en vermut, con tamarindo, verduras asadas y salsa de tamarindo "
+                },
+                {
+                    "item_name": "Char Siu Delhi",
+                    "price": 4160,
+                    "description": "Carne asada al estilo chino, pero con sabores y aromas indios, acompañados de tacos indios y verduras para rellenar en mesa"
+                },
+                {
+                    "item_name": "Ssamn Kimuchi Tropical",
+                    "price": 3200,
+                    "description": "Cama de lechuga fresca con tiras de pollo especiado crujiente y encurtidos "
+                }
+            ],
+
+            "fittings": [
+                {
+                    "item_name": "",
+                    "price": "",
+                    "description": " "
+                }
+            ],
+
+            "pizza": [
+                {
+                    "item_name": "",
+                    "price": "",
+                    "description": " "
+                }
+            ],
+
+            "paste": [
+                {
+                    "item_name": "",
+                    "price": "",
+                    "description": ""
+                }
+            ],
+
+            "additions": [
+                {
+                    "item_name": "",
+                    "price": "",
+                    "description": " "
+                }
+            ],
+
+            "sandwich": [
+                {
+                    "item_name": " ",
+                    "price": "",
+                    "description": " "
+                }
+            ],
+
+            "desserts": [
+                {
+                    "item_name": "Sensei borracho",
+                    "price": 1920,
+                    "description": " Brownie borracho con ron y wasabi, acompañado de sirope de wasabi para los más atrevidos o de chocolate blanco y Sichuan para los que le temen al sensei"
+                },
+                {
+                    "item_name": "Maestro Shifu",
+                    "price": 2080,
+                    "description": " Cheesecake, el enemigo del sensei con queso ahumado y crema de mascarpone dulce, con puntos de salsa de frutos rojos al vermut"
+                },
+                {
+                    "item_name": "Mei Mei",
+                    "price": 1800,
+                    "description": " Leyenda americana en Asia, sandwich de galleta de alfajor rellena de mascarpone y dulce de leche, con cobertura de chocolate blanco y Sichuan"
+                },
+                {
+                    "item_name": "Maestro Shinobi",
+                    "price": 1760,
+                    "description": " Ancestral y poderoso, flan de plátano borracho al ron y caramelo, el más simple pero profundo de sabor"
+                }
+           
+            ],
+            "cocktails": [
+                {
+                    "item_name": "Daiquirí",
+                    "price": 900
+                },
+                {
+                    "item_name": "Daiquirí de fruta",
+                    "price": 1100
+                },
+                {
+                    "item_name": "Gin Tonic Simple",
+                    "price": 1400
+                },
+                {
+                    "item_name": "Margarita",
+                    "price": 900
+                },
+                {
+                    "item_name": "Martini Dry",
+                    "price": 1100
+                },
+                {
+                    "item_name": "Michelada",
+                    "price": 1100
+                },
+                {
+                    "item_name": "Mojito",
+                    "price": 900
+                },
+                {
+                    "item_name": "Negroni",
+                    "price": 1200
+                },
+                {
+                    "item_name": "Aperol Spritz",
+                    "price": 1400
+                },
+                {
+                    "item_name": "Bloody Mary",
+                    "price": 1100
+                },
+                {
+                    "item_name": "Caipirísima",
+                    "price": 900
+
+                },
+                {
+                    "item_name": "Caipiroska",
+                    "price": 900
+                },
+                {
+                    "item_name": "Canchánchara",
+                    "price": 900
+                },
+                {
+                    "item_name": "Coctel Danzon",
+                    "price": 1200
+                },
+                {
+                    "item_name": "Coctel Mambo",
+                    "price": 1200
+                },
+                {
+                    "item_name": "Coctel Son",
+                    "price": 1500
+                },
+                {
+                    "item_name": "Coctel Tecno Sour",
+                    "price": 1100
+                },
+                {
+                    "item_name": "Coctel Tango",
+                    "price": 1200
+                },
+                {
+                    "item_name": "Cuba Libre",
+                    "price": 900
+                },
+                {
+                    "item_name": "Cubanito",
+                    "price": 1200
+                },
+                {
+                    "item_name": "Sambuca San Faustino",
+                    "price": 600
+                },
+                {
+                    "item_name": "Old Fashioned",
+                    "price": 1500
+                },
+                {
+                    "item_name": "Piña Colada",
+                    "price": 1200
+                },
+                {
+                    "item_name": "Pisco Sour",
+                    "price": 1400
+                },
+                {
+                    "item_name": "Sangría",
+                    "price": 1500
+                },
+                {
+                    "item_name": "Penicillin",
+                    "price": 1400
+                },
+                {
+                    "item_name": "Lemon song",
+                    "price": 1100
+                },
+                {
+                    "item_name": "Okinawa spritz",
+                    "price": 1400
+                }
+
+            ],
+
+            "drinks": [
+                {
+                    "item_name": "Crema Bailys",
+                    "price": 950
+                },
+                {
+                    "item_name": "Frangelico",
+                    "price": 1000
+                },
+                {
+                    "item_name": "Limoncello",
+                    "price": 600
+                },
+                {
+                    "item_name": "Sirope de kiwi",
+                    "price": 600
+                },
+                {
+                    "item_name": "Sirope de Manzana",
+                    "price": 125
+                },
+                {
+                    "item_name": "Campari",
+                    "price": 850
+                },
+                {
+                    "item_name": "Licor de Café",
+                    "price": 740
+                },
+                {
+                    "item_name": "Whiskeys Jack Daniels",
+                    "price": 1500
+                },
+                {
+                    "item_name": "Whiskeys Jim Bean",
+                    "price": 1200
+                },
+                {
+                    "item_name": "Whiskeys Jhonny Walker Red Label",
+                    "price": 1200
+                },
+                {
+                    "item_name": "Whiskeys Jamenson",
+                    "price": 850
+                },
+                {
+                    "item_name": "Whiskys Jhonny Walker Black Label",
+                    "price": 2000
+                },
+                {
+                    "item_name": "Ron Havana Club Pacto Navío",
+                    "price": 2000
+                },
+                {
+                    "item_name": "Ron Havana Club 3 anos",
+                    "price": 480
+                },
+                {
+                    "item_name": "Ron Havana Club 7 anos",
+                    "price": 900
+                },
+                {
+                    "item_name": "Ron Santiago 8 anos",
+                    "price": 950
+                },
+                {
+                    "item_name": "Ron Santiago 11 anos",
+                    "price": 1250
+                },
+                {
+                    "item_name": "Ron Santiago 12 anos",
+                    "price": 1650
+                },
+                {
+                    "item_name": "Eminente 3 anos",
+                    "price": 3000
+                },
+                {
+                    "item_name": "Ron Black tears Roble Superior",
+                    "price": 650
+                },
+                {
+                    "item_name": "Ron selección de Maestros",
+                    "price": 3300
+                }
+            ],
+
+            "infusions": [
+                {
+                    "item_name": "",
+                    "price": ""
+                }
+            ]
+        }  
+} 

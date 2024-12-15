@@ -11,11 +11,12 @@ import os
 import uuid
 from PIL import Image
 import time
+import json
 
 # Importar modelo Gemini_20 de la biblioteca local AI
 from AI import Gemini_20
 from quick_save_thread import QuickSaveThread
-from utils import load_json_files
+from utils import load_json_files, load_json_as_string, upload_to_blob
 
 class MainWindow(QMainWindow):
     def __init__(self):
@@ -35,10 +36,12 @@ class MainWindow(QMainWindow):
         self.text_mode_button = QPushButton("Modo Texto")
         self.program_mode_button = QPushButton("Modo Programa")
         self.image_mode_button = QPushButton("Modo Imagen")
+        self.bucle_mode_button = QPushButton("Modo Bucle")
 
         self.mode_buttons_layout.addWidget(self.text_mode_button)
         self.mode_buttons_layout.addWidget(self.program_mode_button)
         self.mode_buttons_layout.addWidget(self.image_mode_button)
+        self.mode_buttons_layout.addWidget(self.bucle_mode_button)
 
         # Stacked widget para los modos
         self.modes_stack = QStackedWidget()
@@ -74,10 +77,22 @@ class MainWindow(QMainWindow):
 
         self.modes_stack.addWidget(self.image_widget)
 
+        #Modo Bucle
+        self.bucle_widget = QTextEdit()
+        # self.bucle_widget1 = QTextEdit()
+        # self.bucle_widget2 = QTextEdit()
+        # self.bucle_widget3 = QTextEdit()
+        self.bucle_widget.setPlaceholderText("Texto de prueba...(No funciona aun)")
+        # self.bucle_widget1.setPlaceholderText("Texto de prueba...(No funciona aun)")
+        # self.bucle_widget2.setPlaceholderText("Texto de prueba...(No funciona aun)")
+        # self.bucle_widget3.setPlaceholderText("Texto de prueba...(No funciona aun)")
+        self.modes_stack.addWidget(self.bucle_widget)
+
         # Cambiar modos
         self.text_mode_button.clicked.connect(lambda: self.modes_stack.setCurrentWidget(self.text_widget))
         self.program_mode_button.clicked.connect(lambda: self.modes_stack.setCurrentWidget(self.program_widget))
         self.image_mode_button.clicked.connect(lambda: self.modes_stack.setCurrentWidget(self.image_widget))
+        self.bucle_mode_button.clicked.connect(lambda: self.modes_stack.setCurrentWidget(self.bucle_widget))
 
         # Botón de función
         self.action_button = QPushButton("Procesar")
@@ -185,17 +200,24 @@ class MainWindow(QMainWindow):
 
         if self.modes_stack.currentWidget() == self.program_widget:  # Modo programa
             user_code = self.program_widget.toPlainText()
-
+            
+            if not user_code:
+                print("Caja de codigo vacia...")
+                self.status_label.setText("Caja de codigo vacia...")
+                return
+            
             # Crear un entorno seguro para ejecutar el código del usuario
             local_scope = {
                 "send_query": self.send_query,  # Permitir que el usuario llame a send_query
                 "load_json_files": load_json_files,
+                "send_all_querys": self.send_all_querys,
                 #"active_processes": self.get_active_processes,
             }
 
             try:
                 exec(user_code, {}, local_scope)  # Ejecutar el código del usuario
             except Exception as e:
+                print(f"Error en el código: {str(e)}")
                 self.status_label.setText(f"Error en el código: {str(e)}")
                 return  # Evitar continuar si hay errores
                 
@@ -204,12 +226,31 @@ class MainWindow(QMainWindow):
                 image_path = button.toolTip()
                 image_name = os.path.splitext(os.path.basename(image_path))[0]  # Nombre sin extensión
                 img = Image.open(image_path)
-                self.send_query([img, "Extract from the Image"],image_name)
+                self.send_query([img, "Extract from the Image"],"docs/" + image_name)
+        elif self.modes_stack.currentWidget() == self.bucle_widget:
+            print("FUNKA")
+            self.send_all_querys()
+            
         else:  # Modo texto (predeterminado)
             user_text = self.text_widget.toPlainText()
             #img = Image.open('test_2.jpg')
-            self.send_query([user_text], file_name="Acvhivo_1")
-    
+            if user_text:
+                self.send_query([user_text], file_name="docs/Acvhivo_1")
+            else:
+                print("Caja de texto vacia...")
+                self.status_label.setText("Caja de texto vacia...")
+
+    def send_all_querys(self):
+        solic_lista = load_json_files("web_files/_users_query/")
+        for query_name, query_data in solic_lista:
+            self.model.set_ai_config(query_data['responseSchema'])
+            all_jsons = load_json_files(f"web_files/DataBase/{query_data['selectedRoute']}")
+            for vname, vjson in all_jsons:
+                self.send_query([json.dumps(vjson)],f"web_files/Clientes/{query_name}/{query_data['selectedRoute']}/{vname}.json",post_process=upload_to_blob)
+
+    def upload_db():
+        import requests
+
     def send_query(self, query, file_name="", post_process=None, schema=""):
         #print(query, '\n', file_name)
         

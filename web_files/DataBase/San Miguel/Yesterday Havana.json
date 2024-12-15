@@ -1,0 +1,252 @@
+{
+    "General info":{
+        "name":"Yesterday Havana",
+        "Phone number":"76930649",
+        "Type":"Bar-Restaurante-Dulceria",
+        "Specialty":"Comida Mixta",
+        "Website":null,
+        "Schedule":"",
+        "Payment methods":"Efectivo-Transferencia",
+        "Capacity":"media",
+        "Location": {
+            "Provincia":"La Habana",
+            "Municipio":"San Miguel del Padro",
+            "Direccion":"Rita % Blanchi y Calzada de Guines"
+        },
+        "Facilities":{
+            "Parking":null,
+            "Wifi":null,
+            "Delivery":true,
+            "Reservation":null
+        },
+        "Menu":{
+            "Starters":{
+                    "Picadera Yesterday":{
+                        "Price":"3000",
+                        "Description":"tostones al ajo, jamon, queso, chorizo, eperlan y fritura de malanga"
+                    },
+                    "Papas fritas":{
+                        "Price":"600",
+                        "Description":""
+                    },
+                    "Tacos de cerdo":{
+                        "Price":"800",
+                        "Description":""
+                    },
+                    "Tacos de pollo":{
+                        "Price":"800",
+                        "Description":""
+                    },
+                    "Ceviche":{
+                        "Price":"800",
+                        "Description":""
+                    },
+                    "Eperlan":{
+                        "Price":"900",
+                        "Description":""
+                    },
+                    "Coctel de camarones":{
+                        "Price":"1000",
+                        "Description":""
+                    },
+                    "Entremes de jamon, queso y chorizo":{
+                        "Price":"800",
+                        "Description":""
+                    },
+                    "Ensalada fria":{
+                        "Price":"650",
+                        "Description":""
+                    },
+                    "Toston al ajo":{
+                        "Price":"600",
+                        "Description":""
+                    },
+                    "Frituras de malanga":{
+                        "Price":"500",
+                        "Description":""
+                    },
+                    "Croquetas de la casa":{
+                        "Price":"500",
+                        "Description":""
+                    },
+                    "Fajitas de pollo":{
+                        "Price":"950",
+                        "Description":""
+                    },
+                    "Fajitas de cerdo":{
+                        "Price":"950",
+                        "Description":""
+                    },
+                    "Brochetas mixtas":{
+                        "Price":"2500",
+                        "Description":""
+                    },
+                    "Garbanzo frito":{
+                        "Price":"2000",
+                        "Description":""
+                    },
+                    "Fabada":{
+                        "Price":"2000",
+                        "Description":""
+                    },
+                    "Cema del dia":{
+                        "Price":"1000",
+                        "Description":""
+                    }
+                },
+            "Main dishes": {
+                    "":{
+                        "Price":"",
+                        "Description":""
+                    }
+                },
+            "Guarniciones": {
+                   "Mariscada Yesterday":{
+                        "Price":"7000",
+                        "Description":""
+                    },
+                    "Calamar al gusto":{
+                        "Price":"3000",
+                        "Description":""
+                    },
+                    "Langosta al gusto":{
+                        "Price":"3000",
+                        "Description":""
+                    },
+                    "3 delicias":{
+                        "Price":"3000",
+                        "Description":"Res, cerdo y pollo"
+                    },
+                    "Camarones al ajo":{
+                        "Price":"2000",
+                        "Description":""
+                    },
+                    "Camarones grille":{
+                        "Price":"2000",
+                        "Description":""
+                    },
+                    "Enchilado de camarones":{
+                        "Price":"2000",
+                        "Description":""
+                    },
+                    "Camaron empanado":{
+                        "Price":"2500",
+                        "Description":""
+                    },
+                    "Filete de pescado":{
+                        "Price":"1800",
+                        "Description":""
+                    },
+                    "Filete de pescado Jhombill":{
+                        "Price":"2200",
+                        "Description":"Pescado, camaron, queso, limon y mantequilla"
+                    },
+                    "Rueda de pescado frito":{
+                        "Price":"2500",
+                        "Description":""
+                    },
+                    "Bistec de cerdo":{
+                        "Price":"1800",
+                        "Description":""
+                    },
+                    "Cerdo encebollado":{
+                        "Price":"2000",
+                        "Description":""
+                    },
+                    "Pechuga de pollo grille":{
+                        "Price":"1800",
+                        "Description":""
+                    },
+                    "Mar y tierra":{
+                        "Price":"5500",
+                        "Description":"Langosta, camaron, pescado, cerdo y pechuga"
+                    },
+                    "Mar y tierra res":{
+                        "Price":"5500",
+                        "Description":"Langosta, camaron, pescado, cerdo, pechuga y res"
+                    },
+                    "Cordero al vino":{
+                        "Price":"3000",
+                        "Description":""
+                    },
+                    "Costillas de cerdo":{
+                        "Price":"3000",
+                        "Description":""
+                    },
+                    "Cerdo desmechado":{
+                        "Price":"3000",
+                        "Description":""
+                    },
+                    "Masas fritas":{
+                        "Price":"3000",
+                        "Description":""
+                    },
+                    "Lonjas de cerdo":{
+                        "Price":"3000",
+                        "Description":""
+                    },
+                    "Lonjas ahumadas":{
+                        "Price":"3000",
+                        "Description":""
+                    },
+                    "Uruguayo":{
+                        "Price":"2500",
+                        "Description":""
+                    },
+                    "Canciller":{
+                        "Price":"2500",
+                        "Description":""
+                    },
+                    "Corden bleu":{
+                        "Price":"2500",
+                        "Description":""
+                    },
+                    "Solomillo de cerdo":{
+                        "Price":"4000",
+                        "Description":""
+                    },
+                    "Arroz a la marinera":{
+                        "Price":"3500",
+                        "Description":""
+                    },
+                    "Arroz campesino":{
+                        "Price":"3000",
+                        "Description":"Pollo, cerdo y vegetales salteados"
+                    },
+                    "Arroz frito (camaron)":{
+                        "Price":"2000",
+                        "Description":"Con camaron"
+                    },
+                    "Arroz frito (langosta)":{
+                        "Price":"2500",
+                        "Description":"Con langosta"
+                    },
+                    "Ropa vieja":{
+                        "Price":"2500",
+                        "Description":""
+                    },
+                    "Bistec de res":{
+                        "Price":"2500",
+                        "Description":""
+                    }
+                },
+            "Desserts": {
+                   "":{
+                        "Price":"",
+                        "Description":""
+                    }
+                },
+            "Drinks": {
+                    "":{
+                        "Price":"",
+                        "Description":""
+                    }
+            },
+            "Additions": {
+                    "":{
+                        "Price":""
+                    }
+            }
+        }
+    }
+}

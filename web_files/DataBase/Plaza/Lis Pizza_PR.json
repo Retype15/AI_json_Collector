@@ -1,0 +1,329 @@
+{
+    "ID": 1305,
+    "locality": {
+        "mun": "Plaza de la Revolución",
+        "locator": {
+            "phones": {
+                "mobile": 5510909,
+                "landline": null
+            },
+            "plus_code": "4JPC+W87, 1169 A Neptuno, La Habana"
+        }
+    },
+    "name": "Doña Lis Pizza",
+    "type_cuisine": ["Pizzas","Bar"],
+    "schedule": {
+        "monday": {
+            "opening": "10:30",
+            "closing": "24:00"
+        },
+        "tuesday": {
+            "opening": "10:30",
+            "closing": "24:00"
+        },
+        "wednesday": {
+           "opening": "10:30",
+            "closing": "24:00"
+        },
+        "thursday": {
+            "opening": "10:30",
+            "closing": "24:00"
+        },
+        "friday": {
+            "opening": "10:30",
+            "closing": "24:00"
+        },
+        "saturday": {
+            "opening": "10:30",
+            "closing": "24:00"
+        },
+        "sunday": {
+            "opening": "10:30",
+            "closing": "24:00"
+        }
+    },
+    "quality": {
+        "qualification_google": 5.0,
+        "qualification_tripadvisor": 4.5,
+        "qualification_facebook": null
+    },
+    "reservation_options": false,
+    "social_networks": ["Facebook","WhatsApp","Instagram"],
+    "payment_options": ["Transfermovil","Efectivo"],
+    "service_details": ["A la carta"],
+    "menu": {
+        "breakfasts": [],
+        "starters": [
+            {
+                "item": "Croquetas",
+                "price": 400.00,
+                "description": null
+              },
+              {
+                "item": "Bolitas de queso/jamón",
+                "price": 500.00,
+                "description": null
+              },
+              {
+                "item": "Bolitas de pescado",
+                "price": 450.00,
+                "description": null
+              },
+              {
+                "item": "Frituras Malanga",
+                "price": 350.00,
+                "description": null
+              },
+              {
+                "item": "Papas fritas",
+                "price": 500.00,
+                "description": null
+              },
+              {
+                "item": "Fajitas de pollo",
+                "price": 600.00,
+                "description": null
+              },
+              {
+                "item": "Tostones rellenos",
+                "price": 500.00,
+                "description": null
+              },
+              {
+                "item": "Nachos",
+                "price": 300.00,
+                "description": null
+              },
+              {
+                "item": "Ración Yuca/Mojo",
+                "price": 250.00,
+                "description": null
+              }
+        ],
+        "main_courses": [
+            {
+                "item": "Don Hamburgueso/Vianda frita",
+                "price": 550.00,
+                "description": null
+              },
+              {
+                "item": "Hamburguesa Doña Lis/Vianda frita",
+                "price": 1000.00,
+                "description": null
+              },
+              {
+                "item": "Cheeseburger/Vianda frita",
+                "price": 650.00,
+                "description": null
+              },
+              {
+                "item": "Sándwich Atún/Vianda frita",
+                "price": 650.00,
+                "description": null
+              },
+              {
+                "item": "Sándwich Jamón y Queso/Vianda frita",
+                "price": 550.00,
+                "description": null
+              },
+              {
+                "item": "Sándwich Pollo y Vegetales/Vianda frita",
+                "price": 650.00,
+                "description": null
+              },
+              {
+                "item": "Tacos al Pastor",
+                "price": 700.00,
+                "description": null
+              },
+              {
+                "item": "Tacos Cerdo",
+                "price": 800.00,
+                "description": null
+              },
+              {
+                "item": "Tacos Pollo/Vegetales",
+                "price": 700.00,
+                "description": null
+              },
+              {
+                "item": "Tacos de pescado",
+                "price": 750.00,
+                "description": null
+              },
+              {
+                "item": "Pechuga Grillé",
+                "price": 800.00,
+                "description": null
+            },
+            {
+                "item": "Pechuga empanada",
+                "price": 850.00,
+                "description": null
+            },
+            {
+                "item": "Fajitas salteadas",
+                "price": 700.00,
+                "description": null
+            },
+            {
+                "item": "Bistec de cerdo",
+                "price": 900.00,
+                "description": null
+            },
+            {
+                "item": "Bistec de cerdo gratinado",
+                "price": 1000.00,
+                "description": null
+            },
+            {
+                "item": "Filete de pescado grillé",
+                "price": 900.00,
+                "description": null
+            }
+        ],
+        "pizzas": [
+            {
+                "item": "Pizza napolitana",
+                "price": 650.00,
+                "description": null
+            },
+            {
+                "item": "Pizza Margarita",
+                "price": 700.00,
+                "description": null
+            },
+            {
+                "item": "Pizza Hawaiana",
+                "price": 900.00,
+                "description": null
+            },
+            {
+                "item": "Pizza Doña Lis",
+                "price": 1400.00,
+                "description": null
+            },
+            {
+                "item": "Pasta Napolitana",
+                "price": 500.00,
+                "description": null
+            },
+            {
+                "item": "Pasta Vegetariana",
+                "price": 650.00,
+                "description": null
+            }
+        ],
+        "pasta": [
+            {
+                "item": "Lasaña",
+                "price": 800.00,
+                "description": null
+            }
+        ],
+        "desserts": [
+            {
+                "item": "Pote de helado",
+                "price": 750.00,
+                "description": null
+            },
+            {
+                "item": "Paleta de helado",
+                "price": 200.00,
+                "description": null
+            }
+        ]
+    },
+    "drinks": {
+        "alcoholic_drinks": [
+            {
+                "item": "Servicio Michelada",
+                "price": 300.00,
+                "description": null
+            },
+            
+            {
+                "item": "Servicio Chelada",
+                "price": 200.00,
+                "description": null
+            },
+            {
+                "item": "Cerveza Nacional",
+                "price": 300.00,
+                "description": null
+            },
+            
+            {
+                "item": "Cerveza de botella",
+                "price": 300.00,
+                "description": null
+            },
+            
+            {
+                "item": "Cerveza Importada",
+                "price": 280.00,
+                "description": null
+            }
+        ],
+        "non-alcoholic": [
+            {
+                "item": "Jugo natural",
+                "price": 150.00,
+                "description": null
+            },
+            
+            {
+                "item": "Batido de fruta",
+                "price": 350.00,
+                "description": null
+            },
+            
+            {
+                "item": "Batido de Trigo",
+                "price": 500.00,
+                "description": null
+            },
+            
+            {
+                "item": "Malteada",
+                "price": 500.00,
+                "description": null
+            },
+            
+            {
+                "item": "Batido de Helado",
+                "price": 500.00,
+                "description": null
+            },
+            
+            {
+                "item": "Limonada Frappé",
+                "price": 300.00,
+                "description": null
+            },
+            {
+                "item": "Malta",
+                "price": 300.00,
+                "description": null
+            },
+            
+            {
+                "item": "Energizante",
+                "price": 250.00,
+                "description": null
+            },
+            
+            {
+                "item": "Refresco",
+                "price": 280.00,
+                "description": null
+            },
+            
+            {
+                "item": "Agua",
+                "price": 180.00,
+                "description": null
+            }
+        ]
+    }
+}

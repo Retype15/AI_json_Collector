@@ -1,0 +1,509 @@
+{
+  "menus": [
+    {
+      "food_name": "pl\nan\no maduro frito",
+      "food_price": 350,
+      "food_type": "appetizers"
+    },
+    {
+      "food_name": "tostones chatinos",
+      "food_price": 350,
+      "food_type": "appetizers"
+    },
+    {
+      "food_name": "ensalada de vegetales",
+      "food_price": 400,
+      "food_type": "appetizers"
+    },
+    {
+      "food_name": "maripositas chinas",
+      "food_price": 530,
+      "food_type": "appetizers"
+    },
+    {
+      "food_name": "caldosa criolla",
+      "food_price": 750,
+      "food_type": "appetizers"
+    },
+    {
+      "food_name": "papas fritas",
+      "food_price": 750,
+      "food_type": "appetizers"
+    },
+    {
+      "food_name": "ensalada fira",
+      "food_price": 800,
+      "food_type": "appetizers"
+    },
+    {
+      "food_name": "frituritas de malanga",
+      "food_price": 850,
+      "food_type": "appetizers"
+    },
+    {
+      "food_name": "coctel de camarones",
+      "food_price": 850,
+      "food_type": "appetizers"
+    },
+     {
+      "food_name": "tostones rellenos",
+      "food_price": 1150,
+      "food_type": "appetizers"
+    },
+    {
+      "food_name": "bolitas de queso",
+      "food_price": 1100,
+      "food_type": "appetizers"
+    },
+    {
+      "food_name": "croquetas de jam\no00f3n",
+      "food_price": 1100,
+      "food_type": "appetizers"
+    },
+    {
+      "food_name": "tamal en casuela",
+      "food_price": 1150,
+      "food_type": "appetizers"
+    },
+     {
+      "food_name": "potaje de garbanzos fritos",
+      "food_price": 1300,
+      "food_type": "appetizers"
+    },
+        {
+      "food_name": "tacos de cerdo",
+      "food_price": 1200,
+      "food_type": "appetizers"
+    },
+        {
+      "food_name": "tacos de pollo",
+      "food_price": 1400,
+      "food_type": "appetizers"
+    },
+            {
+      "food_name": "tacos ropa vieja",
+      "food_price": 1700,
+      "food_type": "appetizers"
+    },
+      {
+      "food_name": "bastoncitos de pollo",
+      "food_price": 1700,
+      "food_type": "appetizers"
+    },
+    {
+      "food_name": "sandwich de jam\no00f3n y queso",
+      "food_price": 1050,
+      "food_type": "appetizers"
+    },
+    {
+      "food_name": "s\no00e1ndwich campesino",
+      "food_price": 1450,
+      "food_type": "appetizers"
+    },
+    {
+      "food_name": "s\no00e1ndwich juliana",
+      "food_price": 1650,
+      "food_type": "appetizers"
+    },
+    {
+      "food_name": "hamburguesa",
+      "food_price": 1300,
+      "food_type": "appetizers"
+    },
+    {
+      "food_name": "hamburguesa doble",
+      "food_price": 2350,
+      "food_type": "appetizers"
+    },
+    {
+      "food_name": "club at\no00fan",
+      "food_price": 1300,
+      "food_type": "appetizers"
+    },
+        {
+      "food_name": "crema de queso",
+      "food_price": 780,
+      "food_type": "appetizers"
+    },
+      {
+      "food_name": "crema aurora",
+      "food_price": 800,
+      "food_type": "appetizers"
+    },
+    {
+      "food_name": "crema virginia",
+      "food_price": 960,
+      "food_type": "appetizers"
+    },
+    {
+      "food_name": "arroz imperial",
+      "food_price": 2100,
+      "food_type": "main_courses"
+    },
+    {
+      "food_name": "pollo frito/asado",
+      "food_price": 2500,
+      "food_type": "main_courses"
+    },
+    {
+      "food_name": "lomo ahumado",
+      "food_price": 2900,
+      "food_type": "main_courses"
+    },
+    {
+      "food_name": "arroz a la chorrera",
+      "food_price": 2450,
+      "food_type": "main_courses"
+    },
+    {
+      "food_name": "bistec de cerdo grille",
+      "food_price": 2470,
+      "food_type": "main_courses"
+    },
+    {
+      "food_name": "cordon blue",
+      "food_price": 3200,
+      "food_type": "main_courses"
+    },
+     {
+      "food_name": "pechuga de pollo grill\no00e9",
+      "food_price": 3000,
+      "food_type": "main_courses"
+    },
+     {
+      "food_name": "escalope de cerdo",
+       "food_price": 2640,
+      "food_type": "main_courses"
+    },
+         {
+      "food_name": "pechuga apanada",
+      "food_price": 3100,
+      "food_type": "main_courses"
+    },
+     {
+      "food_name": "pechuga salt c/vegetales",
+      "food_price": 3000,
+      "food_type": "main_courses"
+    },
+      {
+      "food_name": "bistec uruguayo",
+       "food_price": 2800,
+      "food_type": "main_courses"
+    },
+        {
+      "food_name": "arroz frito",
+       "food_price": 2750,
+      "food_type": "main_courses"
+    },
+            {
+      "food_name": "camarones grille",
+       "food_price": 3000,
+      "food_type": "main_courses"
+    },
+            {
+      "food_name": "cerdo camag\no00fceyano",
+      "food_price": 2800,
+      "food_type": "main_courses"
+    },
+     {
+      "food_name": "rollo de pechuga",
+       "food_price": 2800,
+      "food_type": "main_courses"
+    },
+      {
+      "food_name": "estofado de res",
+      "food_price": 3100,
+      "food_type": "main_courses"
+    },
+    {
+      "food_name": "bistec encebollado de res",
+       "food_price": 3000,
+      "food_type": "main_courses"
+    },
+    {
+      "food_name": "camarones al ajillo",
+       "food_price": 3150,
+      "food_type": "main_courses"
+    },
+    {
+      "food_name": "pechuga a la crema",
+      "food_price": 3500,
+      "food_type": "main_courses"
+    },
+         {
+      "food_name": "rueda de pescado empanado",
+      "food_price": 3400,
+      "food_type": "main_courses"
+    },
+     {
+      "food_name": "entrecote de res",
+       "food_price": 3000,
+      "food_type": "main_courses"
+    },
+          {
+      "food_name": "arroz marinero",
+      "food_price": 3000,
+      "food_type": "main_courses"
+    },
+     {
+      "food_name": "camarones enchilado",
+       "food_price": 3600,
+      "food_type": "main_courses"
+    },
+        {
+      "food_name": "solomillo de cerdo",
+      "food_price": 3000,
+      "food_type": "main_courses"
+    },
+     {
+      "food_name": "ropa vieja",
+      "food_price": 3300,
+      "food_type": "main_courses"
+    },
+    {
+      "food_name": "enchilado de pescado",
+       "food_price": 3050,
+      "food_type": "main_courses"
+    },
+          {
+      "food_name": "canciller",
+      "food_price": 3900,
+      "food_type": "main_courses"
+    },
+     {
+      "food_name": "camar\no00f3n a la crema",
+      "food_price": 3800,
+      "food_type": "main_courses"
+    },
+    {
+      "food_name": "costillas de cerdo BBQ",
+      "food_price": 3900,
+      "food_type": "main_courses"
+    },
+    {
+      "food_name": "rueda de pescado a la crema con camar\no00f3n",
+       "food_price": 3650,
+      "food_type": "main_courses"
+    },
+    {
+      "food_name": "pizza de queso",
+      "food_price":  1120,
+      "food_type": "main_courses"
+    },
+    {
+      "food_name": "pizza de oregano",
+      "food_price":  1300,
+      "food_type": "main_courses"
+    },
+    {
+      "food_name": "pizza de albahaca",
+      "food_price":  1270,
+      "food_type": "main_courses"
+    },
+      {
+      "food_name": "pizza de cebolla",
+        "food_price": 1385,
+      "food_type": "main_courses"
+    },
+     {
+      "food_name": "pizza de pimiento",
+      "food_price": 1430,
+      "food_type": "main_courses"
+    },
+     {
+      "food_name": "pizza de aceituna",
+      "food_price": 1550,
+      "food_type": "main_courses"
+    },
+    {
+      "food_name": "pizza de jamon",
+      "food_price": 1700,
+      "food_type": "main_courses"
+    },
+     {
+      "food_name": "pizza doble de queso",
+      "food_price": 1800,
+      "food_type": "main_courses"
+    },
+    {
+      "food_name": "pizza de lomo",
+       "food_price": 1800,
+      "food_type": "main_courses"
+    },
+      {
+      "food_name": "pizza de champi\no00f1\no00f3n",
+      "food_price":  1685,
+      "food_type": "main_courses"
+    },
+         {
+      "food_name": "pizza de bac\no00f3n",
+      "food_price":  2050,
+      "food_type": "main_courses"
+    },
+      {
+      "food_name": "pizza de at\no00fan",
+       "food_price": 1835,
+      "food_type": "main_courses"
+    },
+         {
+      "food_name": "pizza bolognesa",
+      "food_price": 1950,
+      "food_type": "main_courses"
+    },
+      {
+      "food_name": "pizza campesina",
+       "food_price": 1820,
+      "food_type": "main_courses"
+    },
+     {
+      "food_name": "pizza hawaiana",
+      "food_price": 1950,
+      "food_type": "main_courses"
+    },
+    {
+      "food_name": "pizza de chorizo",
+      "food_price":  1885,
+      "food_type": "main_courses"
+    },
+        {
+      "food_name": "pizza habanera",
+      "food_price": 2200,
+      "food_type": "main_courses"
+    },
+     {
+      "food_name": "pizza de serrano",
+      "food_price": 2400,
+      "food_type": "main_courses"
+    },
+      {
+      "food_name": "pizza de camar\no00f3n",
+      "food_price": 1985,
+      "food_type": "main_courses"
+    },
+          {
+      "food_name": "pizza juliana",
+      "food_price": 2250,
+      "food_type": "main_courses"
+    },
+        {
+      "food_name": "media lasagna",
+      "food_price": 1500,
+      "food_type": "main_courses"
+    },
+     {
+      "food_name": "lasagna doble",
+      "food_price": 3000,
+      "food_type": "main_courses"
+    },
+    {
+      "food_name": "media lasagna",
+      "food_price": 3100,
+      "food_type": "main_courses"
+    },
+      {
+      "food_name": "canelon",
+      "food_price": 1150,
+      "food_type": "main_courses"
+    },
+         {
+      "food_name": "espagetti de queso",
+      "food_price": 1100,
+      "food_type": "main_courses"
+    },
+      {
+      "food_name": "espagetti de jamon",
+      "food_price": 1300,
+      "food_type": "main_courses"
+    },
+          {
+      "food_name": "espagueti bolognesa",
+       "food_price": 1600,
+      "food_type": "main_courses"
+    },
+     {
+      "food_name": "espagueti alfredo",
+      "food_price": 1800,
+      "food_type": "main_courses"
+    },
+       {
+      "food_name": "espagueti juliana",
+      "food_price": 1780,
+      "food_type": "main_courses"
+    },
+    {
+      "food_name": "espagueti carbonara",
+      "food_price": 1900,
+       "food_type": "main_courses"
+    },
+    {
+      "food_name": "tres gracias",
+      "food_price": 400,
+      "food_type": "desserts"
+    },
+    {
+      "food_name": "flan al caramelo",
+      "food_price": 650,
+       "food_type": "desserts"
+    },
+        {
+      "food_name": "copa lolita",
+      "food_price": 950,
+      "food_type": "desserts"
+    },
+     {
+      "food_name": "cu\no00f1a de chocolate",
+      "food_price": 800,
+      "food_type": "desserts"
+    },
+    {
+       "food_name": "cu\no00f1a de chocolate con helado",
+      "food_price": 950,
+      "food_type": "desserts"
+    },
+    {
+      "food_name": "malteada",
+      "food_price": 850,
+      "food_type": "soft_drinks"
+    },
+    {
+      "food_name": "jugos naturales",
+      "food_price": 270,
+      "food_type": "juices"
+    },
+     {
+      "food_name": "jugo de mango",
+      "food_price": 300,
+      "food_type": "juices"
+    },
+    {
+      "food_name": "jugo de pi\no00f1a",
+      "food_price": 300,
+      "food_type": "juices"
+    },
+    {
+      "food_name": "coctel de frutas",
+      "food_price": 250,
+      "food_type": "juices"
+    },
+    {
+      "food_name":"limonadas",
+      "food_price": 350,
+      "food_type": "juices"
+    },
+    {
+      "food_name": "batidos de frutas",
+      "food_price": 600,
+       "food_type": "smoothie"
+    },
+         {
+      "food_name":"suero de helado",
+      "food_price": 730,
+      "food_type": "ice_cream_shake"
+    },
+    {
+      "food_name": "batido de helado",
+      "food_price": 735,
+       "food_type": "ice_cream_shake"
+    }
+  ]
+}

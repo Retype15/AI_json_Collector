@@ -1,0 +1,164 @@
+{
+    "ID": 1202,
+    "locality": {
+        "mun": "Playa",
+        "locator": {
+            "phones": {
+                "mobile": 55094105,
+                "landline": null
+            },
+            "plus_code": "4JRX+9FV, Mercaderes, La Habana"
+        }
+    },
+    "name": "Café Literario La Copa",
+    "type_cuisine": ["Café"],
+    "schedule": {
+        "monday": {
+            "opening": "08:00",
+            "closing": "12:00"
+        },
+        "tuesday": {
+            "opening": "08:00",
+            "closing": "12:00"
+        },
+        "wednesday": {
+            "opening": "08:00",
+            "closing": "12:00"
+        },
+        "thursday": {
+            "opening": "08:00",
+            "closing": "12:00"
+        },
+        "friday": {
+            "opening": "08:00",
+            "closing": "12:00"
+        },
+        "saturday": {
+            "opening": "08:00",
+            "closing": "12:00"
+        },
+        "sunday": {
+            "opening": "08:00",
+            "closing": "12:00"
+        }
+    },
+    "quality": {
+        "qualification_google": 2.6,
+        "qualification_tripadvisor": 4.5,
+        "qualification_facebook": null
+    },
+    "reservation_options": false,
+    "social_networks": ["Instagram"],
+    "payment_options": ["Transfermovil","Efectivo"],
+    "service_details": ["A la carta"],
+    "menu": {
+        "breakfasts": [null],
+        "starters": [
+            {
+                "item": "Croquetas con Tostadas",
+                "price": 500.00,
+                "description": null
+            },
+            {
+                "item": "Papas Fritas",
+                "price": 600.00,
+                "description": null
+            },
+            {
+                "item": "Hot Dog",
+                "price": 600.00,
+                "description": null
+            },
+            {
+                "item": "Sandwich de Jamón y Queso",
+                "price": 700.00,
+                "description": null
+            },
+            {
+                "item": "Pan con Hamburguesa",
+                "price": 700.00,
+                "description": "Res o Cerdo"
+            },
+            {
+                "item": "Croissant de Jamón con Queso",
+                "price": 800.00,
+                "description": null
+            },
+            {
+                "item": "Croissant Natural",
+                "price": 500.00,
+                "description": null
+            }
+        ],
+        "main_courses": [null],
+        "pizzas": [null],
+        "pasta": [null],
+        "desserts": [
+            {
+                "item": "Copa de Helado",
+                "price": 500.00,
+                "description": "Mantecado"
+            },
+            {
+                "item": "Suero Helado",
+                "price": 800.00,
+                "description": "Chocolate/Vainilla/Naranja-Pina/Fresa"
+            }
+        ]
+    },
+    "drinks": {
+        "alcoholic_drinks": [null],
+        "non-alcoholic": [
+            {
+                "item": "Malteada",
+                "price": 500.00,
+                "description": null
+            },
+            {
+                "item": "Malta Bucanero",
+                "price": 300.00,
+                "description": null
+            },
+            {
+                "item": "Energizante",
+                "price": 230.00,
+                "description": null
+            },
+            {
+                "item": "Jugo de Lata",
+                "price": 270.00,
+                "description": null
+            },
+            {
+                "item": "Agua Natural",
+                "price": 120.00,
+                "description": null
+            },
+            {
+                "item": "Café Expresso",
+                "price": 1500.00,
+                "description": null
+            },
+            {
+                "item": "Café Cortado",
+                "price": 200.00,
+                "description": null
+            },
+            {
+                "item": "Café Bombón",
+                "price": 350.00,
+                "description": null
+            },
+            {
+                "item": "Capuchino",
+                "price": 400.00,
+                "description": null
+            },
+            {
+                "item": "Frapucchino",
+                "price": 500.00,
+                "description": null
+            }
+        ]
+    }
+}

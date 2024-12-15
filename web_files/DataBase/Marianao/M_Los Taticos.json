@@ -1,0 +1,154 @@
+{
+    "Name": "Los taticos",
+    "Type": "Restaurante",
+    "Phone_Number": [null],
+    "Web_Page": [null],
+    "Ownership": "Particular",
+    "Operating_Hours": {
+        "Monday":   ["08:00-00:00"],
+        "Tuesday":  ["08:00-00:00"],
+        "Wendsday": ["08:00-00:00"],
+        "Thursday": ["08:00-00:00"],
+        "Friday":   ["08:00-00:00"],
+        "Saturday": ["08:00-00:00"],
+        "Sunday":   ["08:00-00:00"]
+    },
+    "Location": {
+        "District": "Marianao",
+        "Address": "27 y 27A",
+        "Coordinates": "3HM7+JJC"
+    },
+    "Cuisine": "Variada",
+    "Menu": {
+        "Breakfast": {
+            "Egg": [null],
+            "Tortilla": [null],
+            "Hambuerguer": {
+                "Super Hamburguesa Tatico": {
+                    "Price": 900
+                },
+                "Hamburguesa Tatico": {
+                    "Price": 750
+                },
+                "Super hamburguesa queso": {
+                    "Price": 800
+                },
+                "Hamburguesa queso": {
+                    "Price": 650
+                },
+                "Super hamburguesa sencilla": {
+                    "Price": 700
+                },
+                "Hamburguesa sencilla": {
+                    "Price": 600
+                }
+            },
+            "Sandwich": {
+                "Sandwich Tatico": {
+                    "Price": 650
+                }
+            },
+            "Bread": {
+                "Bocadito de atun": {
+                    "Price": 600
+                },
+                "Pan con lechon": {
+                    "Price": 650
+                },
+                "Pan con croqueta": {
+                    "Price": 240
+                }
+            }
+        },
+        "Appetizers": {
+            "Picadera Tatico": {
+                "Price": 2800
+            },
+            "Entremes surtido": {
+                "Price": 800
+            },
+            "Tostones rellenos": {
+                "Price": 800
+            },
+            "Bolitas de queso": {
+                "Price": 800
+            },
+            "Bolitas de carne": {
+                "Price": 800
+            },
+            "Croquetas caseras": {
+                "Price": 800
+            }
+        },
+        "Main_Courses": {
+            "Pasta": {
+                "Lasagña": {
+                    "Price": 1250
+                }
+            },
+            "Pizza": {
+                "Pizza Tatico": {
+                    "Price": 1200
+                },
+                "Pizza mixta": {
+                    "Price": 680
+                },
+                "pizza hawaiana": {
+                    "Price": 680
+                },
+                "pizza jamon": {
+                    "Price": 680
+                },
+                "pizza de queso": {
+                    "Price": 680
+                }
+            },
+            "Pork": {
+                "Taco de cerdo": {
+                    "Price": 650
+                }
+            },
+            "Chicken": {
+                "Pollo al carbon": {
+                    "Price": 1200
+                }
+            },
+            "Beef": {
+                "Taco de carne": {
+                    "Price": 800
+                }
+            },
+            "Sea": {
+                "Taco de atun": {
+                    "Price": 800
+                }
+            },
+            "Extras": ["Arroz blanco","frijoles","Arroz moro"],
+        "Desserts": [null],
+        "Beverages": [null],
+        "most_sold": {
+            "Dish": ["Bistec de cerdo"],
+            "Drink": ["Cerveza"]
+        },
+        "least_sold": {
+            "Dish": ["Higado"],
+            "Drink": [null]
+            }
+        }
+    },
+    "Other Info": {
+        "Entertainment": ["Musica grabada","Domino"],
+        "Facilities": ["Sillas para niños"],
+        "Payments_Options": {
+            "Cash": "Si",
+            "Credit_Card": "Si",
+            "Mobile_Payment": "Si"
+        },
+        "Accepted_Currencies": {
+            "National_Currency": "Si",
+            "US_Dollars": "Si",
+            "Euros": "Si",
+            "Others": "Si"
+        }
+    }
+}

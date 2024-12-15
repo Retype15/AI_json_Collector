@@ -1,0 +1,123 @@
+{
+    "type_of_establishment": ["restaurant"],
+    "name": "Wapa",
+    "address": {
+        "city": "La Habana",
+        "district": "Plaza de la Revolución",
+        "streets": "Calle 4 entre 15 y 17, Vedado, Plaza",
+        "coordinates": "23.133054069126786, -82.39869353392423"
+    },
+    "schedule": {
+        "monday": [{ "open": "1130", "close": "2300" }],
+        "tuesday": [{ "open": "0900", "close": "2300" }],
+        "wednesday": [{ "open": "0900", "close": "2300" }],
+        "thursday": [{ "open": "0900", "close": "2300" }],
+        "friday": [{ "open": "0900", "close": "2300" }],
+        "saturday": [{ "open": "0900", "close": "2300" }],
+        "sunday": [{ "open": "0900", "close": "2300" }]
+    },
+    "kind_of_food": ["Cuban", "Centroamerican"],
+    "menu": {
+        "breakfast": [
+            { "name": "combo 1", "price": 1500 },
+            { "name": "combo 2", "price": 1900 },
+            { "name": "combo 3 infantil", "price": 1100 },
+            { "name": "omelette jardinera", "price": 1200 },
+            { "name": "omelette tentación", "price": 1200 },
+            { "name": "omelette del campo", "price": 1100 },
+            { "name": "omelette", "price": 600 }
+        ],
+        "appetizer": [
+            { "name": "croquetas de la abuela", "price": 700 },
+            { "name": "croquetas de jamón serrano", "price": 1000 },
+            { "name": "bolitas de queso", "price": 1000 },
+            { "name": "crema de queso", "price": 600 },
+            { "name": "ceviche de pescado", "price": 2000 },
+            { "name": "ceviche mixto tropical", "price": 2600 },
+            { "name": "ceviche de camarón", "price": 2900 },
+            { "name": "cóctel de camarón", "price": 2000 },
+            { "name": "bastón de pollo", "price": 1900 },
+            { "name": "daditos de pescado", "price": 2100 },
+            { "name": "fritura de malanga", "price": 500 },
+            { "name": "brusquetas", "price": 900 },
+            { "name": "tartaleta de jamón y queso", "price": 900 },
+            { "name": "tartaleta de pollo", "price": 1350 },
+            { "name": "tartaleta de atún", "price": 1100 }
+        ],
+        "main course": [
+            { "name": "pizza", "price": 1200  },
+            { "name": "lasaña", "price": 1300 },
+            { "name": "canelón de jamón", "price": 1200 },
+            { "name": "canelón boloñesa", "price": 1750 }
+        ],
+        "sides": [false],
+        "drinks": [
+            { "name": "agua natural", "price": 300 },
+            { "name": "refresco importado", "price": 400 },
+            { "name": "malta", "price": 500 },
+            { "name": "malteada", "price": 800 },
+            { "name": "cerveza importada", "price": 450 },
+            { "name": "cerveza nacional", "price": 550 },
+            { "name": "michelada", "price": 600 },
+            { "name": "sangria", "price": 1000 },
+            { "name": "copa de vino", "price": 800 },
+            { "name": "cuba libre", "price": 800 },
+            { "name": "cubata", "price": 850 },
+            { "name": "mojito", "price": 800 },
+            { "name": "caipiriña", "price": 500 },
+            { "name": "caipiroska", "price": 500 },
+            { "name": "caipirisima", "price": 550 },
+            { "name": "ron collins", "price": 850 },
+            { "name": "piña colada", "price": 850 },
+            { "name": "barbie", "price": 700 },
+            { "name": "canchánchara", "price": 550 },
+            { "name": "daiquirí", "price": 650 }
+        ],
+        "coffee": [
+            { "name": "expresso", "price": 220 },
+            { "name": "americano", "price": 360 },
+            { "name": "cortadito", "price": 250 },
+            { "name": "cappuccino", "price": 550 },
+            { "name": "cappuccino wapa", "price": 600 },
+            { "name": "bombon", "price": 600 },
+            { "name": "mocaccino", "price": 550 },
+            { "name": "frappuccino", "price": 950 },
+            { "name": "Q locura", "price": 850 },
+            { "name": "café con leche", "price": 550 },
+            { "name": "chocolate caliente", "price": 350 },
+            { "name": "té", "price": 100 }
+        ],
+        "desserts": [
+            { "name": "wapetón", "price": 2000 },
+            { "name": "wapetón dinamita", "price": 2000 },
+            { "name": "wapetón volcán", "price": 2000 },
+            { "name": "wapito", "price": 1200 },
+            { "name": "batidos de frutas naturales", "price": 700 },
+            { "name": "batidos de helados", "price": 1200 },
+            { "name": "copa de helado", "price": 1000 },
+            { "name": "tartaleta", "price": 1000 },
+            { "name": "bola de helado", "price": 300 }
+        ],
+        "special": [false]
+    },
+    "service": {
+        "delivery": true,
+        "take_away": true,
+        "reserve": true,
+        "parking": true
+    },
+    "pay_meth": {
+        "cash": true,
+        "transfer": false,
+        "credit_card": false,
+        "gift_card": false
+    },
+    "contact": {
+        "instagram": "https://www.instagram.com/wapa537/?hl=es",
+        "facebook": "https://www.facebook.com/Wapa537/?locale=es_LA",
+        "whatsapp": "",
+        "tel": "+5378314553",
+        "e_mail": "info@wapacafeteria.com",
+        "web": false
+    }
+}

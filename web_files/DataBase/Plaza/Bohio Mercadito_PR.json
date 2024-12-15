@@ -1,0 +1,138 @@
+{
+    "ID": 1302,
+    "locality": {
+        "mun": "Plaza de la Revolución",
+        "locator": {
+            "phones": {
+                "mobile": null,
+                "landline": null
+            },
+            "plus_code": "4HVX+3WQ, y C, Vedado, La, Malecón, La Habana"
+        }
+    },
+    "name": "Bohío_Mercadito",
+    "type_cuisine": ["Bar","Americana"],
+    "schedule": {
+        "monday": {
+            "opening": "10:00",
+            "closing": "21:00"
+        },
+        "tuesday": {
+            "opening": "10:00",
+            "closing": "21:00"
+        },
+        "wednesday": {
+            "opening": "10:00",
+            "closing": "21:00"
+        },
+        "thursday": {
+            "opening": "10:00",
+            "closing": "21:00"
+        },
+        "friday": {
+            "opening": "10:00",
+            "closing": "21:00"
+        },
+        "saturday": {
+            "opening": "10:00",
+            "closing": "21:00"
+        },
+        "sunday": {
+            "opening": "10:00",
+            "closing": "21:00"
+        }
+    },
+    "quality": {
+        "qualification_google": 4.2,
+        "qualification_tripadvisor": "",
+        "qualification_facebook": ""
+    },
+    "reservation_options": false,
+    "social_networks": ["Instagram"],
+    "payment_options": ["Efectivo","Transfermovil"],
+    "service_details": ["A la carta"],
+    "menu": {
+        "breakfasts": [
+            {
+                "item": "Baguette Jamón y Queso",
+                "price": 700.00,
+                "description": null
+            },
+            {
+                "item": "Croissant Nutella",
+                "price": 800.00,
+                "description": null
+            },
+            {
+                "item": "Croissant Jamón y Queso",
+                "price": 900.00,
+                "description": null
+            },
+            {
+                "item": "Mini Croissants Chocolate",
+                "price": 150.00,
+                "description": null
+            },
+            {
+                "item": "Dona Chocolate",
+                "price": 250.00,
+                "description": null
+            }
+        ],
+        "starters": [null],
+        "main_courses": [null],
+        "pizzas": [null],
+        "pasta": [null],
+        "desserts": [null]
+    },
+    "drinks": {
+        "alcoholic_drinks": [],
+        "non-alcoholic": [
+            {
+                "item": "Capuchino",
+                "price": 250.00,
+                "description": null
+            },
+            {
+                "item": "Expresso",
+                "price": 100.00,
+                "description": null
+            },
+            {
+                "item": "Cortado",
+                "price": 150.00,
+                "description": null
+            },
+            {
+                "item": "Bombón",
+                "price": 250.00,
+                "description": null
+            },
+            {
+                "item": "Affogato",
+                "price": 500.00,
+                "description": null
+            },
+            {
+                "item": "Frappuccino",
+                "price": 500.00,
+                "description": null
+            },
+            {
+                "item": "Frutos del Bosque/Plátano",
+                "price": 600.00,
+                "description": null
+            },
+            {
+                "item": "Mango",
+                "price": 500.00,
+                "description": null
+            },
+            {
+                "item": "Frutabomba",
+                "price": 500.00,
+                "description": null
+            }
+        ]
+    }
+}

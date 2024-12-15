@@ -1,0 +1,349 @@
+{
+    "ID": 1310,
+    "locality": {
+        "mun": "Plaza de la Revolución",
+        "locator": {
+            "phones": {
+                "mobile": 59121916,
+                "landline": 78374828
+            },
+            "plus_code": "4HJW+C3 La Habana, Cuba"
+        }
+    },
+    "name": "Coco Blue",
+    "type_cuisine": ["Caribeña", "Bar", "Café", "Pub", "Cubana", "Bares para comer"],
+    "schedule": {
+        "monday": {
+            "opening": null,
+            "closing": null
+        },
+        "tuesday": {
+            "opening": null,
+            "closing": null
+        },
+        "wednesday": {
+            "opening": null,
+            "closing": null
+        },
+        "thursday": {
+            "opening": "10:00",
+            "closing": "00:30"
+        },
+        "friday": {
+            "opening": "10:00",
+            "closing": "00:30"
+        },
+        "saturday": {
+            "opening": "10:00",
+            "closing": "00:30"
+        },
+        "sunday": {
+            "opening": "10:00",
+            "closing": "00:30"
+        }
+    },
+    "quality": {
+        "qualification_google": 4.5,
+        "qualification_tripadvisor": 4.5,
+        "qualification_facebook": null
+    },
+    "reservation_options": true,
+    "social_networks": ["Facebook","Instagram","WhatsApp"],
+    "payment_options": ["Efectivo","Transfermovil"],
+    "service_details": ["A la Carta","Entretenimiento"],
+    "menu": {
+        "breakfasts": [
+            {
+                "item": "DESAYUNO",
+                "price": 2800.00,
+                "description": "Huevos al gusto (2u), ensalada natural con pollo, queso, tostadas, mayonesa, un jugo, un café (expreso o americano) \u0026 frutas frescas. Baguette con pollo, huevo, queso, lechuga, tomate, mayonesa, ketchup, vianda frita \u0026 1 refresco enlatado (Pepsi o Seven Up)"
+            },
+            {
+                "item": "HAMBURGUESA DE POLLO",
+                "price": 1400.00,
+                "description": "Pan bon con hamburguesa de pollo, tomate, lechuga, ketchup, mostaza, mayonesa y vianda frita"
+            },
+            {
+                "item": "HAMBURGUESA DE RES",
+                "price": 1900.00,
+                "description": "Pan bon con hamburguesa, tomate, lechuga, ketchup, mostaza, mayonesa y vianda frita"
+            },
+            {
+                "item": "SANDWICH ZORRA PELUA",
+                "price": 1600.00,
+                "description": "Pan baguette, pollo, queso, vegetales frescos, mayonesa, mostaza, ketchup y vianda frita"
+            }
+        ],
+        "starters": [
+            {
+                "item": "NACHOS",
+                "price": 400.00,
+                "description": "Cuartos de tortilla mexicana fritos y salsa agridulce de fruta"
+            },
+            
+            {
+                "item": "BONIATO FRITO",
+                "price": 500.00,
+                "description": null
+            },
+            
+            {
+                "item": "FRITURAS DE MALANGA",
+                "price": 700.00,
+                "description": "Frituras con salsa de miel y mostaza"
+            },
+            
+            {
+                "item": "CROQUETAS DE PESCADO",
+                "price": 1000.00,
+                "description": null
+            },
+            
+            {
+                "item": "CROQUETAS DE RES",
+                "price": 1100.00,
+                "description": null
+            },
+            
+            {
+                "item": "TACOS DE POLLO",
+                "price": 1100.00,
+                "description": "Pollo salteado con vegetales y Pico de Gallo sobre tortilla mexicana"
+            },
+            
+            {
+                "item": "TACOS DE VEGETALES",
+                "price": 1000.00,
+                "description": "Vegetales salteados y Pico de Gallo sobre tortilla mexicana"
+            },
+            
+            {
+                "item": "TACOS DE RES",
+                "price": 1200.00,
+                "description": "Carne de res salteada con vegetales y Pico de Gallo sobre tortilla mexicana"
+            },
+            
+            {
+                "item": "CEVICHE",
+                "price": 1600.00,
+                "description": "Dados de pescado crudo en limón aromatizados con morrones, cebollas, tomate concasse, pepino, sal y pimienta"
+            },
+            
+            {
+                "item": "FAJITAS DE POLLO",
+                "price": 1200.00,
+                "description": "Julianas de pollo salteadas con vegetales, aceite de romero y salsa de soya oscura con aroma de hierba buena"
+            }
+        ],
+        "main_courses": [
+                {
+                    "item": "BISTEC DE POLLO",
+                    "price": 2000.00,
+                    "description": "Bistec de pollo a la plancha, arroz blanco y vegetales salteados"
+                },
+            
+                {
+                    "item": "ESPAGUETTI NAPOLITANO",
+                    "price": 1600.00,
+                    "description": "Espaguetis al dente acompañado con salsa y pulpa de tomate y queso"
+                },
+            
+                {
+                    "item": "FILETE DE PESCADO",
+                    "price": 2000.00,
+                    "description": "Filete de pescado salpimentado cocido a la plancha, acompañado de arroz blanco, ensalada de vegetales y vianda frita"
+                },
+            
+                {
+                    "item": "ROPA VIEJA",
+                    "price": 2100.00,
+                    "description": "Carne de res deshilachada en salsa de tomate, pimiento, cebolla y ajo, acompañada de arroz blanco"
+                }
+            ],
+        "pizzas": [],
+        "pasta": [],
+        "desserts": [
+            {
+                "item": "CASCOS DE GUAYABA",
+                "price": 800.00,
+                "description": "Cascos de guayaba en almíbar con queso"
+            }
+        ]
+    },
+    "drinks": {
+        "alcoholic_drinks": [
+            {
+                "item": "Importadas",
+                "price": 500.00,
+                "description": null
+            },
+            {
+                "item": "Nacional",
+                "price": 550.00,
+                "description": null
+            },
+            {
+                "item": "Cristal dispensada",
+                "price": 400.00,
+                "description": null
+            },
+            {
+                "item": "Cubetazo",
+                "price": 2800.00,
+                "description": "6 cervezas ZUBR + 1 nacho"
+            },
+            {
+                "item": "Mojito",
+                "price": 700.00,
+                "description": null
+            },
+            {
+                "item": "Cuba Libre",
+                "price": 700.00,
+                "description": null
+            },
+            {
+                "item": "Cubata",
+                "price": 600.00,
+                "description": null
+            },
+            {
+                "item": "Daiquirí",
+                "price": 700.00,
+                "description": null
+            },
+            {
+                "item": "Daiquirí de Sabores",
+                "price": 750.00,
+                "description": null
+            },
+            {
+                "item": "Caipiriña",
+                "price": 600.00,
+                "description": null
+            },
+            {
+                "item": "Caipiroska Base",
+                "price": 570.00,
+                "description": null
+            },
+            {
+                "item": "Caipirísima",
+                "price": 650.00,
+                "description": null
+            },
+            {
+                "item": "Piña Colada",
+                "price": 700.00,
+                "description": null
+            },
+            {
+                "item": "Chelada",
+                "price": 880.00,
+                "description": null
+            },
+            {
+                "item": "Michelada",
+                "price": 900.00,
+                "description": null
+            },
+            {
+                "item": "Sangría",
+                "price": 1100.00,
+                "description": null
+            },
+            {
+                "item": "Margarita",
+                "price": 800.00,
+                "description": null
+            },
+            {
+                "item": "Long Island",
+                "price": 1100.00,
+                "description": null
+            },
+            {
+                "item": "Jagger Bomb",
+                "price": 1000.00,
+                "description": null
+            },
+            {
+                "item": "Blue Lagon",
+                "price": 1100.00,
+                "description": null
+            }
+        ],
+        "non-alcoholic": [
+            {
+                "item": "Expresso",
+                "price": 400.00,
+                "description": null
+            },
+            {
+                "item": "Cortado",
+                "price": 450.00,
+                "description": null
+            },
+            {
+                "item": "Capuccino",
+                "price": 500.00,
+                "description": null
+            },
+            {
+                "item": "Frappuccino",
+                "price": 600.00,
+                "description": null
+            },
+            {
+                "item": "Americano",
+                "price": 350.00,
+                "description": null
+            },
+            {
+                "item": "Frutas",
+                "price": 450.00,
+                "description": null
+            },
+            {
+                "item": "Natural",
+                "price": 450.00,
+                "description": null
+            },
+            {
+                "item": "Frappé",
+                "price": 500.00,
+                "description": null
+            },
+            {
+                "item": "Frescura",
+                "price": 600.00,
+                "description": null
+            },
+            {
+                "item": "Natural",
+                "price": 450.00,
+                "description": null
+            },
+            {
+                "item": "Tónica",
+                "price": 500.00,
+                "description": null
+            },
+            {
+                "item": "Gaseada",
+                "price": 600.00,
+                "description": null
+            },
+            {
+                "item": "Refrescos",
+                "price": 500.00,
+                "description": null
+            },
+            {
+                "item": "Energizante",
+                "price": 700.00,
+                "description": null
+            }
+        ]
+    }
+}

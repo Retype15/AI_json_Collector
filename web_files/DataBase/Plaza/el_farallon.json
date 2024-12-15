@@ -1,0 +1,159 @@
+{
+    "type_of_establishment": ["restaurant"],
+    "name": "El Farallón",
+    "address": {
+        "city": "La Habana",
+        "district": "Vedado, Plaza de la Revolución",
+        "streets": "Calle 22 # 361, esq. 23, Vedado.",
+        "coordinates": {
+            "latitude": 23.12434231472738,
+            "longitude": -82.4041494469193
+        }
+    },
+    "schedule": {
+        "monday": [{ "open": "1200", "close": "2400" }],
+        "tuesday": [{ "open": "1200", "close": "2400" }],
+        "wednesday": [{ "open": "1200", "close": "2400" }],
+        "thursday": [{ "open": "1200", "close": "2400" }],
+        "friday": [{ "open": "1200", "close": "2400" }],
+        "saturday": [{ "open": "1200", "close": "2400" }],
+        "sunday": [{ "open": "1200", "close": "2400" }]
+    },
+    "kind_of_food": ["Italian", "Mediterranean", "Fusion", "Healthy"],
+    "menu": {
+        "breakfast": [false],
+        "appetizer": [
+            { "name": "mariposas chinas", "price": 400 },
+            { "name": "frituras de malanga", "price": 430 },
+            { "name": "croquetas de la casa", "price": 530 },
+            { "name": "tostones naturales", "price": 380 },
+            { "name": "tostones rellenos", "price": 950 },
+            { "name": "bolitas de queso", "price": 750 },
+            { "name": "eperlan de pescado", "price": 950 },
+            { "name": "fajitas de pollo", "price": 1250 },
+            { "name": "cóctel de langosta", "price": 1200 },
+            { "name": "cóctel de camarones", "price": 1200 },
+            { "name": "ensalada fría", "price": 950 },
+            { "name": "cebiche", "price": 1080 },
+            { "name": "picadera farallón", "price": 2200 },
+            { "name": "tabla de jamón serrano", "price": 2500 },
+            { "name": "crema de queso", "price": 400 },
+            { "name": "crema de virginia", "price": 500 },
+            { "name": "crema de aurora", "price": 420 },
+            { "name": "crema de reina", "price": 500 }
+        ],
+        "main course": [
+            { "name": "espagueti napolitano", "price": 900 },
+            { "name": "espagueti de atún", "price": 1450 },
+            { "name": "espagueti de jamón", "price": 1100 },
+            { "name": "espagueti de camarones", "price": 1450 },
+            { "name": "espagueti a la boloñesa", "price": 1000 },
+            { "name": "espagueti al pesto", "price": 1000 },
+            { "name": "espagueti a la carbonara", "price": 1300 },
+            { "name": "espagueti frutti de mare", "price": 1900 },
+            { "name": "pizza napolitana", "price": 1250 },
+            { "name": "pizza de jamón", "price": 1450 },
+            { "name": "pizza de bacon", "price": 1690 },
+            { "name": "pizza de chorizo", "price": 1590 },
+            { "name": "pizza de cebolla", "price": 1540 },
+            { "name": "pizza de pimiento", "price": 1540 },
+            { "name": "pizza de aceituna", "price": 1610 },
+            { "name": "pizza de vegetales", "price": 1610 },
+            { "name": "pizza de champiñones", "price": 1680 },
+            { "name": "pizza hawaiana", "price": 1570 },
+            { "name": "pizza de camarones", "price": 1850 },
+            { "name": "pizza de atún", "price": 1850 },
+            { "name": "pizza a la boloñesa", "price": 1550 },
+            { "name": "pizza desnuda", "price": 2350 },
+            { "name": "pizza calzone", "price": 1980 },
+            { "name": "pizza farollón", "price": 2250 },
+            { "name": "pizzaghetti", "price": 1540 },
+            { "name": "pizza doble queso", "price": 2330 },
+            { "name": "lasaña farallón", "price": 4000 },
+            { "name": "lasaña a la boloñesa", "price": 2500 },
+            { "name": "lasaña de jamón", "price": 2700 },
+            { "name": "lasaña de atún", "price": 4300 },
+            { "name": "canelones a la boloñesa", "price": 2100 },
+            { "name": "canelones de jamón", "price": 1650 },
+            { "name": "paella de mariscos", "price": 2400 },
+            { "name": "arroz c/ pollo a la chorrera", "price": 1200 },
+            { "name": "arroz frito especial", "price": 1500 },
+            { "name": "arroz moro", "price": 300 },
+            { "name": "arroz blanco", "price": 210 },
+            { "name": "filete de pescado grille", "price": 1800 },
+            { "name": "filete de pescado c/ J y Q gratinado", "price": 2380 },
+            { "name": "filete de pescado john ville", "price": 2450 },
+            { "name": "camarón al gusto", "price": 2550 },
+            { "name": "pulpo al gusto", "price": 2600 },
+            { "name": "grillada mar", "price": 4100 },
+            { "name": "grillada mar y tierra", "price": 5200 },
+            { "name": "ropa vieja", "price": 2100 },
+            { "name": "vaca frita", "price": 2100 },
+            { "name": "bistec de cerdo grille", "price": 2100 },
+            { "name": "bistec c/ J y Q gratinado", "price": 2760 },
+            { "name": "bistec de cerdo tropical", "price": 2220 },
+            { "name": "masa de cerdo frita", "price": 2340 },
+            { "name": "fricase de cerdo", "price": 2530 },
+            { "name": "pechuga de pollo grille", "price": 2100 },
+            { "name": "pechuga c/ J y Q gratinado", "price": 2760 },
+            { "name": "pechuga a la crema", "price": 2650 },
+            { "name": "fajitas de pollo salteadas", "price": 2180 },
+            { "name": "bistec de pollo deshuesado", "price": 1320 },
+            { "name": "pollo a la barbacoa (1/4)", "price": 1710 },
+            { "name": "pollo asado (1/4)", "price": 1750 }
+        ],
+        "sides": [
+            null
+        ],
+        "beverages": [
+            { "name": "mojito", "price": 460 },
+            { "name": "cuba libre", "price": 590 },
+            { "name": "cubata", "price": 450 },
+            { "name": "daiquirí", "price": 490 },
+            { "name": "canchanchara", "price": 400 },
+            { "name": "sangría", "price": 610 },
+            { "name": "tinto de verano", "price": 570 },
+            { "name": "piña colada", "price": 580 },
+            { "name": "screw driver", "price": 400 },
+            { "name": "caipirinha", "price": 450 },
+            { "name": "caipisisima", "price": 550 },
+            { "name": "caiporoska", "price": 450 },
+            { "name": "michelada base", "price": 430 },
+            { "name": "agua natural", "price": 200 },
+            { "name": "refrescos gaseados", "price": 370 },
+            { "name": "cerveza nacional", "price": 480 },
+            { "name": "cerveza importada", "price": 480 },
+            { "name": "malta", "price": 400 },
+            { "name": "jugo de frutas naturales", "price": 300 },
+            { "name": "limonada frescura", "price": 500 },
+            { "name": "sorpresade limon al coco", "price": 600 }
+        ],
+        "vines": [
+            null
+        ],
+        "cocktail": [
+            null
+        ],
+        "desserts": [
+            { "name": "postres de la casa", "price": 400 }
+        ]
+    },
+    "service": {
+        "delivery": true,
+        "take_away": null,
+        "reserve": true
+    },
+    "pay_meth": {
+        "cash": true,
+        "transfer": true,
+        "credit_card": null
+    },
+    "contact": {
+        "instagram": "https://www.instagram.com/restaurantefarallon/",
+        "facebook": null,
+        "whatsapp": null,
+        "tel": "078305187",
+        "e_mail": "farallonrestaurante@gmail.com",
+        "web": null
+    }
+}

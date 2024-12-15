@@ -1,0 +1,65 @@
+{
+    "municipality": "ce",
+    "name": "La Casona del Cerro",
+    "address": "Calzada del Cerro entre Alzobispo y Peñón",
+    "contacts": {
+        "phone": [],
+        "website": null,
+        "facebook": null,
+        "instagram": null
+    },
+    "ratings": {},
+    "owner": "Particular",
+    "type": "Restaurante",
+    "specialty": "Comida Criolla",
+    "hours": {
+        "monday": "1000_2200",
+        "tuesday": "1000_2200",
+        "wednesday": "1000_2200",
+        "thursday": "1000_2200",
+        "friday": "1000_2200",
+        "saturday": "1000_2200",
+        "sunday": "1000_1400"
+    },
+    "services": {
+        "parking": false,
+        "reservations": false,
+        "delivery": false,
+        "power plant": false
+    },
+    "payment_methods": [
+        "cup",
+        "usd",
+        "mlc"
+    ],
+    "menu": {
+        "breakfasts": {},
+        "starters": {},
+        "main_courses": {
+            "pizza napolitana c/queso gouda": 450,
+            "pizza doble queso": 650,
+            "pizza de jamon y queso gouda": 500,
+            "pizza mixta c/queso gouda": 550,
+            "pizza familiar c/queso gouda": 900,
+            "pizza familiar doble queso": 1200,
+            "pizza familiar de jamon y queso gouda": 1000,
+            "pizza familiar mixta c/queso gouda": 1050,
+            "spaghetti c/queso gouda": 450,
+            "spaghetti c/ jamon y queso gouda": 500,
+            "spaghetti doble queso gouda": 650,
+            "spaghetti mixto": 550,
+            "pollo asado": 1100,
+            "masa frita": 900,
+            "bistec de cerdo": 850,
+            "fricasé de cerdo": 850,
+            "chuleta": 1000
+        },
+        "additions": {},
+        "fittings": {},
+        "desserts": {
+            "flan": 350
+        },
+        "drinks": {},
+        "plus": {}
+    }
+}

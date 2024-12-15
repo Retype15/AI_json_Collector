@@ -1,0 +1,339 @@
+{
+    "ID": 701,
+    "locality": {
+        "mun": "Guanabacoa",
+        "locator": {
+            "phones": {
+                "mobile": 52411618,
+                "landline": 77974262
+            },
+            "plus_code": "4MCR+RR9, Cruz Verde, La Habana"
+        }
+    },
+    "name": "Polo",
+    "type_cuisine": ["Bar","Internacional"],
+    "schedule": {
+        "monday": {
+            "opening": "12:00",
+            "closing": "00:00"
+        },
+        "tuesday": {
+            "opening": "12:00",
+            "closing": "00:00"
+        },
+        "wednesday": {
+            "opening": "12:00",
+            "closing": "00:00"
+        },
+        "thursday": {
+            "opening": "12:00",
+            "closing": "00:00"
+        },
+        "friday": {
+            "opening": "12:00",
+            "closing": "00:00"
+        },
+        "saturday": {
+            "opening": "12:00",
+            "closing": "00:00"
+        },
+        "sunday": {
+            "opening": "12:00",
+            "closing": "00:00"
+        }
+    },
+    "quality": {
+        "qualification_google": 5.0,
+        "qualification_tripadvisor": null,
+        "qualification_facebook": null
+    },
+    "reservation_options": true,
+    "social_networks": ["Facebook","WhatsApp","Instagram"],
+    "payment_options": ["Transfermovil","Efectivo"],
+    "service_details": ["A la carta"],
+    "menu": {
+        "breakfasts": [],
+        "starters": [
+            {
+                "item": "Toston Relleno de jamón y queso",
+                "price": 450.00,
+                "description": "Plátanos de temporada pochados en aceite a baja temperatura rellenos con una falsa de jamón condimentada y gratinados con queso fresco."
+            },
+            
+            {
+                "item": "Toston Relleno de atún y queso",
+                "price": 600.00,
+                "description": "Plátanos de temporada pochados en aceite a baja temperatura rellenos con una falsa de atún y cebolla condimentados y gratinados con queso fresco."
+            },
+            
+            {
+                "item": "Fajitas de pechuga",
+                "price": 850.00,
+                "description": "Jardineras gruesas de pechugas de pollos macerada, empanadas a la inglesa con migas de pan."
+            },
+            
+            {
+                "item": "Ensaladas frías de jamón",
+                "price": 500.00,
+                "description": "En términos generales es una mezcla de pastas, piña glaseada en dados, jamón y cebolla emulsionándose con una salsa tártara."
+            },
+            
+            {
+                "item": "Ensalada fría de atún",
+                "price": 650.00,
+                "description": "Lo mismo que la ensalada de jamón, lo que se cambia el producto por atún."
+            },
+            {
+                "item": "Eperlano de Pescado",
+                "price": 1100.00,
+                "description": "Jardineras gruesa de pescado emperador macerado y rebozado con harina de maíz"
+            },
+        
+            {
+                "item": "Croquetas de la Casa",
+                "price": 450.00,
+                "description": "masa frita de pescado con bechamel y rebozado con migas de pan"
+            },
+            {
+                "item": "Frituras Malanga",
+                "price": 450.00,
+                "description": null
+            },
+            {
+                "item": "Coctel camarones",
+                "price": 1300.00,
+                "description": null
+            },
+            {
+                "item": "Papas Fritas",
+                "price": 550.00,
+                "description": null
+            }
+        ],
+        "main_courses": [
+            {
+                "item": "Arroz blanco",
+                "price": 120.00,
+                "description": null
+            },
+        
+            {
+                "item": "Arroz moro y cristiano",
+                "price": 180.00,
+                "description": null
+            },
+        
+            {
+                "item": "Arroz pilaf",
+                "price": 200.00,
+                "description": null
+            },
+        
+            {
+                "item": "Arroz salteado con vegetales",
+                "price": 250.00,
+                "description": null
+            },
+        
+            {
+                "item": "Bistec de cerdo grille encebollado",
+                "price": 1900.00,
+                "description": null
+            },
+        
+            {
+                "item": "Uruguallo de cerdo",
+                "price": 2400.00,
+                "description": null
+            },
+        
+            {
+                "item": "Bistec princesa",
+                "price": 2500.00,
+                "description": null
+            },
+        
+            {
+                "item": "Pechuga grille",
+                "price": 1850.00,
+                "description": null
+            },
+        
+            {
+                "item": "Pechuga gratinada",
+                "price": 2200.00,
+                "description": null
+            },
+        
+            {
+                "item": "Cordon bleu de pechuga",
+                "price": 2500.00,
+                "description": null
+            },
+        
+            {
+                "item": "Bistec de res encebollado",
+                "price": 2000.00,
+                "description": null
+            },
+        
+            {
+                "item": "Uruguallo de res",
+                "price": 2500.00,
+                "description": null
+            },
+        
+            {
+                "item": "Ropa vieja de res",
+                "price": 2300.00,
+                "description": null
+            },
+            {
+                "item": "Filete de pescado grille",
+                "price": 2200.00,
+                "description": null
+            },
+            {
+                "item": "Filete Montero",
+                "price": 2800.00,
+                "description": null
+            },
+            {
+                "item": "Filete Canciller",
+                "price": 2900.00,
+                "description": null
+            },
+            {
+                "item": "Filete gratinado",
+                "price": 2600.00,
+                "description": null
+            },
+            {
+                "item": "Camaron enchilado",
+                "price": 2700.00,
+                "description": null
+            },
+            {
+                "item": "Camaron al ajillo",
+                "price": 2600.00,
+                "description": null
+            },
+            {
+                "item": "Camaron empanizado",
+                "price": 2700.00,
+                "description": null
+            },
+            {
+                "item": "Arroz Frito con camarones",
+                "price": 1500.00,
+                "description": null
+            },
+            {
+                "item": "Filete Mediterraneo",
+                "price": 3500.00,
+                "description": null
+            },
+            {
+                "item": "Lomo Ahumado",
+                "price": 2400.00,
+                "description": null
+            },
+            {
+                "item": "Mar y Tierra",
+                "price": 4500.00,
+                "description": null
+            },
+            {
+                "item": "Masa de Vida",
+                "price": 4100.00,
+                "description": null
+            }
+        ],
+        "pizzas": [
+            {
+                "item": "Pizza Napolitana",
+                "price": 900.00,
+                "description": null
+            },
+            {
+                "item": "Pizza Hawaiana",
+                "price": 1300.00,
+                "description": null
+            }
+        ],
+        "pasta": [
+            {
+                "item": "Spaguetti Napolitano",
+                "price": 850.00,
+                "description": null
+            },
+            {
+                "item": "Spaguetti Carbonara",
+                "price": 1400.00,
+                "description": null
+            }
+        ],
+        "desserts": []
+    },
+    "drinks": {
+        "alcoholic_drinks": [
+            {
+                "item": "Cerveza Nacional",
+                "price": 350.00,
+                "description": null
+            },
+            {
+                "item": "Cerveza importada",
+                "price": 250.00,
+                "description": null
+            }
+        ],
+        "non-alcoholic": [
+            {
+                "item": "Energizante",
+                "price": 300.00,
+                "description": null
+            },
+            {
+                "item": "Agua Natural 500ml",
+                "price": 200.00,
+                "description": null
+            },
+            {
+                "item": "Refresco nacional",
+                "price": 250.00,
+                "description": null
+            },
+            {
+                "item": "Refrescos importados",
+                "price": 280.00,
+                "description": null
+            },
+            {
+                "item": "Malta Nacional",
+                "price": 250.00,
+                "description": null
+            },
+            {
+                "item": "Malta Importada",
+                "price": 280.00,
+                "description": null
+            },
+            {
+                "item": "Jugo de caja",
+                "price": 200.00,
+                "description": null
+            },
+            {
+                "item": "Jugo de Lata",
+                "price": 280.00,
+                "description": null
+            },
+            {
+                "item": "Cafe expreso",
+                "price": 250.00,
+                "description": null
+            }
+        ]
+    }
+}

@@ -1,0 +1,82 @@
+{
+    "municipality": "ce",
+    "name": "La Barrita Onbazar",
+    "address": "Amenida entre Cruz del Pader e Infanta",
+    "contacts": {
+        "phone": [
+            "+53 54494741"
+        ],
+        "website": "labarrita.onbazar.net",
+        "facebook": null,
+        "instagram": "la_barrita_onbazar"
+    },
+    "ratings": {},
+    "owner": "Particular",
+    "type": "Bar-Restaurante",
+    "specialty": "Pizzeria",
+    "hours": {
+        "monday": "0900_2300",
+        "tuesday": "0900_2300",
+        "wednesday": "0900_2300",
+        "thursday": "0900_2300",
+        "friday": "0900_0100",
+        "saturday": "0900_0100",
+        "sunday": "0900_0100"
+    },
+    "services": {
+        "parking": true,
+        "reservations": true,
+        "delivery": true,
+        "power plant": true
+    },
+    "payment_methods": [
+        "cup",
+        "usd",
+        "mlc"
+    ],
+    "menu": {
+        "breakfasts": {},
+        "starters": {
+            "Tostones rellenos": 1300,
+            "Jamón ,queso y aceitunas": 750,
+            "Mixta": 1600,
+            "Brochetas": 2000,
+            "Croquetas": 650,
+            "Pollo frito": 1500,
+            "Pollo chiflado": 1650
+        },
+        "main_courses": {
+            "Pizza de napolitana": 850,
+            "Pizza de chorizo": 1000,
+            "Pizza de jamón": 1000,
+            "Pizza de hawaiana": 1150,
+            "Pizza de cebolla": 1000,
+            "Espaguetis": 850,
+            "Espaguetis de jamón": 1100,
+            "Espaguetis de chorizo": 1000,
+            "Hamburguesa ": 1200,
+            "Hamburguesa jamón y queso": 1650,
+            "Hamburguesa onbazar": 2700
+        },
+        "additions": {
+            "Jamón": 150,
+            "Cebolla": 150,
+            "Chorizo": 150,
+            "Hawaiana": 250,
+            "Doble Queso": 250
+        },
+        "fittings": {},
+        "desserts": {},
+        "drinks": {
+            "Café expreso": 180,
+            "Café cortado": 220,
+            "Capuchino": 450,
+            "Café bombón": 450,
+            "Piña colada": 600,
+            "Piña colada (alchol)": 750,
+            "Limonada frapé": 400,
+            "Malteada": 500
+        },
+        "plus": {}
+    }
+}

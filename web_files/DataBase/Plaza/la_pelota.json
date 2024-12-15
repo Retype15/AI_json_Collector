@@ -1,0 +1,75 @@
+{
+    "type_of_establishment": ["restaurant", "bar"],
+    "name": "La Pelota",
+    "address": {
+        "city": "La Habana",
+        "district": "Plaza de la Revolución",
+        "streets": "Esquina 23 y 12, Vedado, Plaza",
+        "coordinates": {
+            "latitude": 23.127810894630507,
+            "longitude": -82.39959798623943
+        }
+    },
+    "schedule": {
+        "monday": [{ "open": "0945", "close": "2145" }],
+        "tuesday": [{ "open": "0945", "close": "2145" }],
+        "wednesday": [{ "open": "0945", "close": "2145" }],
+        "thursday": [{ "open": "0945", "close": "2145" }],
+        "friday": [{ "open": "0945", "close": "2145" }],
+        "saturday": [{ "open": "0945", "close": "2145" }],
+        "sunday": [{ "open": "0945", "close": "2145" }]
+    },
+    "kind_of_food": "",
+    "menu": {
+        "breakfast": [null],
+        "appetizer": [
+            { "name": "chicharrón 58g", "price": 120 },
+            { "name": "croqueta 36g", "price": 15 },
+            { "name": "entrante de jamón", "price": 300 }
+        ],
+        "main course": [
+            { "name": "bistec de cerdo", "price": 600 },
+            { "name": "masa de cerdo frita", "price": 600 },
+            { "name": "costilla de credo frito", "price": 600 },
+            { "name": "pollo grillé", "price": 550 },
+            { "name": "pollo asado", "price": 550 },
+            { "name": "picadillo", "price": 250 },
+            { "name": "arroz moro", "price": 100 },
+            { "name": "vianda hervida", "price": 40 }
+        ],
+        "sides": [null],
+        "beverages": [
+            { "name": "energizante", "price": 200 },
+            { "name": "refresco de cola", "price": 190 },
+            { "name": "jugo de frutas", "price": 180 },
+            { "name": "cerveza importada", "price": 200 }
+        ],
+        "vines": [
+            null
+        ],
+        "cocktail": [
+            null
+        ],
+        "desserts": [null]
+    },
+    "service": {
+        "delivery": null,
+        "take_away": null,
+        "reserve": null,
+        "parking": null
+    },
+    "pay_meth": {
+        "cash": true,
+        "transfer": false,
+        "credit_card": false,
+        "gift_card": false
+    },
+    "contact": {
+        "instagram": false,
+        "facebook": false,
+        "whatsapp": false,
+        "tel": false,
+        "e_mail": false,
+        "web": false
+    }
+}

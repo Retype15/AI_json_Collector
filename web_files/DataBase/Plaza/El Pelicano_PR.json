@@ -1,0 +1,237 @@
+{
+    "ID": 1301,
+    "locality": {
+        "mun": "Plaza de la Revolución",
+        "locator": {
+            "phones": {
+                "mobile": 63960310,
+                "landline": null
+            },
+            "plus_code": "4J52+FF7, Avenida 26, La Habana"
+        }
+    },
+    "name": "El Pelícano",
+    "type_cuisine": [],
+    "schedule": {
+        "monday": {
+            "opening": null,
+            "closing": null
+        },
+        "tuesday": {
+            "opening": null,
+            "closing": null
+        },
+        "wednesday": {
+            "opening": "10:00",
+            "closing": "18:00"
+        },
+        "thursday": {
+            "opening": "10:00",
+            "closing": "18:00"
+        },
+        "friday": {
+            "opening": "10:00",
+            "closing": "18:00"
+        },
+        "saturday": {
+            "opening": "10:00",
+            "closing": "18:00"
+        },
+        "sunday": {
+            "opening": "10:00",
+            "closing": "18:00"
+        }
+    },
+    "quality": {
+        "qualification_google": null,
+        "qualification_tripadvisor": 4.5,
+        "qualification_facebook": null
+    },
+    "reservation_options": false,
+    "social_networks": ["WhatsApp"],
+    "payment_options": ["Transfermovil","Efectivo"],
+    "service_details": ["A domicilio", "Zoológico"],
+    "menu": {
+        "breakfasts": [
+            {
+                "item": "Pan con Jamón y Queso",
+                "price": 350.00,
+                "description": null
+            },
+            {
+                "item": "Pan con Perro",
+                "price": 360.00,
+                "description": null
+            },
+            {
+                "item": "Pan con Lechón",
+                "price": 500.00,
+                "description": null
+            },
+            {
+                "item": "Pan con Hamburguesa",
+                "price": 550.00,
+                "description": null
+            }
+        ],
+        "starters": [
+            {
+                "item": "Croquetas",
+                "price": 350.00,
+                "description": "7 unidades con salsa roja"
+            },
+            {
+                "item": "Picadera de Jamón y Queso",
+                "price": 450.00,
+                "description": null
+            },
+            {
+                "item": "Papas Fritas",
+                "price": 550.00,
+                "description": null
+            },
+            {
+                "item": "Bolitas de Queso",
+                "price": 650.00,
+                "description": null
+            },
+            {
+                "item": "Salchipapa",
+                "price": 750.00,
+                "description": null
+            }
+        ],
+        "main_courses": [
+            {
+                "item": "Pollo Frito",
+                "price": 420.00,
+                "description": null
+            },
+            {
+                "item": "Pollo Chiflado",
+                "price": 520.00,
+                "description": null
+            },
+            {
+                "item": "Brochetas de Pollo y Vegetales",
+                "price": 580.00,
+                "description": "Dos brochetas de pollo acompañadas de Cebolla y Pimientos"
+            },
+            {
+                "item": "Brochetas Mixtas",
+                "price": 700.00,
+                "description": "Una brocheta de Pollo y otra de Cerdo acompañadas de Cebolla y Pimientos"
+            },
+            {
+                "item": "Brochetas de Cerdo",
+                "price": 950.00,
+                "description": "Dos brochetas de Cerdo acompañadas de Cebolla y Pimientos"
+            },
+            {
+                "item": "Bistec de Cerdo",
+                "price": 950.00,
+                "description": "Bistec de Cerdo con arroz y vegetales"
+            },
+            {
+                "item": "Lonja de Cerdo",
+                "price": 950.00,
+                "description": null
+            },
+            {
+                "item": "Masa de Cerdo",
+                "price": 990.00,
+                "description": null
+            },
+            {
+                "item": "Arroz Moro",
+                "price": 150.00,
+                "description": null
+            },
+            {
+                "item": "Arroz Blanco",
+                "price": 150.00,
+                "description": null
+            }
+        ],
+        "pizzas": [null],
+        "pasta": [null],
+        "desserts": [
+            {
+                "item": "Paleta de Chocolate",
+                "price": 260.00,
+                "description": null
+            },
+            {
+                "item": "Pote de Helado",
+                "price": 495.00,
+                "description": null
+            }
+        ]
+    },
+    "drinks": {
+        "alcoholic_drinks": [
+            {
+                "item": "Cerveza",
+                "price": 190.00,
+                "description": null
+            },
+            {
+                "item": "Chelada",
+                "price": 290.00,
+                "description": null
+            },
+            {
+                "item": "Cuba Libre",
+                "price": 380.00,
+                "description": null
+            },
+            {
+                "item": "Michelada",
+                "price": 390.00,
+                "description": null
+            }
+        ],
+        "non-alcoholic": [
+            {
+                "item": "Cafe Expresso",
+                "price": 90.00,
+                "description": null
+            },
+            {
+                "item": "Cafe Cortado",
+                "price": 110.00,
+                "description": null
+            },
+            {
+                "item": "Cafe Bombón",
+                "price": 150.00,
+                "description": null
+            },
+            {
+                "item": "Jugo de Cajita",
+                "price": 190.00,
+                "description": null
+            },
+            {
+                "item": "Agua",
+                "price": 120.00,
+                "description": null
+            },
+            {
+                "item": "Refresco de Lata",
+                "price": 195.00,
+                "description": null
+            },
+            {
+                "item": "Limonada Frape",
+                "price": 250.00,
+                "description": null
+            },
+            {
+                "item": "Energizante",
+                "price": 220.00,
+                "description": null
+            }
+        ]
+    }
+}

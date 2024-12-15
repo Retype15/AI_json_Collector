@@ -1,0 +1,73 @@
+{
+    "name": "El Triangulo",
+    "location": {
+        "municipality":"Arroyo Naranjo",
+        "address":"Esquina Calzada de 10 de octubre y Calzada de Porvenir, La Palma",
+        "coordinates_latitude_length" : "23.074388, -82.358446"
+    },
+    "phone_number": null,
+    "food_type":"comida cubana",
+    "schedule": {
+        "opening": "8:00 am",
+        "closure": "12:00 am",
+        "days_of_the_week": "todos los dias"
+    },
+    "quality":"Normal",
+    "social_media": {
+        "instagram":null,
+        "facebook":null
+    },
+    "menu": {
+        "breakfast":null,
+        "started": {
+            "Fajitas de pollo":350.00,
+            "Croquetas": 150.00,
+            "Bolitas de queso":150.00,
+            "Tostones":150.00
+
+        },
+        "tacos":null,
+        "strong_dishes":{
+            "Pollo Frito":1000.00  
+            },
+        "pastas":null,
+        "pizzas": null,
+        "pizza_pasta_add-on": null,
+        "side_dishes":null,
+        "desserts":null,
+        "hamburgers_and_sandwichs":null,
+        "hamburgers_add-on":null,
+        "aperitivos":null,
+        "snacks":null,
+        "creams_and_soup":null,
+        "digestive":null,
+        "liquids": {
+            "alcoholic_drinks":{
+                "cocktails":null,
+                "bottles":null,
+                "drinks_with": null,
+                "beers":{
+                    "Cerveza Cristal": 250.00,
+                    "Cerveza Bucanero": 250.00,
+                    "Cerveza Escorial":200.00,
+                    "Cerveza Holanda":200.00
+                }
+            },
+            "water":120.00,
+            "soft_drinks":220.00,
+            "juices":{
+                "jugo de caja":180.00
+            },
+            "lemonade":null,
+            "red bull":230.00,
+            "malta":220.00,
+            "copas":null,
+            "coffees":null
+        }
+        
+    },
+    "10%_of_the_service": false,
+    "5%_of_the_service": false,
+    "reservation":false,
+    "type_of_currency": "cup"
+}

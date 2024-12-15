@@ -1,0 +1,199 @@
+{
+    "ID": 1404,
+    "locality": {
+        "mun": "Regla",
+        "locator": {
+            "phones": {
+                "mobile": null,
+                "landline": null
+            },
+            "plus_code": "4MH8+57M entre Martí y Maceo, Pereira, La Habana"
+        }
+    },
+    "name": "2KFE",
+    "type_cuisine": ["Cafe","Internacional","Criolla"],
+    "schedule": {
+        "monday": {
+            "opening": "10:00",
+            "closing": "20:00"
+        },
+        "tuesday": {
+            "opening": "10:00",
+            "closing": "20:00"
+        },
+        "wednesday": {
+            "opening": "10:00",
+            "closing": "20:00"
+        },
+        "thursday": {
+            "opening": "10:00",
+            "closing": "20:00"
+        },
+        "friday": {
+            "opening": "10:00",
+            "closing": "20:00"
+        },
+        "saturday": {
+            "opening": "10:00",
+            "closing": "20:00"
+        },
+        "sunday": {
+            "opening": "10:00",
+            "closing": "20:00"
+        }
+    },
+    "quality": {
+        "qualification_google": 5.0,
+        "qualification_tripadvisor": null,
+        "qualification_facebook": null
+    },
+    "reservation_options": false,
+    "social_networks": [null],
+    "payment_options": ["Efectivo","Transfermovil"],
+    "service_details": ["A la carta"],
+    "menu": {
+        "breakfasts": [null],
+        "starters": [
+            {
+                "item": "Croquetas",
+                "price": 300.00,
+                "description": null
+            },
+            {
+                "item": "Viandas fritas",
+                "price": 100.00,
+                "description": null
+            },
+            {
+                "item": "Brusquetas",
+                "price": 250.00,
+                "description": null
+            },
+            {
+                "item": "Entremes surtido",
+                "price": 800.00,
+                "description": "Jamón, queso, chorizo y aceituna"
+            },
+            {
+                "item": "Mini Gordon Bleu",
+                "price": 800.00,
+                "description": "Pollo, jamón, queso y vegetal salteado"
+            },
+            {
+                "item": "Plato combinado",
+                "price": 1200.00,
+                "description": "Fajitas de Pollo, bolitas de carne, croquetas, jamón, chorizo y viandas fritas"
+            }
+        ],
+        "main_courses": [
+            {
+                "item": "Tacos Carnitas",
+                "price": 850.00,
+                "description": "Cerdo asado, cebolla encurtidos, salsa verde, cebollino y vegetal salteado"
+            },
+            {
+                "item": "Tacos Res",
+                "price": 900.00,
+                "description": "Ropa vieja, vegetal Salteado y salsa chimichurri"
+            },
+            {
+                "item": "Tacos Pollo",
+                "price": 600.00,
+                "description": "Hilos de pollo, crujientes, vegetal salteado y salsa vinagreta"
+            },
+            {
+                "item": "Tacos Vegetariano",
+                "price": 400.00,
+                "description": null
+            },
+            {
+                "item": "Tacos Vegetales salteados en mantequilla y limón",
+                "price": 0.00,
+                "description": null
+            },
+            {
+                "item": "Tacos Jamón y Queso",
+                "price": 650.00,
+                "description": null
+            }
+        ],
+        "pizzas": [null],
+        "pasta": [null],
+        "desserts": [null]
+    },
+    "drinks": {
+        "alcoholic_drinks": [null],
+        "non-alcoholic": [
+            {
+                "item": "Espresso",
+                "price": 100.00,
+                "description": null
+            },
+            {
+                "item": "Americano",
+                "price": 100.00,
+                "description": null
+            },
+            {
+                "item": "Cortadito",
+                "price": 150.00,
+                "description": null
+            },
+            {
+                "item": "Con Leche",
+                "price": 200.00,
+                "description": null
+            },
+            {
+                "item": "Espresso Macchiato",
+                "price": 180.00,
+                "description": null
+            },
+            {
+                "item": "Caramel Macchiato",
+                "price": 250.00,
+                "description": null
+            },
+            {
+                "item": "Cappuccino",
+                "price": 220.00,
+                "description": null
+            },
+            {
+                "item": "Frappuccino",
+                "price": 500.00,
+                "description": null
+            },
+            {
+                "item": "Irlandés",
+                "price": 250.00,
+                "description": null
+            },
+            {
+                "item": "Caribeño",
+                "price": 180.00,
+                "description": null
+            },
+            {
+                "item": "Alma mía",
+                "price": 180.00,
+                "description": null
+            },
+            {
+                "item": "Minty Coffee",
+                "price": 250.00,
+                "description": null
+            },
+            {
+                "item": "2KF",
+                "price": 250.00,
+                "description": null
+            },
+            {
+                "item": "Lujo",
+                "price": 600.00,
+                "description": null
+            }
+        ]
+    }
+}

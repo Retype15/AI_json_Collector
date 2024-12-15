@@ -1,0 +1,971 @@
+{
+  "menus": [
+    {
+      "food_name": "croquetas de jamón",
+      "food_price": 1280,
+      "food_type": "appetizers"
+    },
+    {
+      "food_name": "focaccia al orégano",
+      "food_price": 994,
+      "food_type": "appetizers"
+    },
+    {
+      "food_name": "brusqueta tradicional",
+      "food_price": 1337,
+      "food_type": "appetizers"
+    },
+    {
+      "food_name": "galletas caseras con pate de jamón",
+      "food_price": 1337,
+       "food_type": "appetizers"
+    },
+    {
+      "food_name": "ensalada caprese",
+      "food_price": 1881,
+      "food_type": "appetizers"
+    },
+     {
+      "food_name": "menestra de verduras",
+       "food_price": 1881,
+      "food_type": "appetizers"
+    },
+     {
+      "food_name":"coctel de camarones",
+      "food_price": 2082,
+       "food_type": "appetizers"
+    },
+     {
+      "food_name": "variedad de quesos c/frutos secos",
+      "food_price": 2164,
+       "food_type": "appetizers"
+    },
+    {
+      "food_name": "entremes de jamón serrano",
+      "food_price": 3057,
+       "food_type": "appetizers"
+    },
+    {
+      "food_name": "ensalada de frutas secas",
+      "food_price": 1463,
+       "food_type": "appetizers"
+    },
+    {
+      "food_name":"bastones de queso frito sobre salsa pommodoro",
+      "food_price": 2168,
+       "food_type": "appetizers"
+    },
+     {
+      "food_name":"antipasto mimosa",
+      "food_price": 2361,
+       "food_type":"appetizers"
+    },
+    {
+      "food_name":"papas fritas al aroma de ajo",
+      "food_price":1096,
+       "food_type": "appetizers"
+    },
+     {
+      "food_name":"ensalada fría italiana",
+      "food_price":659,
+      "food_type":"appetizers"
+     },
+     {
+      "food_name":"crema de queso",
+       "food_price":1197,
+       "food_type":"appetizers"
+     },
+     {
+      "food_name": "crema virginia",
+      "food_price":1197,
+       "food_type": "appetizers"
+     },
+     {
+      "food_name": "crema aurora",
+       "food_price":1197,
+       "food_type": "appetizers"
+     },
+     {
+      "food_name": "crema de hongos",
+       "food_price": 1850,
+       "food_type": "appetizers"
+    },
+     {
+      "food_name":"crema crema de queso azul",
+       "food_price": 2107,
+       "food_type":"appetizers"
+     },
+     {
+      "food_name":"crema de vegetales",
+      "food_price":1136,
+       "food_type": "appetizers"
+     },
+     {
+       "food_name":"crema de camarón",
+      "food_price":1785,
+       "food_type": "appetizers"
+      },
+    {
+       "food_name":"crema de mariscos",
+      "food_price":2083,
+       "food_type":"appetizers"
+     },
+    {
+      "food_name":"fondue de queso",
+      "food_price": 2191,
+       "food_type":"appetizers"
+    },
+     {
+      "food_name": "sopa de pollo y apio",
+       "food_price": 1220,
+      "food_type": "appetizers"
+    },
+    {
+      "food_name": "ravioli relleno con jamon",
+      "food_price": 1906,
+       "food_type":"main_courses"
+    },
+     {
+      "food_name":"ravioli relleno c/mouse de camaron",
+      "food_price":2084,
+      "food_type":"main_courses"
+     },
+    {
+       "food_name":"ñoquis al queso azul",
+       "food_price": 2001,
+      "food_type":"main_courses"
+     },
+     {
+      "food_name": "ñoquis al pomodoro y queso parmesano",
+       "food_price": 2032,
+      "food_type": "main_courses"
+     },
+     {
+      "food_name":"fetuccini alfredo",
+       "food_price": 1895,
+      "food_type":"main_courses"
+    },
+    {
+      "food_name":"lenguini de mare",
+      "food_price": 2209,
+       "food_type":"main_courses"
+    },
+     {
+       "food_name":"lasagna a la bolognesa",
+       "food_price": 2150,
+      "food_type":"main_courses"
+     },
+    {
+      "food_name":"lasagna rellena con jamon",
+       "food_price": 2150,
+      "food_type":"main_courses"
+    },
+     {
+      "food_name":"canelones rellenos con camarones",
+      "food_price": 2346,
+       "food_type":"main_courses"
+    },
+     {
+      "food_name": "canelones de jamon",
+       "food_price": 2091,
+      "food_type":"main_courses"
+    },
+    {
+       "food_name":"canelones rellenos mixtos",
+      "food_price": 2345,
+       "food_type":"main_courses"
+    },
+    {
+      "food_name":"plamontese",
+       "food_price": 2846,
+      "food_type":"main_courses"
+     },
+     {
+      "food_name":"risotto mar y tierra",
+      "food_price": 3326,
+       "food_type":"main_courses"
+     },
+     {
+      "food_name":"risotto di mare",
+      "food_price": 3326,
+       "food_type":"main_courses"
+     },
+    {
+       "food_name":"risotto al trio de carne",
+       "food_price":2846,
+       "food_type":"main_courses"
+     },
+    {
+      "food_name": "risotto de vegetales",
+       "food_price":2370,
+      "food_type":"main_courses"
+    },
+     {
+      "food_name":"risotto nero di mare",
+      "food_price": 3326,
+       "food_type":"main_courses"
+    },
+     {
+      "food_name":"spaghetti/fusili/macarrones con salsa mar y tierra",
+      "food_price": 3013,
+      "food_type":"main_courses"
+     },
+      {
+       "food_name":"spaghetti/fusili/macarrones con salsa al pesto",
+       "food_price": 1638,
+      "food_type":"main_courses"
+      },
+    {
+       "food_name":"spaghetti/fusili/macarrones con salsa al pommodoro",
+      "food_price":1513,
+       "food_type":"main_courses"
+    },
+     {
+      "food_name":"spaghetti/fusili/macarrones con salsa a la carbonara",
+      "food_price":2171,
+       "food_type": "main_courses"
+      },
+    {
+      "food_name":"spaghetti/fusili/macarrones con salsa arrabiata",
+       "food_price": 1477,
+       "food_type":"main_courses"
+    },
+     {
+      "food_name":"spaghetti/fusili/macarrones con salsa a la marinera",
+      "food_price": 2987,
+      "food_type":"main_courses"
+    },
+    {
+       "food_name":"spaghetti/fusili/macarrones con salsa al burro",
+       "food_price": 1638,
+      "food_type":"main_courses"
+     },
+    {
+      "food_name": "spaghetti/fusili/macarrones con salsa a la bolognesa",
+       "food_price": 2128,
+      "food_type":"main_courses"
+    },
+     {
+      "food_name":"spaghetti/fusili/macarrones con salsa napolitana",
+       "food_price":999,
+       "food_type": "main_courses"
+     },
+    {
+       "food_name":"spaghetti/fusili/macarrones con salsa alfredo",
+      "food_price": 1836,
+      "food_type":"main_courses"
+     },
+    {
+      "food_name": "spaghetti/fusili/macarrones con salsa panna",
+       "food_price": 2091,
+       "food_type":"main_courses"
+    },
+     {
+      "food_name":"spaghetti/fusili/macarrones con salsa con filete de res a su gusto",
+      "food_price": 2168,
+      "food_type":"main_courses"
+     },
+    {
+       "food_name":"spaghetti/fusili/macarrones con salsa al aglio",
+       "food_price":1425,
+      "food_type":"main_courses"
+    },
+    {
+       "food_name":"spaghetti/fusili/macarrones con salsa al jamon",
+      "food_price":1836,
+      "food_type":"main_courses"
+    },
+     {
+      "food_name":"spaghetti/fusili/macarrones nero di mare",
+       "food_price": 3328,
+      "food_type":"main_courses"
+     },
+    {
+       "food_name":"macarrones mimosa 4 quesos c/pechuga",
+       "food_price":2617,
+      "food_type":"main_courses"
+     },
+     {
+       "food_name":"rigatoni a las 3 carne",
+      "food_price":2179,
+      "food_type":"main_courses"
+    },
+    {
+       "food_name":"capricho mimosa",
+       "food_price": 2080,
+       "food_type":"main_courses"
+     },
+      {
+        "food_name": "camarones al viecco rone",
+         "food_price": 2985,
+        "food_type": "main_courses"
+      },
+      {
+       "food_name":"camarones al aroma de porcini y tartufo",
+        "food_price":2985,
+        "food_type":"main_courses"
+     },
+     {
+      "food_name":"lomitos de pescado al horno en crema",
+       "food_price": 2787,
+      "food_type": "main_courses"
+     },
+    {
+       "food_name":"pescado al oliva y pommodoro",
+      "food_price": 2787,
+      "food_type": "main_courses"
+     },
+      {
+        "food_name": "pescado grille en salsa pamesana",
+        "food_price": 2787,
+         "food_type": "main_courses"
+     },
+     {
+      "food_name":"filetes de res a la amatrcciana",
+       "food_price":2142,
+       "food_type":"main_courses"
+    },
+     {
+      "food_name":"conejo a las finas hierbas en papillote",
+       "food_price":2417,
+      "food_type":"main_courses"
+     },
+     {
+      "food_name":"escalope de cerdo grille",
+      "food_price": 2987,
+       "food_type":"main_courses"
+     },
+    {
+       "food_name":"pizza napolitana",
+      "food_price": 999,
+      "food_type":"main_courses"
+    },
+     {
+      "food_name": "pizza margarita",
+       "food_price": 1513,
+      "food_type":"main_courses"
+     },
+    {
+      "food_name":"pizza de jamon",
+       "food_price": 1566,
+      "food_type":"main_courses"
+     },
+    {
+      "food_name":"pizza hawaiana",
+       "food_price":1549,
+      "food_type":"main_courses"
+     },
+    {
+       "food_name":"pizza de bacon",
+       "food_price":1976,
+       "food_type":"main_courses"
+     },
+    {
+      "food_name": "pizza de chorizo, jamon y salame",
+       "food_price": 2240,
+      "food_type":"main_courses"
+     },
+     {
+      "food_name":"pizza de camarones",
+       "food_price":2465,
+      "food_type":"main_courses"
+     },
+    {
+      "food_name":"pizza de pimientos",
+       "food_price": 2023,
+      "food_type":"main_courses"
+    },
+     {
+       "food_name":"pizza de cebolla",
+       "food_price": 1620,
+       "food_type":"main_courses"
+     },
+    {
+      "food_name":"pizza de filete de res",
+      "food_price":2875,
+       "food_type":"main_courses"
+     },
+      {
+       "food_name":"pizza de champiñones",
+       "food_price": 2062,
+      "food_type":"main_courses"
+      },
+    {
+       "food_name":"pizza de vegetales",
+      "food_price": 2013,
+      "food_type":"main_courses"
+     },
+     {
+      "food_name": "pizza de atun",
+      "food_price": 2472,
+       "food_type": "main_courses"
+     },
+     {
+      "food_name":"pizza de bacon y camarones",
+       "food_price": 2179,
+      "food_type":"main_courses"
+    },
+     {
+      "food_name":"pizza al pesto",
+       "food_price": 1910,
+       "food_type":"main_courses"
+     },
+     {
+      "food_name":"pizza de jamon y camarones",
+       "food_price": 2376,
+      "food_type":"main_courses"
+     },
+    {
+      "food_name":"pizza marinera",
+       "food_price": 2812,
+       "food_type":"main_courses"
+     },
+    {
+      "food_name":"pizza de aceitunas verdes deshuesadas",
+       "food_price": 2179,
+       "food_type":"main_courses"
+    },
+    {
+      "food_name": "pizza mimosa",
+       "food_price": 2560,
+      "food_type":"main_courses"
+     },
+     {
+      "food_name":"pizza a caballo",
+      "food_price": 2238,
+       "food_type": "main_courses"
+     },
+    {
+      "food_name": "pizza gran jumbo",
+       "food_price": 3344,
+       "food_type":"main_courses"
+     },
+     {
+      "food_name":"pizza 4 quesos",
+      "food_price": 2693,
+       "food_type": "main_courses"
+     },
+    {
+       "food_name":"pizza strombolis quesos, ahumados",
+       "food_price": 2860,
+      "food_type":"main_courses"
+    },
+     {
+       "food_name":"pizza calzone",
+      "food_price": 2575,
+       "food_type":"main_courses"
+    },
+    {
+      "food_name":"pizza a la toscana",
+       "food_price":2677,
+      "food_type":"main_courses"
+     },
+    {
+       "food_name":"pizza 4 jamones",
+       "food_price": 2910,
+      "food_type":"main_courses"
+    },
+     {
+      "food_name":"queso parmesano",
+      "food_price": 489,
+       "food_type":"sides"
+     },
+     {
+      "food_name": "queso gouda",
+       "food_price": 489,
+      "food_type":"sides"
+    },
+    {
+      "food_name":"embutidos",
+       "food_price": 345,
+       "food_type":"sides"
+     },
+    {
+      "food_name": "aceitunas",
+       "food_price": 438,
+       "food_type":"sides"
+     },
+    {
+      "food_name":"champiñones",
+       "food_price": 591,
+       "food_type":"sides"
+     },
+     {
+      "food_name":"cebolla",
+      "food_price":269,
+       "food_type":"sides"
+     },
+     {
+       "food_name":"pimientos",
+      "food_price":269,
+       "food_type":"sides"
+     },
+    {
+       "food_name":"mariscos",
+       "food_price": 628,
+      "food_type":"sides"
+    },
+    {
+       "food_name":"atún",
+      "food_price": 642,
+       "food_type":"sides"
+    },
+    {
+       "food_name":"bacon",
+       "food_price": 408,
+       "food_type":"sides"
+    },
+     {
+      "food_name": "arroz pilaf",
+       "food_price": 162,
+      "food_type":"sides"
+     },
+     {
+       "food_name":"arroz blanco",
+       "food_price": 162,
+      "food_type":"sides"
+    },
+    {
+      "food_name":"arroz moro",
+       "food_price": 162,
+       "food_type":"sides"
+     },
+    {
+      "food_name":"flan de caramelo",
+      "food_price": 540,
+      "food_type":"desserts"
+    },
+     {
+      "food_name":"ensalada de helado mimosa",
+      "food_price": 734,
+       "food_type":"desserts"
+     },
+     {
+      "food_name":"cheese cake",
+      "food_price": 761,
+       "food_type":"desserts"
+    },
+    {
+       "food_name":"copa de helado tradicional",
+      "food_price": 550,
+      "food_type":"desserts"
+    },
+    {
+      "food_name":"copa lolita",
+      "food_price": 709,
+       "food_type":"desserts"
+    },
+     {
+      "food_name":"torta helada",
+      "food_price": 667,
+       "food_type":"desserts"
+     },
+    {
+       "food_name":"suero de helado",
+      "food_price": 779,
+      "food_type":"desserts"
+    },
+     {
+      "food_name":"torta bombón",
+      "food_price": 1083,
+       "food_type":"desserts"
+    },
+    {
+      "food_name":"agua nacional",
+      "food_price": 190,
+      "food_type":"water"
+    },
+    {
+       "food_name":"agua importada",
+      "food_price": 250,
+      "food_type":"water"
+    },
+     {
+      "food_name":"refresco nacional",
+       "food_price": 270,
+      "food_type":"soft_drinks"
+     },
+     {
+      "food_name": "refresco importado",
+      "food_price": 320,
+       "food_type":"soft_drinks"
+     },
+    {
+       "food_name":"malta",
+       "food_price": 335,
+      "food_type":"soft_drinks"
+    },
+    {
+      "food_name":"kermato",
+      "food_price": 491,
+       "food_type":"soft_drinks"
+    },
+    {
+       "food_name":"malteada",
+       "food_price": 693,
+      "food_type":"soft_drinks"
+    },
+     {
+      "food_name":"red bull",
+      "food_price": 740,
+      "food_type":"soft_drinks"
+    },
+     {
+      "food_name":"cola dietética",
+       "food_price": 398,
+       "food_type":"soft_drinks"
+     },
+    {
+       "food_name":"jugos naturales",
+      "food_price": 366,
+      "food_type":"juices"
+    },
+     {
+       "food_name":"jugos importados",
+       "food_price": 320,
+       "food_type":"juices"
+     },
+     {
+      "food_name":"limonada frappe",
+      "food_price": 531,
+      "food_type":"juices"
+     },
+     {
+      "food_name":"limonada clarete",
+      "food_price": 801,
+      "food_type":"juices"
+    },
+    {
+      "food_name":"cerveza nacional",
+       "food_price": 350,
+       "food_type":"alcoholic"
+    },
+     {
+      "food_name": "cerveza importada",
+       "food_price": 320,
+      "food_type":"alcoholic"
+     },
+    {
+      "food_name":"copa de cerveza",
+       "food_price": 300,
+       "food_type":"alcoholic"
+     },
+    {
+       "food_name":"jarra de cerveza",
+      "food_price": 626,
+       "food_type":"alcoholic"
+    },
+     {
+       "food_name":"habana club añejo blanco",
+      "food_price": 235,
+       "food_type":"alcoholic"
+     },
+      {
+        "food_name": "habana club 3 años",
+        "food_price": 235,
+         "food_type":"alcoholic"
+      },
+     {
+      "food_name":"habana club añejo especial",
+      "food_price": 256,
+      "food_type":"alcoholic"
+     },
+    {
+       "food_name":"habana club reserva",
+       "food_price": 531,
+       "food_type":"alcoholic"
+    },
+    {
+       "food_name":"habana club añejo 7 años",
+       "food_price": 489,
+       "food_type":"alcoholic"
+     },
+    {
+       "food_name":"habana club selección de maestro",
+      "food_price": 1132,
+      "food_type":"alcoholic"
+    },
+     {
+       "food_name":"habana club unio",
+       "food_price":  100,
+      "food_type":"alcoholic"
+    },
+     {
+       "food_name":"habana club tributo",
+       "food_price":  100,
+      "food_type":"alcoholic"
+    },
+    {
+      "food_name":"aguardiente santero",
+       "food_price": 245,
+      "food_type":"alcoholic"
+     },
+     {
+      "food_name":"ron santiago añejo",
+       "food_price": 323,
+      "food_type":"alcoholic"
+     },
+     {
+       "food_name":"amaretto disaronno",
+      "food_price": 565,
+      "food_type":"alcoholic"
+     },
+     {
+      "food_name":"frangelico",
+      "food_price": 1018,
+       "food_type":"alcoholic"
+     },
+    {
+       "food_name":"baileys",
+       "food_price": 565,
+      "food_type":"alcoholic"
+    },
+    {
+      "food_name":"sambuco",
+       "food_price": 565,
+      "food_type":"alcoholic"
+     },
+     {
+       "food_name":"anis del mono dulce",
+       "food_price": 519,
+      "food_type":"alcoholic"
+     },
+     {
+      "food_name":"pernod",
+      "food_price": 387,
+       "food_type":"alcoholic"
+     },
+    {
+      "food_name":"ricard",
+       "food_price": 387,
+      "food_type":"alcoholic"
+    },
+    {
+      "food_name":"cmapari",
+      "food_price": 165,
+       "food_type":"alcoholic"
+     },
+    {
+      "food_name":"licores cubanos",
+       "food_price": 165,
+      "food_type":"alcoholic"
+    },
+     {
+      "food_name":"chivas regal",
+       "food_price": 1485,
+       "food_type":"alcoholic"
+     },
+    {
+      "food_name":"jhonnie walker black level",
+      "food_price": 534,
+       "food_type":"alcoholic"
+     },
+     {
+      "food_name":"jhonnie walker red level",
+       "food_price": 444,
+       "food_type":"alcoholic"
+    },
+     {
+       "food_name":"jhonnie walker blue level j&b",
+      "food_price": 630,
+      "food_type":"alcoholic"
+     },
+      {
+       "food_name":"havana special",
+      "food_price": 531,
+      "food_type":"alcoholic"
+     },
+      {
+       "food_name":"cuba libre",
+      "food_price": 531,
+      "food_type":"alcoholic"
+      },
+      {
+       "food_name":"clan campbell",
+      "food_price": 418,
+      "food_type":"alcoholic"
+      },
+      {
+       "food_name":"wisky single malt",
+      "food_price": 1106,
+      "food_type":"alcoholic"
+      },
+      {
+       "food_name":"jameson",
+      "food_price": 895,
+       "food_type":"alcoholic"
+     },
+      {
+       "food_name":"jack daniels ballantines",
+      "food_price": 740,
+       "food_type":"alcoholic"
+      },
+    {
+       "food_name":"vermouth rojo",
+       "food_price": 283,
+       "food_type":"alcoholic"
+    },
+     {
+      "food_name":"vermouth rosado dulce",
+      "food_price": 283,
+      "food_type":"alcoholic"
+     },
+    {
+       "food_name":"vermouth seco",
+      "food_price": 285,
+       "food_type":"alcoholic"
+     },
+     {
+      "food_name":"copa de vino del dia tinto",
+       "food_price": 786,
+       "food_type":"alcoholic"
+     },
+    {
+       "food_name":"copa de vino del dia blanco",
+       "food_price": 786,
+      "food_type":"alcoholic"
+     },
+     {
+      "food_name":"copa de vino del dia rosado",
+      "food_price": 786,
+       "food_type":"alcoholic"
+     },
+      {
+       "food_name":"brandy",
+      "food_price": 316,
+       "food_type":"alcoholic"
+      },
+      {
+       "food_name":"ginebra",
+      "food_price": 687,
+       "food_type":"alcoholic"
+     },
+     {
+      "food_name":"ginebra beefeater",
+       "food_price": 716,
+       "food_type":"alcoholic"
+     },
+     {
+       "food_name":"tequila reposado",
+      "food_price": 532,
+       "food_type":"alcoholic"
+     },
+      {
+        "food_name": "tequila blanco",
+         "food_price": 454,
+        "food_type": "alcoholic"
+      },
+     {
+      "food_name":"brandy torres 5",
+       "food_price": 484,
+       "food_type":"alcoholic"
+     },
+      {
+        "food_name": "brandy torres 10",
+         "food_price": 468,
+        "food_type": "alcoholic"
+      },
+    {
+       "food_name":"mojito",
+      "food_price": 531,
+      "food_type":"alcoholic"
+    },
+    {
+      "food_name":"ron collins",
+      "food_price": 531,
+       "food_type":"alcoholic"
+     },
+    {
+       "food_name":"daiquiri",
+      "food_price": 531,
+       "food_type":"alcoholic"
+     },
+    {
+      "food_name":"havana special",
+      "food_price": 531,
+      "food_type":"alcoholic"
+    },
+    {
+      "food_name":"cubata",
+      "food_price": 531,
+       "food_type":"alcoholic"
+     },
+    {
+       "food_name":"cubanito",
+      "food_price": 531,
+       "food_type":"alcoholic"
+    },
+    {
+      "food_name":"mulata",
+       "food_price": 531,
+      "food_type":"alcoholic"
+    },
+    {
+      "food_name":"mimosa",
+      "food_price": 739,
+       "food_type":"alcoholic"
+     },
+     {
+       "food_name":"bloody mar",
+       "food_price": 739,
+      "food_type":"alcoholic"
+     },
+    {
+       "food_name":"piña colada",
+       "food_price": 739,
+       "food_type":"alcoholic"
+    },
+    {
+      "food_name":"margarita",
+       "food_price": 739,
+      "food_type":"alcoholic"
+     },
+    {
+      "food_name":"martini",
+       "food_price": 739,
+      "food_type":"alcoholic"
+     },
+     {
+      "food_name":"screwdriver",
+      "food_price": 739,
+       "food_type":"alcoholic"
+    },
+    {
+       "food_name":"caipirinha",
+       "food_price": 739,
+      "food_type":"alcoholic"
+     },
+    {
+      "food_name":"tom collins",
+       "food_price": 739,
+       "food_type":"alcoholic"
+     },
+    {
+       "food_name":"gin tonic",
+       "food_price": 739,
+      "food_type":"alcoholic"
+    },
+    {
+      "food_name":"sangria",
+      "food_price": 739,
+       "food_type":"alcoholic"
+    },
+    {
+      "food_name":"sangria tropical",
+       "food_price": 739,
+      "food_type":"alcoholic"
+    },
+     {
+       "food_name":"té negro",
+       "food_price": 165,
+      "food_type":"coffee"
+    },
+    {
+       "food_name":"té frío",
+       "food_price": 165,
+      "food_type":"coffee"
+    },
+    {
+       "food_name":"café expreso",
+      "food_price": 120,
+       "food_type

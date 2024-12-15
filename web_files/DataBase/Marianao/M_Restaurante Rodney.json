@@ -1,0 +1,184 @@
+{
+    "Name": "Bar Tropicana",
+    "Type": "Bar",
+    "Phone_Number": "7279147",
+    "Web_Page": "Cabaret-Tropicana.com",
+    "Ownership": "Estatal",
+    "Operating_Hours": {
+    "Monday":   ["12:00-22:00"],
+    "Tuesday":  ["12:00-22:00"],
+    "Wendsday": ["12:00-22:00"],
+    "Thursday": ["12:00-22:00"],
+    "Friday":   ["12:00-22:00"],
+    "Saturday": ["12:00-22:00"],
+    "Sunday":   ["12:00-22:00"]
+    },
+
+    "Location": {
+        "District": "Marianao",
+        "Address": "72A,Avenida 41",
+        "Coordinates": "3HVJ+R8W"
+    },
+    "Cuisine": "Variada",
+    "Menu": {
+        "Breakfast": {
+            "Egg": [null],
+            "Tortilla": [null],
+            "Hambuerguer": [null],
+            "Sandwich": {
+                "Sandwich de un agrego": {
+                    "Price": 230
+                },
+                "Sandwich de dos agregos": {
+                    "Price": 300
+                }
+            },
+            "Bread": [null]
+        },
+        "Appetizers": {
+            "Picadera de la casa": {
+                "Price": 650
+            },
+            "Entremes de embutido y queso": {
+                "Price": 400
+            },
+            "Tacos mexicanos de pollo": {
+                "Price": 700
+            },
+            "Tacos mexicanos de cerdo": {
+                "Price": 1400
+            },
+            "sopa del dia": {
+                "Price":125
+            },
+            "Croquetas": {
+                "Price": 250
+            },
+            "Crema aurora": {
+                "Price": 350
+            },
+            "Crema virginia": {
+                "Price": 480
+            },
+            "Crema de calabaza con queso": {
+                "Price": 400
+            },
+            "Eperlan de pescado": {
+                "Price": 600
+            },
+            "Fajitas de pollo": {
+                "Price": 500
+            }
+        },
+        "Main_Courses": {
+            "Pasta": {
+                "Pata napolitana": {
+                    "Price": 500
+                }
+            },
+            "Pizza": {
+                "Pizza napolitana": {
+                    "Price": 500
+                },
+                "Pizza campesina": {
+                    "Price": 1200
+                },
+                "Pizza especial rodney (rellena con queso)": {
+                    "Price": 800
+                },
+                "Pizza especial rodney (rellena con embutido)": {
+                    "Price": 900
+                },
+                "Pizza super especial rodney (rellena con queso y varios embutidos)": {
+                    "Price": 1200
+                }
+            },
+            "Pork": {
+                "Lonjas de cerdo asada": {
+                    "Price": 2000
+                },
+                "fricase de cerdo": {
+                    "Price": 2300
+                },
+                "Bistec de cerdo grille": {
+                    "Price": 1800
+                }
+            },
+            "Chicken": {
+                "Pollo asado": {
+                    "Price": 850
+                },
+                "Pollo frito": {
+                    "Price": 900
+                },
+                "Pollo deshuesado": {
+                    "Price": 900
+                }
+            },
+            "Beef": {
+                "Filete migñon": {
+                    "Price": 3000
+                },
+                "Steack de res": {
+                    "Price": 1400
+                }
+            },
+            "Sea": {
+                "Filete de pescado a la plancha": {
+                    "Price": 1500
+                },
+                "Filete de pescado gratinado con queso": {
+                    "Price": 1750
+                },
+                "Filete de pescado canciller": {
+                    "Price": 2000
+                },
+                "Langosta a la plancha": {
+                    "Price": 1800
+                },
+                "Langosta enchilada": {
+                    "Price": 1900
+                }
+            },
+            "Extras": {
+                "Arroz Rodney": {
+                    "Price": 780
+                },
+                "Filete bacalao a la plancha": {
+                    "Price": 250
+                },
+                "Arroz blanco": {
+                    "Price": 120
+                },
+                "Ensalada de vegetales": {
+                    "Price": 120
+                }
+            }
+        },
+        "Desserts": [null],
+        "Beverages": [null],
+        "most_sold": {
+            "Dish": ["Cerdo"],
+            "Drink": [null]
+        },
+        "least_sold": {
+            "Dish": ["Pescado","Marisco"],
+            "Drink": [null]
+        }
+    },
+    "Other Info": {
+        "Entertainment": ["Show"],
+        "Facilities": ["Reservaciones"],
+        "Payments_Options": {
+            "Cash": "Si",
+            "Credit_Card": "Si",
+            "Mobile_Payment": "Si"
+        },
+        "Accepted_Currencies": {
+            "National_Currency": "Si",
+            "US_Dollars": "No",
+            "Euros": "No",
+            "Others": "No"
+        }
+    }
+}

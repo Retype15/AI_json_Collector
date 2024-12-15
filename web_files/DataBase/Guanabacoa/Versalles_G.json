@@ -1,0 +1,514 @@
+{
+    "ID": 704,
+    "locality": {
+        "mun": "Guanabacoa",
+        "locator": {
+            "phones": {
+                "mobile": null,
+                "landline": null
+            },
+            "plus_code": "4MGV+4M6, Martí, La Habana, Cuba"
+        }
+    },
+    "name": "Cafe Versalles",
+    "type_cuisine": ["Bar","Criolla"],
+    "schedule": {
+        "monday": {
+            "opening": "9:00",
+            "closing": "24:00"
+        },
+        "tuesday": {
+            "opening": "9:00",
+            "closing": "24:00"
+        },
+        "wednesday": {
+            "opening": "9:00",
+            "closing": "24:00"
+        },
+        "thursday": {
+            "opening": "9:00",
+            "closing": "24:00"
+        },
+        "friday": {
+            "opening": "9:00",
+            "closing": "24:00"
+        },
+        "saturday": {
+            "opening": "9:00",
+            "closing": "24:00"
+        },
+        "sunday": {
+            "opening": "9:00",
+            "closing": "24:00"
+        }
+    },
+    "quality": {
+        "qualification_google": 5.0,
+        "qualification_tripadvisor": null,
+        "qualification_facebook": 5.0
+    },
+    "reservation_options": false,
+    "social_networks": ["Facebook","Instagram"],
+    "payment_options": ["Efectivo","Transfermovil"],
+    "service_details": ["A la carta"],
+    "menu": {
+        "breakfasts": [null],
+        "starters": [
+            {
+                "item": "ENSALADA FRÍA DE JAMÓN",
+                "price": 500.00,
+                "description": null
+            },
+            {
+                "item": "ENSALADA FRÍA DE ATÚN",
+                "price": 700.00,
+                "description": null
+            },
+            {
+                "item": "CROQUETAS DE LA CASA",
+                "price": 500.00,
+                "description": null
+            },
+            {
+                "item": "EPERLAN DE PESCADO",
+                "price": 1600.00,
+                "description": null
+            },
+            {
+                "item": "FAJITAS DE POLLO EMPANADO",
+                "price": 1500.00,
+                "description": null
+            },
+            {
+                "item": "MARIPOSITAS CHINAS",
+                "price": 700.00,
+                "description": null
+            },
+            {
+                "item": "CEVICHE PESCADO",
+                "price": 1000.00,
+                "description": null
+            },
+            {
+                "item": "CESTA BANANERA",
+                "price": 850.00,
+                "description": null
+            },
+            {
+                "item": "CÓCTEL DE CAMARÓN",
+                "price": 1200.00,
+                "description": null
+            }
+        ],
+        "main_courses": [
+            {
+                "item": "Pollo grille",
+                "price": 1400.00,
+                "description": null
+            },
+            {
+                "item": "Pollo cantones",
+                "price": 2200.00,
+                "description": null
+            },
+            {
+                "item": "Cordon bleu",
+                "price": 2500.00,
+                "description": null
+            },
+            {
+                "item": "Medio pollo al carbón con BBQ",
+                "price": 2500.00,
+                "description": null
+            },
+            {
+                "item": "Pescado versalles",
+                "price": 2800.00,
+                "description": null
+            },
+            {
+                "item": "Canciller",
+                "price": 2800.00,
+                "description": null
+            },
+            {
+                "item": "Montetoro",
+                "price": 2200.00,
+                "description": null
+            },
+            {
+                "item": "Filete grille",
+                "price": 1600.00,
+                "description": null
+            },
+            {
+                "item": "Camarón al gusto",
+                "price": 2500.00,
+                "description": null
+            },
+            {
+                "item": "Chuleta de cerdo al carbón con bbq 1 libra",
+                "price": 3600.00,
+                "description": null
+            },
+            {
+                "item": "Solomillo de cerdo al carbón con bbq 1 libra",
+                "price": 3000.00,
+                "description": null
+            },
+            {
+                "item": "Uruguayo de cerdo",
+                "price": 2500.00,
+                "description": null
+            },
+            {
+                "item": "Masa de cerdo frita 300 gr",
+                "price": 2800.00,
+                "description": null
+            },
+            {
+                "item": "Bistec de cerdo encebollado",
+                "price": 1600.00,
+                "description": null
+            }
+        ],
+        "Pizzas": [
+            {
+                "item": "Pizza Napoles",
+                "price": 900.00
+            },
+            {
+                "item": "Pizza queso gouda",
+                "price": 1260.00,
+                "description": null
+            },
+            {
+                "item": "Pizza jamón",
+                "price": 1150.00,
+                "description": null
+            },
+            {
+                "item": "Pizza chorizo",
+                "price": 1250.00,
+                "description": null
+            },
+            {
+                "item": "Pizza camarones",
+                "price": 1700.00,
+                "description": null
+            },
+            {
+                "item": "Pizza cebolla",
+                "price": 1150.00,
+                "description": null
+            },
+            {
+                "item": "Pizza aceituna",
+                "price": 1200.00,
+                "description": null
+            },
+            {
+                "item": "Pizza piña",
+                "price": 1150.00,
+                "description": null
+            },
+            {
+                "item": "Pizza atún",
+                "price": 1250.00,
+                "description": null
+            },
+            {
+                "item": "Pizza lomo ahumado",
+                "price": 1250.00,
+                "description": null
+            },
+            {
+                "item": "Pizza beicon",
+                "price": 1300.00,
+                "description": null
+            },
+            {
+                "item": "Pizza pimiento",
+                "price": 1200.00,
+                "description": null
+            }
+        ],
+        "pasta": [
+            {
+                "item": "Espaguetis",
+                "price": 800.00
+            },
+            {
+                "item": "Lazaña de Jamon",
+                "price": 1200.00
+            }
+        ],
+        "desserts": []
+    },
+    "drinks": {
+        "alcoholic_drinks": [
+            {
+                "item": "Ron selección de maestros",
+                "price": 900.00,
+                "description": null
+            },
+            {
+                "item": "Ron añejo especial",
+                "price": 350.00,
+                "description": null
+            },
+            {
+                "item": "Ron Santiago",
+                "price": 500.00,
+                "description": null
+            },
+            {
+                "item": "Ron cubay",
+                "price": 350.00,
+                "description": null
+            },
+            {
+                "item": "Ron 3 años",
+                "price": 350.00,
+                "description": null
+            },
+            {
+                "item": "Ron reserva",
+                "price": 350.00,
+                "description": null
+            },
+            {
+                "item": "Ron 7 años",
+                "price": 350.00,
+                "description": null
+            },
+            {
+                "item": "Tequila reposado",
+                "price": 600.00,
+                "description": null
+            },
+            {
+                "item": "Tequila olmega silver",
+                "price": 500.00,
+                "description": null
+            },
+            {
+                "item": "Whisky chivas regal",
+                "price": 1000.00,
+                "description": null
+            },
+            {
+                "item": "Whisky white label",
+                "price": 350.00,
+                "description": null
+            },
+            {
+                "item": "Whisky ballantines",
+                "price": 450.00,
+                "description": null
+            },
+            {
+                "item": "Whisky jack daniels",
+                "price": 450.00,
+                "description": null
+            },
+            {
+                "item": "Whisky jameson",
+                "price": 450.00,
+                "description": null
+            },
+            {
+                "item": "Vodka absolut",
+                "price": 500.00,
+                "description": null
+            },
+            {
+                "item": "Daiquiri",
+                "price": 500.00,
+                "description": null
+            },
+            {
+                "item": "Tinto verano",
+                "price": 500.00,
+                "description": null
+            },
+            {
+                "item": "Jack in black",
+                "price": 600.00,
+                "description": null
+            },
+            {
+                "item": "Bandera",
+                "price": 600.00,
+                "description": null
+            },
+            {
+                "item": "Margarita",
+                "price": 600.00,
+                "description": null
+            },
+            {
+                "item": "Margarita blue",
+                "price": 700.00,
+                "description": null
+            },
+            {
+                "item": "Daiquiri frutas",
+                "price": 600.00,
+                "description": null
+            },
+            {
+                "item": "Daiquiri rebelde",
+                "price": 500.00,
+                "description": null
+            },
+            {
+                "item": "Cubanito",
+                "price": 500.00,
+                "description": null
+            },
+            {
+                "item": "Bloody mary",
+                "price": 600.00,
+                "description": null
+            },
+            {
+                "item": "Limonada frappe",
+                "price": 250.00,
+                "description": null
+            },
+            {
+                "item": "Limonasa clarete",
+                "price": 400.00,
+                "description": null
+            },
+            {
+                "item": "Sangría",
+                "price": 500.00,
+                "description": null
+            },
+            {
+                "item": "Piña colada",
+                "price": 550.00,
+                "description": null
+            },
+            {
+                "item": "Limonada frescura",
+                "price": 350.00,
+                "description": null
+            },
+            {
+                "item": "Cubata",
+                "price": 700.00,
+                "description": null
+            },
+            {
+                "item": "Cuba libre",
+                "price": 500.00,
+                "description": null
+            },
+            {
+                "item": "Mojito",
+                "price": 500.00,
+                "description": null
+            },
+            {
+                "item": "Ron collins",
+                "price": 500.00,
+                "description": null
+            },
+            {
+                "item": "Caipirissima",
+                "price": 500.00,
+                "description": null
+            },
+            {
+                "item": "Caipiroska",
+                "price": 500.00,
+                "description": null
+            },
+            {
+                "item": "Caipiroska vip",
+                "price": 850.00,
+                "description": null
+            },
+            {
+                "item": "Vodka tonic",
+                "price": 850.00,
+                "description": null
+            },
+            {
+                "item": "Gin tonic",
+                "price": 700.00,
+                "description": null
+            },
+            {
+                "item": "Cerveza cristal",
+                "price": 350.00,
+                "description": null
+            },
+            {
+                "item": "Cerveza importada (heineken)",
+                "price": 400.00,
+                "description": null
+            },
+            {
+                "item": "Jarra de cerveza",
+                "price": 550.00,
+                "description": null
+            },
+            {
+                "item": "Tarro de cerveza",
+                "price": 2500.00,
+                "description": null
+            },
+            {
+                "item": "Café rocío de gallo",
+                "price": 250.00,
+                "description": null
+            }
+        ],
+        "non-alcoholic": [
+            {
+                "item": "Agua natural",
+                "price": 200.00,
+                "description": null
+            },
+            {
+                "item": "Refresco importado",
+                "price": 250.00,
+                "description": null
+            },
+            {
+                "item": "Refresco nacional",
+                "price": 250.00,
+                "description": null
+            },
+            {
+                "item": "Malta",
+                "price": 320.00,
+                "description": null
+            },
+            {
+                "item": "Jugos naturales",
+                "price": 350.00,
+                "description": null
+            },
+            {
+                "item": "Café expreso",
+                "price": 100.00,
+                "description": null
+            },
+            {
+                "item": "Café bombon",
+                "price": 250.00,
+                "description": null
+            },
+            {
+                "item": "Café cortado",
+                "price": 200.00,
+                "description": null
+            }
+        ]
+    }
+}

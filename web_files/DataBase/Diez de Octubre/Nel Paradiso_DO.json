@@ -1,0 +1,518 @@
+{
+    "ID": 601,
+    "locality": {
+        "mun": "Diez de Octubre",
+        "locator": {
+            "phones": {
+                "mobile": 52953716,
+                "landline": 76967579
+            },
+            "plus_code": "3JQQ+JXX, La Habana"
+        }
+    },
+    "name": "Nel Paradiso",
+    "type_cuisine": ["Internacional","Bar","Criolla"],
+    "schedule": {
+        "monday": {
+            "opening": "11:00",
+            "closing": "23:30"
+        },
+        "tuesday": {
+            "opening": "11:00",
+            "closing": "23:30"
+        },
+        "wednesday": {
+            "opening": "11:00",
+            "closing": "23:30"
+        },
+        "thursday": {
+            "opening": "11:00",
+            "closing": "23:30"
+        },
+        "friday": {
+            "opening": "11:00",
+            "closing": "23:30"
+        },
+        "saturday": {
+            "opening": "11:00",
+            "closing": "23:30"
+        },
+        "sunday": {
+            "opening": "11:00",
+            "closing": "23:30"
+        }
+    },
+    "quality": {
+        "qualification_google": 3.7,
+        "qualification_tripadvisor": null,
+        "qualification_facebook": 4.7
+    },
+    "reservation_options": true,
+    "social_networks": ["Facebook","WhatsApp","Instagram"],
+    "payment_options": ["Transfermovil","Efectivo","Euro","USD","Pago desde el exterior"],
+    "service_details": ["Guardería","Wifi","A la carta","A domicilio"],
+    "menu": {
+        "breakfasts": [null],
+        "starters": [
+            {
+                "item": "Croquetas de la casa con salsa rosa",
+                "price": 792.00,
+                "description": null
+            },
+            {
+                "item": "Frituras de la casa con miel y mostaza",
+                "price": 880.00,
+                "description": null
+            },
+            {
+                "item": "Bastones de Pollo con salsa rosa",
+                "price": 1760.00,
+                "description": null
+            },
+            {
+                "item": "Bastones de Mar en salsa alioli",
+                "price": 1760.00,
+                "description": null
+            },
+            {
+                "item": "Tamal en Cazuela",
+                "price": 1584.00,
+                "description": null
+            },
+            {
+                "item": "Tamal Marinero",
+                "price": 2376.00,
+                "description": null
+            },
+            {
+                "item": "Cóctel de Langosta",
+                "price": 2112.00,
+                "description": null
+            },
+            {
+                "item": "Tabla de Quesos",
+                "price": 2816.00,
+                "description": null
+            },
+            {
+                "item": "Lonjas de Jamón Serrano",
+                "price": 2640.00,
+                "description": null
+            },
+            {
+                "item": "Salmon Paradiso",
+                "price": 2816.00,
+                "description": null
+            },
+            {
+                "item": "Fajitas de Cerdo",
+                "price": 2112.00,
+                "description": null
+            },
+            {
+                "item": "Crema de Queso",
+                "price": 1232.00,
+                "description": null
+            },
+            {
+                "item": "Crema de Calabaza",
+                "price": 750.00,
+                "description": null
+            },
+            {
+                "item": "Ensalada de Atún y Huevo",
+                "price": 1760.00,
+                "description": null
+            },
+            {
+                "item": "Ceviche de Pescado",
+                "price": 1584.00,
+                "description": null
+            },
+            {
+                "item": "Picadera Paradiso ",
+                "price": 2992.00,
+                "description": null
+            },
+            {
+                "item": "Cóctel de Camarones",
+                "price": 1936.00,
+                "description": null
+            }
+        ],
+        "main_courses": [
+            {
+                "item": "Ropa Vieja de Cordero",
+                "price": 1848.00,
+                "description": null
+            },
+            {
+                "item": "Cabrito Picoso",
+                "price": 2640.00,
+                "description": null
+            },
+            {
+                "item": "Cordero al vino tinto",
+                "price": 2464.00,
+                "description": null
+            },
+            {
+                "item": "Pechuga Grille",
+                "price": 2112.00,
+                "description": null
+            },
+            {
+                "item": "Jardinera de Pechuga",
+                "price": 2464.00,
+                "description": null
+            },
+            {
+                "item": "Pechuga Roquefort",
+                "price": 2816.00,
+                "description": null
+            },
+            {
+                "item": "Pechuga Paradiso",
+                "price": 2992.00,
+                "description": null
+            },
+            {
+                "item": "Ropa Vieja de Res",
+                "price": 2552.00,
+                "description": null
+            },
+            {
+                "item": "Bistec de Res",
+                "price": 2904.00,
+                "description": null
+            },
+            {
+                "item": "Fajita de Res",
+                "price": 2464.00,
+                "description": null
+            },
+            {
+                "item": "Filete a la Douche",
+                "price": 2990.00,
+                "description": null
+            },
+            {
+                "item": "Bistec de Cerdo glaseado al Vino Tinto",
+                "price": 2112.00,
+                "description": null
+            },
+            {
+                "item": "Chuleta en Salsa Verde",
+                "price": 2288.00,
+                "description": null
+            },
+            {
+                "item": "Entrecot de Cerdo",
+                "price": 3520.00,
+                "description": null
+            },
+            {
+                "item": "Estofado de Cerdo",
+                "price": 6600.00,
+                "description": null
+            },
+            {
+                "item": "Masa de Pescado Frita",
+                "price": 2640.00,
+                "description": null
+            },
+            {
+                "item": "Filete John Bill",
+                "price": 3256.00,
+                "description": null
+            },
+            {
+                "item": "Camarones a Elección",
+                "price": 2995.00,
+                "description": null
+            },
+            {
+                "item": "Arroz Frito",
+                "price": 2112.00,
+                "description": null
+            },
+            {
+                "item": "Paella",
+                "price": 3168.00,
+                "description": null
+            },
+            {
+                "item": "Paella Especial",
+                "price": 6600.00,
+                "description": null
+            },
+            {
+                "item": "Arroz Blanco",
+                "price": 422.00,
+                "description": null
+            },
+            {
+                "item": "Arroz Moro",
+                "price": 636.00,
+                "description": null
+            },
+            {
+                "item": "Arroz Pilaf",
+                "price": 880.00,
+                "description": null
+            },
+            {
+                "item": "Pure de Malanga",
+                "price": 640.00,
+                "description": null
+            },
+            {
+                "item": "Ensalada de Vegetales",
+                "price": 633.00,
+                "description": null
+            }
+        ],
+        "pizzas": [
+            {
+                "item": "Napolitana",
+                "price": 1144.00,
+                "description": null
+            },
+            {
+                "item": "Margarita",
+                "price": 1232.00,
+                "description": null
+            },
+            {
+                "item": "De Cebolla",
+                "price": 1325.00,
+                "description": null
+            },
+            {
+                "item": "Ortolan",
+                "price": 1496.00,
+                "description": null
+            },
+            {
+                "item": "Hawaiana",
+                "price": 2288.00,
+                "description": null
+            },
+            {
+                "item": "Jamón o Chorizo",
+                "price": 1760.00,
+                "description": null
+            },
+            {
+                "item": "De Atún",
+                "price": 2640.00,
+                "description": null
+            },
+            {
+                "item": "De Camarones",
+                "price": 2640.00,
+                "description": null
+            },
+            {
+                "item": "De Jamón Serrano",
+                "price": 2816.00,
+                "description": null
+            },
+            {
+                "item": "Pizza Nel Paradiso",
+                "price": 2992.00,
+                "description": null
+            }
+        ],
+        "pasta": [
+            {
+                "item": "Napolitana",
+                "price": 1230.00,
+                "description": null
+            },
+            {
+                "item": "Amatriciana",
+                "price": 1936.00,
+                "description": null
+            },
+            {
+                "item": "Carbonara",
+                "price": 2200.00,
+                "description": null
+            },
+            {
+                "item": "Nero di Sepia",
+                "price": 3256.00,
+                "description": null
+            },
+            {
+                "item": "Pasta al Pesto",
+                "price": 2756.00,
+                "description": null
+            },
+            {
+                "item": "Lasagna",
+                "price": 1895.00,
+                "description": null
+            },
+            {
+                "item": "MonteMari Paradiso",
+                "price": 4576.00,
+                "description": null
+            },
+            {
+                "item": "Caldereta de Mariscos",
+                "price": 4480.00,
+                "description": null
+            }
+        ],
+        "desserts": [
+            {
+                "item": "Flan de Caramelo",
+                "price": 800.00,
+                "description": null
+            },
+            {
+                "item": "Bola de Helado",
+                "price": 200.00,
+                "description": null
+            },
+            {
+                "item": "Copa de Helado",
+                "price": 895.00,
+                "description": null
+            },
+            {
+                "item": "Tarta del Dia",
+                "price": 980.00,
+                "description": null
+            }
+        ]
+    },
+    "drinks": {
+        "alcoholic_drinks": [
+            {
+                "item": "Cerveza Nacional",
+                "price": 375.00,
+                "description": null
+            },
+            {
+                "item": "Cerveza Importada",
+                "price": 330.00,
+                "description": null
+            },
+            {
+                "item": "Corona/Heineken",
+                "price": 600.00,
+                "description": null
+            },
+            {
+                "item": "Copa de Vino Tinto",
+                "price": 600.00,
+                "description": null
+            },
+            {
+                "item": "Copa de Vino Blanco",
+                "price": 550.00,
+                "description": null
+            },
+            {
+                "item": "Sidra",
+                "price": 3000.00,
+                "description": null
+            },
+            {
+                "item": "Freixenet",
+                "price": 6000.00,
+                "description": null
+            },
+            {
+                "item": "Coctel Paradiso",
+                "price": 870.00,
+                "description": null
+            },
+            {
+                "item": "Manhattan",
+                "price": 720.00,
+                "description": null
+            },
+            {
+                "item": "Blody Mary",
+                "price": 825.00,
+                "description": null
+            }
+        ],
+        "non-alcoholic": [
+            {
+                "item": "Jugos Naturales",
+                "price": 270.00,
+                "description": null
+            },
+            {
+                "item": "Batido de Fruta Natural",
+                "price": 450.00,
+                "description": null
+            },
+            {
+                "item": "Malteada",
+                "price": 675.00,
+                "description": null
+            },
+            {
+                "item": "Batido de Helado",
+                "price": 987.00,
+                "description": null
+            },
+            {
+                "item": "Expresso",
+                "price": 300.00,
+                "description": null
+            },
+            {
+                "item": "Cortado",
+                "price": 375.00,
+                "description": null
+            },
+            {
+                "item": "Americano",
+                "price": 350.00,
+                "description": null
+            },
+            {
+                "item": "Capuchino",
+                "price": 400.00,
+                "description": null
+            },
+            {
+                "item": "Agua Natural",
+                "price": 260.00,
+                "description": null
+            },
+            {
+                "item": "Refresco Nacional",
+                "price": 300.00,
+                "description": null
+            },
+            {
+                "item": "Refresco Importado",
+                "price": 350.00,
+                "description": null
+            },
+            {
+                "item": "Energizante",
+                "price": 330.00,
+                "description": null
+            },
+            {
+                "item": "Red Bull",
+                "price": 600.00,
+                "description": null
+            },
+            {
+                "item": "Kermato",
+                "price": 600.00,
+                "description": null
+            }
+        ]
+    }
+}

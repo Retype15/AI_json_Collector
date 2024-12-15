@@ -1,0 +1,512 @@
+{
+    "ID": 1402,
+    "locality": {
+        "mun": "Regla",
+        "locator": {
+            "phones": {
+                "mobile": 56901253,
+                "landline": null
+            },
+            "plus_code": " 4MFC+QW5, Loredo, La Habana, Cuba"
+        }
+    },
+    "name": "La Nueva Guitarreta",
+    "type_cuisine": ["internacional","cocteleria"],
+    "schedule": {
+        "monday": {
+            "opening": "12:00",
+            "closing": "24:00"
+        },
+        "tuesday": {
+            "opening": "12:00",
+            "closing": "24:00"
+        },
+        "wednesday": {
+            "opening": "12:00",
+            "closing": "24:00"
+        },
+        "thursday": {
+            "opening": "12:00",
+            "closing": "24:00"
+        },
+        "friday": {
+            "opening": "12:00",
+            "closing": "24:00"
+        },
+        "saturday": {
+            "opening": "12:00",
+            "closing": "24:00"
+        },
+        "sunday": {
+            "opening": "12:00",
+            "closing": "24:00"
+        }
+    },
+    "quality": {
+        "qualification_google": 5.0,
+        "qualification_tripadvisor": null,
+        "qualification_facebook": null
+    },
+    "reservation_options": true,
+    "social_networks": ["Facebook","Instagram","WhatsApp"],
+    "payment_options": ["Efectivo","Transfermovil"],
+    "service_details": ["A la carta","Entretenimiento"],
+    "menu": {
+        "breakfasts": [null],
+        "starters": [
+            {
+                "item": "Ración de Yuca con Mojo",
+                "price": 250.00,
+                "description": null
+            },
+            {
+                "item": "Ensalada de Estación",
+                "price": 150.00,
+                "description": null
+            },
+            {
+                "item": "Tacos de Pollo",
+                "price": 750.00,
+                "description": null
+            },
+            {
+                "item": "Tacos de Cerdo",
+                "price": 1000.00,
+                "description": null
+            },
+            {
+                "item": "Tacos de Res",
+                "price": 1200.00,
+                "description": null
+            },
+            {
+                "item": "Fajitas de pollo",
+                "price": 800.00,
+                "description": null
+            },
+            {
+                "item": "Bolitas de Queso G",
+                "price": 700.00,
+                "description": null
+            },
+            {
+                "item": "Tostones Rellenos QB",
+                "price": 600.00,
+                "description": null
+            },
+            {
+                "item": "Tostones Rellenos QG",
+                "price": 750.00,
+                "description": null
+            },
+            {
+                "item": "Papas fritas con kétchup",
+                "price": 500.00,
+                "description": null
+            },
+            {
+                "item": "Papas fritas con Ketchup y QG",
+                "price": 650.00,
+                "description": null
+            },
+            {
+                "item": "Croquetas de la Abuela",
+                "price": 350.00,
+                "description": null
+            },
+            {
+                "item": "Croquetas Bechamel",
+                "price": 650.00,
+                "description": null
+            },
+            {
+                "item": "Mariopositas Chinas",
+                "price": 400.00,
+                "description": null
+            }
+        ],
+        "main_courses": [
+            {
+                "item": "Arroz frito",
+                "price": 1500.00,
+                "description": null
+            },
+            {
+                "item": "Arroz Frito Especial",
+                "price": 1800.00,
+                "description": null
+            },
+            {
+                "item": "Camarones al Ajillo",
+                "price": null,
+                "description": null
+            },
+            {
+                "item": "Camarones Enchilados",
+                "price": null,
+                "description": null
+            },
+            {
+                "item": "Masas de Cerdo con Salsa Agridulce o Mojito Criollo",
+                "price": null,
+                "description": null
+            },
+            {
+                "item": "Escalope de Cerdo",
+                "price": null,
+                "description": null
+            },
+            {
+                "item": "Bistec de Cerdo",
+                "price": null,
+                "description": null
+            },
+            {
+                "item": "Ropa Vieja",
+                "price": 1800.00,
+                "description": null
+            },
+            {
+                "item": "Pechuga Empanada",
+                "price": 1400.00,
+                "description": null
+            },
+            {
+                "item": "Pechuga Milanesa",
+                "price": 1500.00,
+                "description": null
+            },
+            {
+                "item": "Pechuga Grillé",
+                "price": 1600.00,
+                "description": null
+            },
+            {
+                "item": "Pechuga Princesa",
+                "price": 1750.00,
+                "description": null
+            },
+            {
+                "item": "Ración de Arroz Moro",
+                "price": 200.00,
+                "description": null
+            },
+            {
+                "item": "Ración de Arroz Blanco",
+                "price": 150.00,
+                "description": null
+            }
+        ],
+        "pizzas": [
+            {
+                "item": "Pizza de Queso Blanco",
+                "price": 700.00,
+                "description": null
+            },
+            {
+                "item": "Pizza de Queso Gouda",
+                "price": 950.00,
+                "description": null
+            },
+            {
+                "item": "Pizza Hawaiana QB",
+                "price": 1000.00,
+                "description": null
+            },
+            {
+                "item": "Pizza Hawaiana QG",
+                "price": 1250.00,
+                "description": null
+            }
+        ],
+        "pasta": [
+            {
+                "item": "Lasagna",
+                "price": 1350.00,
+                "description": null
+            },
+            {
+                "item": "Espaguetis de Queso Blanco",
+                "price": 550.00,
+                "description": null
+            },
+            {
+                "item": "Espaguetis de Queso Gouda",
+                "price": 700.00,
+                "description": null
+            }
+        ],
+        "desserts": [null]
+    },
+    "drinks": {
+        "alcoholic_drinks": [
+            {
+                "item": "Cerveza Importada",
+                "price": 200.00,
+                "description": null
+            },
+            {
+                "item": "Cerveza Importada",
+                "price": 250.00,
+                "description": null
+            },
+            {
+                "item": "Cerveza Nacional",
+                "price": 300.00,
+                "description": null
+            },
+            {
+                "item": "Pantera Rosa",
+                "price": 650.00,
+                "description": null
+            },
+            {
+                "item": "Sangría",
+                "price": 500.00,
+                "description": null
+            },
+            {
+                "item": "Tinto Verano",
+                "price": 400.00,
+                "description": null
+            },
+            {
+                "item": "Long Island",
+                "price": 850.00,
+                "description": null
+            },
+            {
+                "item": "Screwdriver",
+                "price": 300.00,
+                "description": null
+            },
+            {
+                "item": "Gin Tonic Basic",
+                "price": 450.00,
+                "description": null
+            },
+            {
+                "item": "Gin Tonic c/ Beefeater",
+                "price": 600.00,
+                "description": null
+            },
+            {
+                "item": "VodkaTonic",
+                "price": 450.00,
+                "description": null
+            },
+            {
+                "item": "Cuba Libre",
+                "price": 250.00,
+                "description": null
+            },
+            {
+                "item": "Cubata",
+                "price": 350.00,
+                "description": null
+            },
+            {
+                "item": "POCIÓN GUITARRETA",
+                "price": 800.00,
+                "description": null
+            },
+            {
+                "item": "Ron Hav Club Añejo Especial",
+                "price": 300.00,
+                "description": null
+            },
+            {
+                "item": "Ron Hav Club Ritual",
+                "price": 350.00,
+                "description": null
+            },
+            {
+                "item": "Ron Hav Club Añejo 7 años",
+                "price": 400.00,
+                "description": null
+            },
+            {
+                "item": "Crema Tequila de Fresa",
+                "price": 400.00,
+                "description": null
+            },
+            {
+                "item": "Crema de Ron Rua Vieja",
+                "price": 550.00,
+                "description": null
+            },
+            {
+                "item": "Crema de Whisky Bailey's",
+                "price": 800.00,
+                "description": null
+            },
+            {
+                "item": "Whisky JW Etiqueta Roja",
+                "price": 650.00,
+                "description": null
+            },
+            {
+                "item": "Whisky Ballantines",
+                "price": 600.00,
+                "description": null
+            },
+            {
+                "item": "Whisky Jameson",
+                "price": 550.00,
+                "description": null
+            },
+            {
+                "item": "Whisky Chivas Regal",
+                "price": 700.00,
+                "description": null
+            },
+            {
+                "item": "Whisky JB",
+                "price": 450.00,
+                "description": null
+            },
+            {
+                "item": "Whisky Chanceler",
+                "price": 200.00,
+                "description": null
+            },
+            {
+                "item": "Shot Tequila Olmeca Silver",
+                "price": 400.00,
+                "description": null
+            },
+            {
+                "item": "Shot Jagermeifter",
+                "price": 500.00,
+                "description": null
+            },
+            {
+                "item": "Copa de Vino Tinto Semidulce",
+                "price": 350.00,
+                "description": null
+            },
+            {
+                "item": "Copa de Vino Tinto Merlot",
+                "price": 400.00,
+                "description": null
+            },
+            {
+                "item": "Copa de Vino Tinto Cabernet Sauvignon",
+                "price": 450.00,
+                "description": null
+            },
+            {
+                "item": "Copa de Vino Tinto Tempranillo",
+                "price": 675.00,
+                "description": null
+            },
+            {
+                "item": "Copa de Vino Blanco",
+                "price": 350.00,
+                "description": null
+            },
+            {
+                "item": "Michelada",
+                "price": 250.00,
+                "description": null
+            },
+            {
+                "item": "Chelada",
+                "price": 150.00,
+                "description": null
+            },
+            {
+                "item": "Caipiroska",
+                "price": 450.00,
+                "description": null
+            },
+            {
+                "item": "Caipirisima",
+                "price": 450.00,
+                "description": null
+            },
+            {
+                "item": "Daiquiri",
+                "price": 400.00,
+                "description": null
+            }
+        ],
+        "non-alcoholic": [
+            {
+                "item": "Agua Natural Importada",
+                "price": 200.00,
+                "description": null
+            },
+            {
+                "item": "Refresco de cola Importado",
+                "price": 220.00,
+                "description": null
+            },
+            {
+                "item": "Refresco de cola imp Pepsi",
+                "price": 260.00,
+                "description": null
+            },
+            {
+                "item": "Refresco de limón imp 7up",
+                "price": 260.00,
+                "description": null
+            },
+            {
+                "item": "Refresco de Naranja imp Fanta",
+                "price": 260.00,
+                "description": null
+            },
+            {
+                "item": "Refresco de Naranja Importado",
+                "price": 260.00,
+                "description": null
+            },
+            {
+                "item": "Refresco Mate",
+                "price": 280.00,
+                "description": null
+            },
+            {
+                "item": "Malta Nacional Bucanero",
+                "price": 300.00,
+                "description": null
+            },
+            {
+                "item": "Energizante Importado",
+                "price": 300.00,
+                "description": null
+            },
+            {
+                "item": "Energizante Importado",
+                "price": 400.00,
+                "description": null
+            },
+            {
+                "item": "Energizante Red Bull",
+                "price": 500.00,
+                "description": null
+            },
+            {
+                "item": "Limonada Frape",
+                "price": 290.00,
+                "description": null
+            },
+            {
+                "item": "Suero de Helado",
+                "price": 550.00,
+                "description": null
+            },
+            {
+                "item": "Piña Colada Virgen",
+                "price": 500.00,
+                "description": null
+            },
+            {
+                "item": "Piña Colada",
+                "price": 600.00,
+                "description": null
+            }
+        ]
+    }
+}

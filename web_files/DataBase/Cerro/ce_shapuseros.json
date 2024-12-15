@@ -1,0 +1,56 @@
+{
+    "municipality": "ce",
+    "name": "Shapuseros",
+    "address": "Calzada de Ayestarán entre San Pedro y Ayuntamineto",
+    "contacts": {
+        "phone": [],
+        "website": null,
+        "facebook": null,
+        "instagram": null
+    },
+    "ratings": {},
+    "owner": "particular",
+    "type": "Restaurante",
+    "specialty": "Hamburgusera",
+    "hours": {
+        "monday": "0900_2100",
+        "tuesday": "0900_2100",
+        "wednesday": "0900_2100",
+        "thursday": "0900_2100",
+        "friday": "0900_2100",
+        "saturday": "0900_2100",
+        "sunday": "0900_2100"
+    },
+    "services": {
+        "parking": false,
+        "reservations": false,
+        "delivery": false,
+        "power plant": true
+    },
+    "payment_methods": [
+        "cup"
+    ],
+    "menu": {
+        "breakfasts": {},
+        "starters": {},
+        "main_courses": {
+            "hamburguesa de pollo": 500,
+            "hamburguesa de cerdo": 550,
+            "hamburguesa de res": 600,
+            "hamburguesa Shapusero": 1200
+        },
+        "additions": {
+            "queso": 150,
+            "jamon": 120,
+            "chorizo": 150,
+            "bacon": 155,
+            "huevo": 150,
+            "cebolla": 50,
+            "salsa BBQ": 30
+        },
+        "fittings": {},
+        "desserts": {},
+        "drinks": {}
+    },
+    "plus": {}
+}

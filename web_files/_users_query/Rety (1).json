@@ -1,1 +1,0 @@
-{"responseSchema":{"type":"object","properties":{"menus":{"type":"array","items":{"type":"object","properties":{"menu_name":{"type":"string"},"price":{"type":"integer"},"menu_type":{"type":"string"}}}}}},"selectedRoute":"Convertidos/TEST3","userName":"Rety"}

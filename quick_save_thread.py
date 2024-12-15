@@ -17,29 +17,27 @@ class QuickSaveThread(QThread):
     def run(self):
         self.status_update.emit(self.process_id, "Enviando la consulta al modelo...", "in_progress")
         response_text = ""
-        print("En proceso...1")
+        print(f"En proceso...{self.process_id}, in filename: {self.file_name}")
         try:
-            print("En proceso...gemini")
             if self.schema:
                 self.model.set_ai_config(self.schema)
             response = self.model.call_ai(self.query)
             response_text = response.text
             print(response_text)
+            print(f"Proceso de la solicitud {self.process_id} completado satisfactoriamente.")
         except Exception as e:
             print(f"Error {e}")
             self.finished.emit(self.process_id, f"Error: Fallo al procesar la consulta. {str(e)}", "error", "")
             return
-        print("This continue...")
         
         if self.file_name:
             try:
                 ruta = os.path.dirname(os.path.abspath(__file__))
-                print(ruta)
+                print(f"Intentando guardar el archivo en {ruta}/{self.file_name}...")
                 if self.file_name:
-                    os.makedirs(ruta + "/docs", exist_ok=True)
-                print(response_text)
+                    os.makedirs(os.path.dirname(ruta + '/' + self.file_name), exist_ok=True)
                 
-                with open(f"{ruta}/docs/{self.file_name}.json", "w", encoding="utf-8") as file:
+                with open(f"{ruta}/{self.file_name}", "w", encoding="utf-8") as file:
                     file.write(response_text)
                 self.finished.emit(self.process_id, f"Guardado como \'{self.file_name}.json\' completado.", "completed", response_text)
             except Exception as e:
@@ -50,7 +48,7 @@ class QuickSaveThread(QThread):
             print(response_text)
 
         if self.post_process_callback:
-            self.post_process_callback(response_text)
+            self.post_process_callback(response_text, self.file_name)
             
             
 def clean_filename(filename):

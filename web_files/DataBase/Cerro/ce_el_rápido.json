@@ -1,0 +1,60 @@
+{
+    "municipality": "ce",
+    "name": "El Rápido",
+    "address": "Cruz del Pader entre Pedrosa y Amenidares",
+    "contacts": {
+        "phone": [],
+        "website": null,
+        "facebook": null,
+        "instagram": null
+    },
+    "ratings": {},
+    "owner": "Particular",
+    "type": "Restaurante",
+    "specialty": "",
+    "hours": {
+        "monday": "0730_1930",
+        "tuesday": "0730_1930",
+        "wednesday": "0730_1930",
+        "thursday": "0730_1930",
+        "friday": "0730_1930",
+        "saturday": "0730_1930",
+        "sunday": "0730_1930"
+    },
+    "services": {
+        "parking": false,
+        "reservations": false,
+        "delivery": false,
+        "power plant": false
+    },
+    "payment_methods": [
+        "cup"
+    ],
+    "menu": {
+        "breakfasts": {},
+        "starters": {
+            "Croquetas": 300,
+            "Papas fritas": 360
+        },
+        "main_courses": {
+            "Pan con Tortilla": 300,
+            "Pan con Tortilla , Jamón": 360,
+            "Pan con Tortilla, Chorizo": 360,
+            "Pan con Tortilla, Cebolla": 360,
+            "Pan con Tortilla , Queso Gouda": 400,
+            "Espaguetis": 850,
+            "Espaguetis Napolitano": 380,
+            "Espaguetis de chorizo": 1000,
+            "Hamburguesa de Cerdo": 620,
+            "Hamburguesa de Res": 720,
+            "Pollo Chiflado": 750,
+            "Sandwich Cubano": 860,
+            "Pan con Bitec de Cerdo": 750
+        },
+        "additions": {},
+        "fittings": {},
+        "desserts": {},
+        "drinks": {},
+        "plus": {}
+    }
+}

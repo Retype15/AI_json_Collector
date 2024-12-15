@@ -1,0 +1,116 @@
+{
+    "Name": "Ranchon de 41",
+    "Type": "Restaurante",
+    "Phone_Number": "52014975",
+    "Web_Page": [null],
+    "Ownership": "Particular",
+    "Operating_Hours": {
+        "Monday":   ["24h"],
+        "Tuesday":  ["24h"],
+        "Wendsday": ["24h"],
+        "Thursday": ["24h"],
+        "Friday":   ["24h"],
+        "Saturday": ["24h"],
+        "Sunday":   ["24h"]
+    },
+    "Location": {
+        "District": "Marianao",
+        "Address": "Avenida 41 y 84",
+        "Coordinates": "3HQH+R9"
+    },
+    "Cuisine": "Variada",
+    "Menu": {
+        "Appetizers": {
+            "Croquetas de la casa": {
+                "Price": 400
+            },
+            "Coctel de camaron":{
+                "Price": 650
+            },
+            "Picadera el toro bravo":{
+                "Price": 1700
+            }
+        },
+        "Main_Courses": {
+            "Pasta": {
+                "Espaguetis": {
+                    "Price": 700
+                }
+            },
+            "Pizza": {
+                "pizza de queso blanco": {
+                    "Price": 400
+                },
+                "pizza de queso gouda": {
+                    "Price": 680
+                }
+            },
+            "Pork": [null],
+            "Chicken": {
+                "Pollo chiflado": {
+                    "Price": 1200
+                },
+                "Fajitas de pollo": {
+                    "Price": 750
+                }
+            },
+            "Beef":[null],
+            "Sea": [null],
+            "Extras": {
+                "Queso":{
+                    "Price": 200
+                },
+                "Jamon":{
+                    "Price": 150
+                },
+                "Chorizo":{
+                    "Price": 150
+                },
+                "Cebolla":{
+                    "Price": 150
+                },
+                "Piña":{
+                    "Price": 150
+                },
+                "Aceituna":{
+                    "Price": 200
+                },
+                "Queso gouda":{
+                    "Price": 500
+                },
+                "atun":{
+                    "Price": 300
+                }
+            }
+        },
+        "Desserts": {
+            "Suero de helado": {
+                "Price": 400
+            }
+        },
+        "Beverages": [null],
+        "most_sold": {
+            "Dish": ["Pollo chiflado","papas fritas"],
+            "Drink": ["Cerveza"]
+        },
+        "least_sold": {
+            "Dish": ["Coctel de camaron"],
+            "Drink": [null]
+        }
+    },
+    "Other Info": {
+        "Entertainment": ["Musica grabada"],
+        "Facilities": [null],
+        "Payments_Options": {
+            "Cash": "Si",
+            "Credit_Card": "Si",
+            "Mobile_Payment": "Si"
+        },
+        "Accepted_Currencies": {
+            "National_Currency": "Si",
+            "US_Dollars": "No",
+            "Euros": "No",
+            "Others": "No"
+        }
+    }
+}

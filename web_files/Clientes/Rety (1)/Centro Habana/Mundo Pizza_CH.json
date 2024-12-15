@@ -1,0 +1,119 @@
+{
+  "menus": [
+    {
+      "food_name": "Croquetas Caseras",
+      "food_price": 590,
+      "food_type": "starters"
+    },
+    {
+      "food_name": "Tostones Criollos",
+      "food_price": 540,
+      "food_type": "starters"
+    },
+    {
+      "food_name": "Focaccia",
+      "food_price": 560,
+      "food_type": "starters"
+    },
+    {
+      "food_name": "Pizza Rossa",
+      "food_price": 590,
+      "food_type": "starters"
+    },
+    {
+      "food_name": "Pizza Metro Criolla",
+      "food_price": 2800,
+      "food_type": "pizzas"
+    },
+    {
+      "food_name": "Pizza Metro Casa",
+      "food_price": 3700,
+      "food_type": "pizzas"
+    },
+    {
+      "food_name": "Pizza Metro Gouda",
+      "food_price": 5100,
+      "food_type": "pizzas"
+    },
+   {
+      "food_name": "Pizza Metro Elección",
+      "food_price": 5150,
+       "food_type": "pizzas"
+    },
+    {
+      "food_name": "Pizza 1/2 Metro Mix",
+       "food_price": 2500,
+       "food_type": "pizzas"
+    },
+      {
+      "food_name": "Pizza 1/2 Metro Elección",
+       "food_price": 2700,
+      "food_type": "pizzas"
+    },
+   {
+      "food_name": "Espaguetis",
+      "food_price": 950,
+      "food_type": "pasta"
+    },
+    {
+      "food_name": "Lasagna",
+      "food_price": 1250,
+      "food_type": "pasta"
+    },
+    {
+      "food_name": "Espaguetis al Pesto",
+       "food_price": 1050,
+      "food_type": "pasta"
+    },
+    {
+      "food_name": "Espaguetis del Dia",
+       "food_price": 1600,
+      "food_type": "pasta"
+    },
+     {
+      "food_name": "Postre del Dia",
+       "food_price": 650,
+      "food_type": "desserts"
+    },
+    {
+       "food_name": "Pizza a Chocolate",
+       "food_price": 815,
+      "food_type": "desserts"
+    },
+     {
+      "food_name": "Helado 3 Gracias",
+      "food_price": 500,
+      "food_type": "desserts"
+    },
+       {
+      "food_name": "Cerveza",
+      "food_price": 300,
+      "food_type": "alcoholic_drinks"
+    },
+    {
+      "food_name": "Refresco",
+      "food_price": 250,
+      "food_type": "non-alcoholic"
+    },
+    {
+      "food_name": "Energizante",
+      "food_price": 390,
+       "food_type": "non-alcoholic"
+    },
+     {
+      "food_name": "Jugo Cajita",
+       "food_price": 250,
+       "food_type": "non-alcoholic"
+    },
+    {
+       "food_name": "Yogurt",
+       "food_price": 250,
+       "food_type": "non-alcoholic"
+    },
+    {
+      "food_name": "Malta",
+      "food_price": 300,
+      "food_type": "non-alcoholic"
+    }
+  ]
+}

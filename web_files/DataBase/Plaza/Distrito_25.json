@@ -1,0 +1,489 @@
+{
+    "type": "Bar-Restaurante-Cafeteria",
+    "name": "Distrito 25", 
+    "location": {
+        "address": "Calle 25 entre M y N, Vedado",
+        "municipe": "Plaza de la Revolucion",
+        "province": "La Habana"
+    },
+    "sector": "privado",
+    
+    "qualification": 3.5,
+    
+    "specialized_food": ["Comida mexicana"],
+
+    "payment method": ["Efectivo", "Transferencia"],
+    
+    "phone": 52831416,
+    
+    "capacity": 50,
+    
+    "reservation": true ,
+
+    "parking": true,
+
+    "delivery": false,
+
+    "wifi": false,
+
+    "electric generator": false,
+    
+    "hours": {
+        "monday": "11:00 am - 10:00 pm",  
+        "tuesday": "11:00 am - 10:00 pm",
+        "wednesday": "11:00 am - 10:00 pm",
+        "thursday": "11:00 am - 10:00 pm",
+        "friday": "11:00 am - 10:00 pm",
+        "saturday": "11:00 am - 10:00 pm",
+        "sunday": "11:00 am - 10:00 pm"
+    },
+    "menu":    {
+            "starters": [
+                {
+                    "item_name": "Nachos",
+                    "price": 400,
+                    "description": " "
+                },
+                {
+                    "item_name": "Nachos Ranchero",
+                    "price": 650,
+                    "description": " "
+                },
+                {
+                    "item_name": "Chilaquile pollo",
+                    "price": 650,
+                    "description": " "
+                },
+                {
+                    "item_name": "Tostón de jamón y queso",
+                    "price": 550,
+                    "description": " "
+                },
+                {
+                    "item_name": "Tostón Tomasa",
+                    "price": 700,
+                    "description": " "
+                },
+                {
+                    "item_name": "Tostón camarón",
+                    "price": 800,
+                    "description": " "
+                },
+                {
+                    "item_name": "Tostón cangrejo",
+                    "price": 900,
+                    "description": " "
+                },
+                {
+                    "item_name": "Ceviche pescado",
+                    "price": 850,
+                    "description": " "
+                },
+                {
+                    "item_name": "Crudo camarón",
+                    "price": 900,
+                    "description": " "
+                },
+                {
+                    "item_name": "Coctel camarón",
+                    "price": 1000,
+                    "description": " "
+                }, {
+                    "item_name": "Coctel langosta",
+                    "price": 1500,
+                    "description": " "
+                },
+                {
+                    "item_name": "Tabla especial",
+                    "price": 3000,
+                    "description": " "
+                }, {
+                    "item_name": "Croquetas (5u)",
+                    "price": 600,
+                    "description": " "
+                },
+                {
+                    "item_name": "Croquetas (10u)",
+                    "price": 1000 ,
+                    "description": " "
+                },
+                {
+                    "item_name": "Ostiones",
+                    "price": 500,
+                    "description": " "
+                }
+            ],
+                
+            "mains": [
+                {
+                    "item_name": "Burrito de cerdo",
+                    "price": 900,
+                    "description": " "
+                },
+                {
+                    "item_name": "Burrito Tomasa",
+                    "price": 1000,
+                    "description": " "
+                },
+                {
+                    "item_name": "Burrito Cangrejo",
+                    "price": 1100,
+                    "description": " "
+                },
+                {
+                    "item_name": "Burrito Langosta",
+                    "price": 1500,
+                    "description": " "
+                },
+                {
+                    "item_name": "Burrito Camarón",
+                    "price": 1200,
+                    "description": " "
+                },
+                {
+                    "item_name": "Súper Burrito",
+                    "price": 2000,
+                    "description": " "
+                },
+                {
+                    "item_name": "Tacos Chochitos",
+                    "price": 450,
+                    "description": " "
+                },
+                {
+                    "item_name": "Tacos Pastor",
+                    "price": 500,
+                    "description": " "
+                },
+                {
+                    "item_name": "Tacos Habanero",
+                    "price": 400,
+                    "description": " "
+                },
+                {
+                    "item_name": "Tacos Tinga",
+                    "price": 450,
+                    "description": " "
+                },
+                {
+                    "item_name": "Tacos caribeños",
+                    "price": 500,
+                    "description": " "
+                },
+                {
+                    "item_name": "Tacos Navilio",
+                    "price": 700,
+                    "description": " "
+                }, {
+                    "item_name": "Tacos Tomasa",
+                    "price": 650,
+                    "description": " "
+                },
+                {
+                    "item_name": "Quesadilla ",
+                    "price": 400,
+                    "description": " "
+                }, {
+                    "item_name": "Taco Estrella",
+                    "price": 2000,
+                    "description": " "
+                },
+                {
+                    "item_name": "Lomo mechado",
+                    "price": 1700,
+                    "description": " "
+                },
+                {
+                    "item_name": "Pollo en crema al cajú",
+                    "price": 1800,
+                    "description": " "
+                },
+                {
+                    "item_name": "Pollo grillé",
+                    "price": 1500,
+                    "description": " "
+                },
+                {
+                    "item_name": "Mar y tierra",
+                    "price": 4000,
+                    "description": " "
+                },
+                {
+                    "item_name": "Langosta",
+                    "price": 2000,
+                    "description": " "
+                },
+                {
+                    "item_name": "Arroz meloso",
+                    "price": 1800,
+                    "description": " "
+                },
+                {
+                    "item_name": "Langostino",
+                    "price": 2000,
+                    "description": " "
+                },
+                {
+                    "item_name": "Camarón al gusto",
+                    "price": 1600,
+                    "description": " "
+                },
+                {
+                    "item_name": "Filete de pescado",
+                    "price": 1800,
+                    "description": " "
+                },
+                {
+                    "item_name": "Pulpo al gusto",
+                    "price": 2000,
+                    "description": " "
+                },
+                {
+                    "item_name": "Caldereta de mariscos",
+                    "price": 3500,
+                    "description": " "
+                }, {
+                    "item_name": "Cerdo en crema de queso al cajún",
+                    "price": 2500,
+                    "description": " "
+                }
+            ],
+
+            "fittings": [
+                {
+                    "item_name": "",
+                    "price": "",
+                    "description": " "
+                }
+            ],
+
+            "pizza": [
+                {
+                    "item_name": "Pizza napolitana",
+                    "price": 800,
+                    "description": " "
+                }
+            ],
+
+            "paste": [
+                {
+                    "item_name": "Espaguetis napolitanos",
+                    "price": 650,
+                    "description": ""
+                },
+                {
+                    "item_name": "Espaguetis Fruti D´Mare",
+                    "price": 1000,
+                    "description": " "
+                }
+            ],
+
+            "additions": [
+                {
+                    "item_name": "jamón",
+                    "price":250,
+                    "description": " "
+                },
+                {
+                    "item_name": "queso",
+                    "price": 350,
+                    "description": " "
+                },
+                {
+                    "item_name": "cebolla",
+                    "price": 200,
+                    "description": " "
+                },
+                {
+                    "item_name": "pina",
+                    "price": 150,
+                    "description": " "
+                },
+                {
+                    "item_name": "aceituna",
+                    "price": 300,
+                    "description": " "
+                },
+                {
+                    "item_name": "pimiento",
+                    "price": 200,
+                    "description": " "
+                },
+                {
+                    "item_name": "camarón",
+                    "price": 350,
+                    "description": " "
+                }
+            ],
+
+            "sandwich": [
+                {
+                    "item_name": " Sandwich campesino",
+                    "price": 750,
+                    "description": " "
+                },
+                {
+                    "item_name": "Sandwich pollo",
+                    "price": 550,
+                    "description": " "
+                },
+                {
+                    "item_name": "Sandwich jamón y queso",
+                    "price": 500,
+                    "description": " "
+                }
+            ],
+
+            "desserts": [
+                {
+                    "item_name": "",
+                    "price": "",
+                    "description": " "
+                }
+            ],
+            "cocktails": [
+                {
+                    "item_name": "Mojito natural",
+                    "price": 450
+                },
+                {
+                    "item_name": "Mojito moreno",
+                    "price": 600
+                },
+                {
+                    "item_name": "Ron Collins",
+                    "price": 400
+                },
+                {
+                    "item_name": "Daiquirí natural",
+                    "price": 400
+                },
+                {
+                    "item_name": "Daiquirí de fresa",
+                    "price": 500
+                },
+                {
+                    "item_name": "Canchánchara",
+                    "price": 500
+                },
+                {
+                    "item_name": "Cancha",
+                    "price": 550
+                },
+                {
+                    "item_name": "Caipirísima",
+                    "price": 500
+                },
+                {
+                    "item_name": "Caipirina",
+                    "price": 500
+                },
+                {
+                    "item_name": "Caipiroska",
+                    "price": 500
+                },
+                {
+                    "item_name": "Sangría",
+                    "price": 600
+                },
+                {
+                    "item_name": "Pina colada",
+                    "price": 600
+                },
+                {
+                    "item_name": "Gin tonic",
+                    "price": 500
+                },
+                {
+                    "item_name": "Vodka tonic",
+                    "price": 500
+                },
+                {
+                    "item_name": "Blue Lagon",
+                    "price": 550
+                },
+                {
+                    "item_name": "Ballentines 12 anos",
+                    "price": 600
+                },
+                {
+                    "item_name": "Cuba libre ",
+                    "price":450 
+                },
+                {
+                    "item_name": "Limonada",
+                    "price": 350
+                },
+                {
+                    "item_name": "Limonada Frescura",
+                    "price": 400
+                }
+               
+            ],
+
+            "drinks": [
+                {
+                    "item_name": "Cerveza nacional",
+                    "price": 350
+                },
+                {
+                    "item_name": "Cerveza importada",
+                    "price": 300
+                    
+                },
+                {
+                    "item_name": "Servicio Michelada",
+                    "price":200
+                },
+                {
+                    "item_name": "Servicio Chelada",
+                    "price": 150
+                },
+                {
+                    "item_name": "Refresco Importado",
+                    "price": 300
+                },
+                {
+                    "item_name": "Jugo natural",
+                    "price": 300
+                    
+                },
+                {
+                    "item_name": "Batido de mamey",
+                    "price":700
+                },
+                {
+                    "item_name": "Agua natural",
+                    "price": 200
+                },
+                {
+                    "item_name": "Energizante",
+                    "price": 400
+                }
+            ],
+
+            "infusions": [
+                {
+                    "item_name": "expresso",
+                    "price": 120
+                },
+                {
+                    "item_name": "cortado",
+                    "price": 180
+                    
+                },
+                {
+                    "item_name": "bombón",
+                    "price":350 
+                },
+                {
+                    "item_name": "Capuchino",
+                    "price": 320
+                },
+                {
+                    "item_name": "Frapuchino",
+                    "price": 500
+                }
+            ]
+        }  
+} 

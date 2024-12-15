@@ -1,0 +1,49 @@
+{
+	"responseSchema":
+	{
+		"type":"object",
+		"properties":
+		{
+			"food_type":{"type":"string","enum":["Variety","Chinese","Cuban","Japanese","Mexican"]},
+			"local_name":{"type":"string"},
+			"address":{"type":"string"},
+			"phone_number":{"type":"string"},
+			"schedule":
+			{
+				"type":"object",
+				"properties":
+				{
+					"days_of_the_week":
+					{
+						"type":"string"
+					},
+					"opening":
+					{
+						"type":"string"
+					},
+					"closure":
+					{
+						"type":"string"
+					}
+				}
+			},
+			"food-menu":
+			{
+				"type": "array",
+				"items":
+				{
+					"type": "object",
+					"properties":
+					{
+						"food_name":{"type":"string"},
+						"food_price":{"type":"number"},
+						"food_type":{"type":"string"}
+					}
+				}
+			},
+			"quality_of_service":{"type":"string"}
+		}
+	},
+	"selectedRoute":"Arroyo Naranjo",
+	"userName":"Reynier Ramos"
+}

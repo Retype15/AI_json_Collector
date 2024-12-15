@@ -1,0 +1,395 @@
+{
+    "type": "Bar-Restaurante-Cafeteria",
+    "name": "El Vampirito", 
+    "location": {
+        "address": "Calle 6 entre 19 y 21, Vedado",
+        "municipe": "Plaza de la Revolucion",
+        "province": "La Habana"
+    },
+    "sector": "privado",
+    
+    "qualification": 4.5,
+    
+    "specialized_food": ["Pizza", "Comida italiana", "Sandwiches"],
+
+    "payment method": ["Efectivo", "Transferencia"],
+    
+    "phone": 78300774,
+    
+    "capacity": 30,
+    
+    "reservation":  false,
+
+    "parking": false,
+
+    "delivery": false,
+
+    "wifi": false,
+
+    "electric generator": false,
+    
+    "hours": {
+        "monday": "10:00am - 11:00pm ",  
+        "tuesday": "10:00am - 11:00pm ",
+        "wednesday": "10:00am - 11:00pm ",
+        "thursday": "10:00am - 11:00pm ",
+        "friday": "10:00am - 11:00pm ",
+        "saturday": "10:00am - 11:00pm ",
+        "sunday": "10:00am - 11:00pm "
+    },
+    "menu":    {
+            "starters": [
+                {
+                    "item_name": "Bruschettas naturales",
+                    "price": 780,                    
+                    "description": " "
+                },
+                {
+                    "item_name": "Bruchettas con atún, carne o ropa vieja",
+                    "price": 930,
+                    "description": " "
+                },
+                {
+                    "item_name": "Entremés de queso, jamón y bruschettas",
+                    "price": 1180,
+                    "description": " "
+                },
+                {
+                    "item_name": "Picadera de la casa",
+                    "price":2620 ,
+                    "description": " "
+                },
+                {
+                    "item_name": "Crema de queso",
+                    "price": 570,
+                    "description": " "
+                },
+                {
+                    "item_name": "Crema Aurora",
+                    "price": 600,
+                    "description": " "
+                }
+            ],
+                
+            "mains": [
+                {
+                    "item_name": "Ensalada de vegetales salteados",
+                    "price": 520,
+                    "description": " "
+                },
+                {
+                    "item_name": "Garbanzos fritos",
+                    "price": 1290,
+                    "description": " "
+                },
+                {
+                    "item_name": "Solomillo de cerdo",
+                    "price": 2340,
+                    "description": " "
+                },
+                {
+                    "item_name": "Carne asada en cazuela",
+                    "price": 2340,
+                    "description": " "
+                }
+            ],
+
+            "fittings": [
+                {
+                    "item_name": "",
+                    "price": "",
+                    "description": " "
+                }
+            ],
+
+            "pizza": [
+                {
+                    "item_name": "Pizza de queso",
+                    "price": 1220,
+                    "description": " "
+                },
+                {
+                    "item_name": "Pizza pequeña",
+                    "price": 590,
+                    "description": " "
+                }
+            ],
+
+            "paste": [
+                {
+                    "item_name": "Lasaña de jamón",
+                    "price": 1530,
+                    "description": ""
+                },
+                {
+                    "item_name": "Lasaña de carne",
+                    "price": 1530,
+                    "description": " "
+                },
+                {
+                    "item_name": "Lasaña hawaiana",
+                    "price": 1570,
+                    "description": " "
+                },
+                {
+                    "item_name": "Espaguetis",
+                    "price": 1090,
+                    "description": " "
+                },
+                {
+                    "item_name": "Media ración de espaguetis y media ración de lasaña",
+                    "price": 1310,
+                    "description": " "
+                }
+            ],
+
+            "additions": [
+                {
+                    "item_name": "Tomate",
+                    "price":200, 
+                    "description": " "
+                },
+                {
+                    "item_name": "Cebolla",
+                    "price": 200,
+                    "description": " "
+                },
+                {
+                    "item_name": "Pimiento",
+                    "price": 200,
+                    "description": " "
+                },
+                {
+                    "item_name": "Jamón",
+                    "price": 320,
+                    "description": " "
+                },
+                {
+                    "item_name": "Bacon",
+                    "price": 420,
+                    "description": " "
+                },
+                {
+                    "item_name": "Atún",
+                    "price":  535,
+                    "description": " "
+                },
+                {
+                    "item_name": "Chorizo",
+                    "price": 490,
+                    "description": " "
+                },
+                {
+                    "item_name": "Queso",
+                    "price": 370,
+                    "description": " "
+                },
+                {
+                    "item_name": "Pina glaseada",
+                    "price": 200,
+                    "description": " "
+                },
+                {
+                    "item_name": "Boloñesa",
+                    "price": 535,
+                    "description": " "
+                },
+                {
+                    "item_name": "Aceituna",
+                    "price": 280,
+                    "description": " "
+                }
+            ],
+
+            "sandwich": [
+                {
+                    "item_name": " Hamburguesa sencilla",
+                    "price": 1090,
+                    "description": " "
+                },
+                {
+                    "item_name": "Hamburguesa doble",
+                    "price": 2000,
+                    "description": " "
+                },
+                {
+                    "item_name": "Sandwich de queso gouda",
+                    "price": 960,
+                    "description": " "
+                },
+                {
+                    "item_name": "Sandwich de ropa vieja",
+                    "price":960 ,
+                    "description": " "
+                },
+                {
+                    "item_name": "Sandwich de bacon, huevo y queso",
+                    "price":1390 ,
+                    "description": " "
+                },
+                {
+                    "item_name": "Sandwich de lechón asado",
+                    "price": 1050,
+                    "description": " "
+                },
+                {
+                    "item_name": "Sandwich de atún",
+                    "price": 1390,
+                    "description": " "
+                },
+                {
+                    "item_name": "Sandwich de pechuga de pollo con queso",
+                    "price": 1260,
+                    "description": " "
+                },
+                {
+                    "item_name": "Sandwich de crema y jalea de fresa",
+                    "price": 1260,
+                    "description": " "
+                }
+            ],
+
+            "desserts": [
+                {
+                    "item_name": "Helado montado",
+                    "price": 300,
+                    "description": ""
+                },
+                {
+                    "item_name": "Canoa de helado",
+                    "price": 1500,
+                    "description": " "
+                },
+                {
+                    "item_name": "Postre del día",
+                    "price": 780,
+                    "description": " "
+                },
+                {
+                    "item_name": "Tarta",
+                    "price": 975,
+                    "description": " "
+                },
+                {
+                    "item_name": "Torrejas",
+                    "price": 700,
+                    "description": " "
+                },
+                {
+                    "item_name": "Media ración de torrejas",
+                    "price": 360,
+                    "description": " "
+                },
+                {
+                    "item_name": "Torrejas con helado",
+                    "price": 550,
+                    "description": " "
+                }
+            ],
+            "cocktails": [
+                {
+                    "item_name": "Limonada frappé",
+                    "price": 620
+                },
+                {
+                    "item_name": "Limonada con Hierba buena",
+                    "price": 700
+                },
+                {
+                    "item_name": "Caipirina",
+                    "price": 750
+                },
+                {
+                    "item_name": "Daiquirí",
+                    "price": 750
+                },
+                {
+                    "item_name": "Sangría",
+                    "price": 750
+                },
+                {
+                    "item_name": "Mojito frappé",
+                    "price": 750
+
+                }
+            ],
+
+            "drinks": [
+                {
+                    "item_name": "Jugo natural",
+                    "price": 250
+                },
+                {
+                    "item_name": "Refresco",
+                    "price": 400
+                },
+                {
+                    "item_name": "Agua natural/ glaseada",
+                    "price": 200
+                },
+                {
+                    "item_name": "Malteada",
+                    "price": 700
+                },
+                {
+                    "item_name": "Malta",
+                    "price": 460
+                },
+                {
+                    "item_name": "Suero de helado",
+                    "price": 1200
+                },
+                {
+                    "item_name": "Copa de vino",
+                    "price": 550
+                },
+                {
+                    "item_name": "Cerveza importada",
+                    "price": 400
+                },
+                {
+                    "item_name": "Cerveza nacional",
+                    "price": 500
+                },
+                {
+                    "item_name": "Red Bull",
+                    "price": 500
+                },{
+                    "item_name": "Michelada con cerveza importada",
+                    "price": 500
+                },
+                {
+                    "item_name": "Michelada con cerveza nacional",
+                    "price": 600
+                }
+            ],
+
+            "infusions": [
+                {
+                    "item_name": "expresso",
+                    "price": 180
+                },
+                {
+                    "item_name": "cortado",
+                    "price": 200
+                    
+                },
+                {
+                    "item_name": "capuccino",
+                    "price": 280
+                },
+                {
+                    "item_name": "Café con leche",
+                    "price": 280
+                },
+                {
+                    "item_name": "Café con ron",
+                    "price": 280
+                },
+                {
+                    "item_name": "Café con licor",
+                    "price": 280
+                }
+            ]
+        }  
+} 

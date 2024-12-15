@@ -1,0 +1,341 @@
+{
+    "Name": "Colesterol 5.1",
+    "Type": "Restaurante",
+    "Phone_Number": "59531065",
+    "Web_Page": "Cafecolesterol5.1",
+    "Ownership": "Particular",
+    "Operating_Hours": {
+        "Monday":   ["10:00-00:00"],
+        "Tuesday":  ["10:00-00:00"],
+        "Wendsday": ["10:00-00:00"],
+        "Thursday": ["10:00-00:00"],
+        "Friday":   ["10:00-00:00"],
+        "Saturday": ["10:00-00:00"],
+        "Sunday":   ["10:00-00:00"]
+    },
+    "Location": {
+        "District": "Marianao",
+        "Address": "Avenida 51 entre 134 y 136",
+        "Coordinates": "3HC7+CMM"
+    },
+    "Cuisine": "Variada",
+    "Menu": {
+        "Breakfast": {
+            "Egg":[null],
+            "Tortilla": [null],
+            "Hambuerguer": {
+                "Hamburguesa de pollo":{
+                    "Price": 1650
+                },
+                "Hamburguesa de cerdo":{
+                    "Price": 1795
+                },
+                "Hamburguesa de res":{
+                    "Price": 1945
+                }
+            },
+            "Sandwich": {
+                "Sandwich Ropa Vieja": {
+                    "Price": 760
+                },
+                "Sandwich de Jamón y Queso": {
+                    "Price": 765
+                },
+                "Sandwich Cubano": {
+                    "Price": 1320
+                },
+                "Sandwich de Atún y Cebolla": {
+                    "Price": 1945
+                }
+            },
+            "Bread": [null]
+        },
+        "Appetizers": {
+            "tostones": {
+                "Price": 490
+            },
+            "Mariposita China": {
+                "Price": 565
+            },
+            "Frituras de Malanga": {
+                "Price": 590
+            },
+            "Bolitas de queso con miel y.mostaza": {
+                "Price": 730
+            },
+            "Croquetas Colesterol 5.1": {
+                "Price": 835
+            },
+            "Fajitas de Pollo": {
+                "Price": 950
+            },
+            "Fajitas de Cerdo": {
+                "Price": 1150
+            },
+            "Cóctel de Camarones": {
+                "Price": 1670
+            },
+            "Eperlan de pescado": {
+                "Price": 950
+            },
+            "Ensalada Fría de Jamón": {
+                "Price": 835
+            },
+            "Ensalada Fría de Pollo": {
+                "Price": 865
+            },
+            "Ensalada Fría de Atún": {
+                "Price": 995
+            },
+            "Ensalada Fría de Marisco": {
+                "Price": 1125
+            },
+            "Crema de Queso": {
+                "Price": 595
+            },
+            "Crema de Mariscos": {
+                "Price": 920
+            },
+            "Garbanzo Frito": {
+                "Price": 1670
+            },
+            "Tacos de Pollo": {
+                "Price": 1260
+            },
+            "Tacos de Cerdo": {
+                "Price": 1670
+            },
+            "Tacos de Res": {
+                "Price": 1925
+            },
+            "Tacos de Marineros": {
+                "Price": 2330
+            },
+            "Tabla colesterol":{
+                "Price": 3320
+            }
+        },
+        "Main_Courses": {
+            "Tamal estilo colesterol": {
+                "Price": 1925
+            },
+            "Pasta": {
+                "Espaguetis napolitanos ": {
+                    "Price": 925
+                },
+                "Espaguetis con Jamón ": {
+                    "Price": 1145
+                },
+                "Espaguetis a la Boloñesa ": {
+                    "Price": 1800
+                },
+                "Espaguetis al Pesto": {
+                    "Price": 1265
+                },
+                "Espaguetis Carbonara ": {
+                    "Price": 2475
+                },
+                "Espaguetis con frutos de Mar": {
+                    "Price": 3750
+                },
+                "Lasaña boloñesa ": {
+                    "Price": 2245
+                }
+            },
+            "Pizza": {
+                "Pizza Margarita 5.1 ": {
+                    "Price": 1930
+                },
+                "Pizza de Jamón": {
+                    "Price": 2115
+                },
+                "Pizza hawaiana": {
+                    "Price": 2215
+                },
+                "Pizza de Bacon, Pepperoni y Jamón Serrano": {
+                    "Price": 2845
+                },
+                "Pizza Campesina": {
+                    "Price": 2645
+                },
+                "Pizza Marinera": {
+                    "Price": 3020
+                }
+            },
+            "Pork": {
+                "Masa de Cerdo Frita": {
+                    "Price": 2725
+                },
+                "Bistec Uruguayo ": {
+                    "Price": 2995
+                },
+                "Chuleta de Cerdo en Salsa Agridulce": {
+                    "Price": 3200
+                }
+            },
+            "Chicken": {
+                "Bistec Suprema ": {
+                    "Price": 2460
+                }
+            },
+            "Beef": {
+                "Ropa Vieja Res": {
+                    "Price": 2190
+                },
+                "vaca frita": {
+                    "Price": 2190
+                },
+                "Brocheta Mixta": {
+                    "Price": 2600
+                }
+            },
+            "Sea": {
+                "Enchilado de Cangrejo": {
+                    "Price": 1005
+                },
+                "Enchilado de Langosta": {
+                    "Price": 3030
+                },
+                "Mariscada estelares 5.1": {
+                    "Price": 3800
+                },
+                "Pescado Enchilado": {
+                    "Price": 2600
+                },
+                "Filete de Pescado Grille": {
+                    "Price": 3625
+                },
+                "Filete de Pescado Canciller ": {
+                    "Price": 3675
+                },
+                "Arroz con Artistage ": {
+                    "Price": 2800
+                }
+            },
+            "Extras": [null]
+        },
+        "Desserts": {
+            "Churros con leche condensada ": {
+                "Price": 300
+            },
+            "Tocinillo": {
+                "Price": 300
+            },
+            "Sunday": {
+                "Price": 470
+            },
+            "Churros acompañado de chocolate caliente": {
+                "Price": 700
+            }
+        },
+        "Beverages": {
+            "Base chelada": {
+                "Price": 170
+            },
+            "Base Michelada": {
+                "Price": 220
+            },
+            "Caipiroska": {
+                "Price": 495
+            },
+            "Caipiriña": {
+                "Price": 495
+            },
+            "Cubata": {
+                "Price": 550
+            },
+            "Cuba Libre": {
+                "Price": 550
+            },
+            "Daikiri Floridita": {
+                "Price": 600
+            },
+            "Tinto Verano": {
+                "Price": 600
+            },
+            "GynTonic": {
+                "Price": 650
+            },
+            "Canchanchara": {
+                "Price": 660
+            },
+            "Piña colada": {
+                "Price": 660
+            },
+            "Mojito": {
+                "Price": 720
+            },
+            "Sangría Especial 5.1": {
+                "Price": 720
+            },
+            "Café express": {
+                "Price": 250
+            },
+            "frapuccino": {
+                "Price": 450
+            },
+            "Agua Mineral": {
+                "Price": 190
+            },
+            "Jugos de frutas": {
+                "Price": 300
+            },
+            "Jugos de cajita": {
+                "Price": 340
+            },
+            "batidos de frutas": {
+                "Price": 495
+            },
+            "Malta": {
+                "Price": 420
+            },
+            "Malteada": {
+                "Price": 545
+            },
+            "Refresco de lata": {
+                "Price": 350
+            },
+            "Refresco pepsi": {
+                "Price": 420
+            },
+            "Refresco Seven Up": {
+                "Price": 420
+            },
+            "Suero de helado": {
+                "Price": 610
+            },
+            "energizante": {
+                "Price": 360
+            },
+            "Cerveza Nacional": {
+                "Price": 480
+            },
+            "Cerveza Importada": {
+                "Price": 380
+            }
+        },
+        "most_sold": {
+            "Dish": ["ropa vieja","chuleta"],
+            "Drink": ["cerveza"]
+        },
+        "least_sold": {
+            "Dish": ["brocheta"],
+            "Drink": [null]
+        }
+    },
+    "Other Info": {
+        "Entertainment": ["Musica grabada"],
+        "Facilities": ["Servicio a domicilio"],
+        "Payments_Options": {
+            "Cash": "Si",
+            "Credit_Card": "No",
+            "Mobile_Payment": "Si"
+        },
+        "Accepted_Currencies": {
+            "National_Currency": "Si",
+            "US_Dollars": "Si",
+            "Euros": "Si",
+            "Others": "Si"
+        }
+    }
+}

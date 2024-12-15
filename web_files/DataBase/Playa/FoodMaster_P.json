@@ -1,0 +1,258 @@
+{
+    "ID": 1201,
+    "locality": {
+        "mun": "Playa",
+        "locator": {
+            "phones": {
+                "mobile": 53826366,
+                "landline": null
+            },
+            "plus_code": "4H58+77H, La Habana"
+        }
+    },
+    "name": "FoodMaster",
+    "type_cuisine": ["Mexicana", "Americana","Café","Internacional","Bares para comer","Pizzas"],
+    "schedule": {
+        "monday": {
+            "opening": "10:30",
+            "closing": "21:00"
+        },
+        "tuesday": {
+            "opening": "10:30",
+            "closing": "21:00"
+        },
+        "wednesday": {
+            "opening": "10:30",
+            "closing": "21:00"
+        },
+        "thursday": {
+            "opening": "10:30",
+            "closing": "21:00"
+        },
+        "friday": {
+            "opening": "10:30",
+            "closing": "22:00"
+        },
+        "saturday": {
+            "opening": "10:30",
+            "closing": "22:00"
+        },
+        "sunday": {
+            "opening": "10:30",
+            "closing": "21:00"
+        }
+    },
+    "quality": {
+        "qualification_google": 4.8,
+        "qualification_tripadvisor": 4.0,
+        "qualification_facebook": null
+    },
+    "reservation_options": true,
+    "social_networks": ["Facebook","Instagram","WhatsApp"],
+    "payment_options": ["Transfermovil","Efectivo"],
+    "service_details": ["A la carta"],
+    "menu": {
+        "breakfasts": [null],
+        "starters": [
+            {
+                "item": "Picadera Food Master",
+                "price": 2700.00,
+                "description": null
+            },
+            {
+                "item": "Salchichas al Grill",
+                "price": 1600.00,
+                "description": "Dos salchichas al grill, papas fritas, salsa de mostaza"
+            },
+            {
+                "item": "Quesadilla",
+                "price": 990.00,
+                "description": "Tortilla de harina, queso Gouda, tomate, hierbas aromáticas"
+            },
+            {
+                "item": "Tacos",
+                "price": 990.00,
+                "description": null
+            },
+            {
+                "item": "Croquetas",
+                "price": 700.00,
+                "description": null
+            },
+            {
+                "item": "Empanadas",
+                "price": 750.00,
+                "description": null
+            },
+            {
+                "item": "Papas Fritas",
+                "price": 690.00,
+                "description": null
+            }
+        ] ,
+        "main_courses": [
+            {
+                "item": "Big Master Burger",
+                "price": 3500.00,
+                "description": "Hamburguesa de Res d 180 gr, pan de hamburguesa artesanal, salsa aromática FM, doble queso Gouda, ketchup y mostaza"
+            },
+            {
+                "item": "Suiza",
+                "price": 2950.00,
+                "description": "Hamburguesa mixta de Res y Cerdo, pan  de hamburguesa artesanal, champiñones y cebolla salteada con mantequilla"
+            },
+            {
+                "item": "Max",
+                "price": 2700.00,
+                "description": "¨Hamburguesa mixta de Res y Cerdo, pan de hamburguesa artesanal, queso Gouda y huevo frito y mostaza"
+            },
+            {
+                "item": "La Granja",
+                "price": 2550.00,
+                "description": "Hamburguesa de Res d 180 gr, pan de hamburguesa artesanal, salsa aromática FM, tomate y pepinillo"
+            },
+            {
+                "item": "Italiana",
+                "price": 2450.00,
+                "description": "Hamburguesa de Pollo, pan de hamburguesa artesanal, salsa FM y queso parmesano"
+            }
+        ],
+        "pizzas": [
+            {
+                "item": "Margarita",
+                "price": 1900.00,
+                "description": "Salsa de Tomate, mozzarella, parmesano, albahaca fresca"
+            },
+            {
+                "item": "Margarita con Jamón",
+                "price": 2400.00,
+                "description": "Salsa de tomate, mozzarella, parmesano, jamón cocido"
+            },
+            {
+                "item": "Diavola",
+                "price": 2600.00,
+                "description": "Salsa de tomate, mozzarella, parmesano, pepperoni"
+            },
+            {
+                "item": "De Jamón Serrano",
+                "price": 3200.00,
+                "description": "Salsa de tomate, mozzarella, parmesano, jamón serrano, rúcula"
+            },
+            {
+                "item": "De Atún",
+                "price": 3100.00,
+                "description": "Salsa de tomate, mozzarella, parmesano, atún, aceitunas"
+            },
+            {
+                "item": "La Prohibida en Italia",
+                "price": 3200.00,
+                "description": "Mozzarella, parmesano, queso azul, piña"
+            }
+        ],
+        "pasta": "",
+        "desserts": [
+            {
+                "item": "Empanadas de Pina y Queso",
+                "price": 750.00,
+                "description": null
+            },
+            {
+                "item": "Muffin",
+                "price": 550.00,
+                "description": null
+            },
+            {
+                "item": "Helado",
+                "price": 750.00,
+                "description": null
+            }
+        ]
+    },
+    "drinks": {
+        "alcoholic_drinks": [
+            {
+                "item": "Vino por Copa",
+                "price": 900.00,
+                "description": null
+            },
+            {
+                "item": "Gin & Tonic",
+                "price": 1200.00,
+                "description": null
+            },
+            {
+                "item": "Chelada",
+                "price": 900.00,
+                "description": null
+            },
+            {
+                "item": "Michelada",
+                "price": 1000.00,
+                "description": null
+            },
+            {
+                "item": "Sangria",
+                "price": 1100.00,
+                "description": null
+            },
+            {
+                "item": "Sangria Blanca",
+                "price": 1100.00,
+                "description": null
+            },
+            {
+                "item": "Tinto de Verano",
+                "price": 900.00,
+                "description": null
+            },
+            {
+                "item": "Spirit Cóctel",
+                "price": 800.00,
+                "description": null
+            },
+            {
+                "item": "Cerveza",
+                "price": 600.00,
+                "description": null
+            },
+            {
+                "item": "Cerveza Gama Alta",
+                "price": 800.00,
+                "description": null
+            }
+
+        ],
+        "non-alcoholic": [
+            {
+                "item": "Jugo Natural",
+                "price": 500.00,
+                "description": null
+            },
+            {
+                "item": "Jugo Cajita",
+                "price": 400.00,
+                "description": null
+            },
+            {
+                "item": "Batido de Helado",
+                "price": 750.00,
+                "description": null
+            },
+            {
+                "item": "Batido de Helado y Frutas",
+                "price": 750.00,
+                "description": null
+            },
+            {
+                "item": "Smoothie de Frutas",
+                "price": 600.00,
+                "description": null
+            },
+            {
+                "item": "Fresh de Pepino",
+                "price": 300.00,
+                "description": null
+            }
+        ]
+    }
+}

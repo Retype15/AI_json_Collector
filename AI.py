@@ -64,12 +64,12 @@ class Gemini_20:
     def call_ai(self, query):
         return self.model.generate_content(query)
         
-    def set_ai_config(self, schema=""):
+    def set_ai_config(self, schema):
         if schema:
-            json_config = create_schema(schema)
+            self.json_config['response_schema'] = create_schema(schema)
             self.model = genai.GenerativeModel(
                 model_name="gemini-2.0-flash-exp",
-                generation_config=json_config,
+                generation_config=self.json_config,
             )
 
 # Example usage:

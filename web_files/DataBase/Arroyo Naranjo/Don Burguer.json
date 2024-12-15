@@ -1,0 +1,115 @@
+{
+    "name": "Don Burguer",
+    "location": {
+        "municipality":"Arroyo Naranjo",
+        "address":"Calzada de 10 de Octubre, entre  Aranguren y Santa Isabel, La Palma ",
+        "coordinates_latitude_length" : "23.075256, -82.358692"
+    },
+    "phone_number": "+53 56073379",
+    "food_type":"comida chatarra",
+    "schedule": {
+        "opening": "10:00 am",
+        "closure": "11:00 pm",
+        "days_of_the_week": "todos los dias"
+    },
+    "quality":"Normal",
+    "social_media": {
+        "instagram":"donburguercuba",
+        "facebook":"Don Burguer JJ"
+    },
+    "menu": {
+        "breakfast":null,
+        "started": {
+            "ENSALADA FRÍA":580.00,
+            "ACEITUNAS (RACIÓN)":420.00,
+            "BOLITAS DE QUESO":640.00,
+            "FRITURAS DE MALANGA":510.00,
+            "CROQUETAS":640.00,
+            "PAPITAS":640.00,
+            "FAJITAS DE POLLO":940.00,
+            "ENTREMES SURTIDO":1720.00,
+            "BRUSQUETAS":780.00,
+            "BURRITOS DE JAMÓN Y QUESO":1260.00
+        },
+        "tacos":{
+            "TACOS DE VEGETALES":620.00,
+            "TACOS DE CERDO":1120.00,
+            "TACOS DE POLLO":1120.00,
+            "TACOS DE RES":1280.00     
+        },
+        "strong_dishes":null,
+        "pastas": null,
+        "pizzas": null,
+        "pizza_pasta_add-on": {
+
+        },
+        "side_dishes":null,
+        "desserts":{ 
+            "icecream_flavors":{
+               "3 GRACIAS" :740.00,
+               "ENSALADA": 1080.00,
+               "SUERO DE HELADO":840.00
+            },
+            "CASQUITOS DE GUAYABA":560.00,
+            "FLAN":560.00,
+            "DULCE DE COCO":460.00,
+            "TORREJAS":680.00,
+            "DULCE DE FRUTA BOMBA":460.00
+        },
+        "hamburgers_and_sandwichs":{
+            "HAMBURGUESA (CERDO)": 740.00,
+            "HAMBURGUESA (POLLO)":740.00,
+            "HAMBURGUESA (RES)":860.00,
+            "DOBLE HAMB. (CERDO)":1040.00,
+            "DOBLE HAMB. (POLLO)": 1040.00,
+            "DOBLE HAMB. (RES)":1480.00,
+            "DOBLE HAMBURGUESA DE CERDO(BISTEC DE CERDO Y 3 AGREGOS / JAMON VICKING, QUESO Y CHORIZO)":2680.00,
+            "PAN C/ BISTEC DE CERDO":840.00,
+            "PAN C/ BISTEC DE POLLO":810.00,
+            "PAN C/ LECHÓN":890.00,
+            "BOCADITO DE ATÚN": 840.00,
+            "SANDWICH DE JAMÓN QUESO Y CHORIZO":890.00,
+            "SANDWICH CUBANO": 1290.00
+        },
+        "hamburgers_add-on":{
+            "JAMÓN VICKING":120.00,
+            "JAMÓN PIERNA":190.00,
+            "BACON":190.00,
+            "QUESO":150.00,
+            "CHORIZO":120.00,
+            "HUEVO":190.00,
+            "CEBOLLA":60.00,
+            "TOMATE": 60.00,
+            "LECHUGA":30.00,
+            "PEPINILLO ENCURTIDO":30.00,
+            "PIÑA GLASEADA": 80.00
+        },
+        "aperitivos":null,
+        "snacks":null,
+        "creams_and_soup":null,
+        "digestive":null,
+        "liquids": {
+            "alcoholic_drinks":null,
+            "water": 150.00,
+            "soft_drinks": 240.00,
+            "juices":{
+                "BATIDO DE FRUTAS":390.00
+
+            },
+            "lemonade":{
+                "LIMONADA FRAPE":380.00,
+                "LIMONADA CON HIERBA BUENA":460.00
+
+            },
+            "red bull":null,
+            "malta":400.00,
+            "copas":null,
+            "coffees":null
+        }
+        
+    },
+    "10%_of_the_service": false,
+    "5%_of_the_service": true,
+    "reservation":false,
+    "type_of_currency": "cup"
+}

@@ -1,0 +1,107 @@
+{
+    "Name": "Cafeteria obelisco",
+    "Type": "Restaurante",
+    "Phone_Number": [null],
+    "Web_Page": [null],
+    "Ownership": "Estatal",
+    "Operating_Hours": {
+        "Monday":   ["09:00-18:00"],
+        "Tuesday":  ["09:00-18:00"],
+        "Wendsday": ["09:00-18:00"],
+        "Thursday": ["09:00-18:00"],
+        "Friday":   ["09:00-18:00"],
+        "Saturday": ["09:00-18:00"],
+        "Sunday":   ["09:00-18:00"]
+    },
+    "Location": {
+        "District": "Marianao",
+        "Address": "Avenida 31 ",
+        "Coordinates": "3HMG+V7F"
+    },
+    "Cuisine": "Variada",
+    "Menu": {
+        "Breakfast": {
+            "Egg": [null],
+            "Tortilla": [null],
+            "Hambuerguer": [null],
+            "Sandwich": [null],
+            "Bread": {
+                "Pan con queso y embutido": {
+                    "Price": 250
+                }
+            }
+        },
+        "Appetizers": {
+            "bolitas de carne": {
+                "Price": 20
+            },
+            "Dados de queso":{
+                "Price": 180
+            }
+        },
+        "Main_Courses": {
+            "Pasta": [null],
+            "Pizza": {
+                "Pizza de queso": {
+                    "Price": 200
+                }
+            },
+            "Pork": [null],
+            "Chicken": [null],
+            "Beef": [null],
+            "Sea": [null],
+            "Extras": {
+                "Frijol negro": {
+                    "Price": 55
+                },
+                "Arroz blanco": {
+                    "Price": 70
+                }
+            }
+        },
+        "Desserts": [null],
+        "Beverages": {
+            "agua saborizada": {
+                "Price": 50
+            },
+            "agua natural": {
+                "Price": 180
+            },
+            "Cerveza cristal": {
+                "Price": 180
+            },
+            "Vino blanco entre Rio": {
+                "Price": 160
+            },
+            "Vino blanco": {
+                "Price": 160
+            },
+            "Cerveza": {
+                "Price": 50
+            }
+        },
+        "most_sold": {
+            "Dish": ["Pizza"],
+            "Drink": ["Cerveza"]
+        },
+        "least_sold": {
+            "Dish": [null],
+            "Drink": ["agua saborizada"]
+        }
+    },
+    "Other Info": {
+        "Entertainment": [null],
+        "Facilities": [null],
+        "Payments_Options": {
+            "Cash": "Si",
+            "Credit_Card": "No",
+            "Mobile_Payment": "No"
+        },
+        "Accepted_Currencies": {
+            "National_Currency": "Si",
+            "US_Dollars": "No",
+            "Euros": "No",
+            "Others": "No"
+        }
+    }
+}
