@@ -15,6 +15,7 @@ import time
 # Importar modelo Gemini_20 de la biblioteca local AI
 from AI import Gemini_20
 from quick_save_thread import QuickSaveThread
+from utils import load_json_files
 
 class MainWindow(QMainWindow):
     def __init__(self):
@@ -188,6 +189,7 @@ class MainWindow(QMainWindow):
             # Crear un entorno seguro para ejecutar el código del usuario
             local_scope = {
                 "send_query": self.send_query,  # Permitir que el usuario llame a send_query
+                "load_json_files": load_json_files,
                 #"active_processes": self.get_active_processes,
             }
 
@@ -206,14 +208,14 @@ class MainWindow(QMainWindow):
         else:  # Modo texto (predeterminado)
             user_text = self.text_widget.toPlainText()
             #img = Image.open('test_2.jpg')
-            self.send_query([user_text], file_name="OLAOLA")
+            self.send_query([user_text], file_name="Acvhivo_1")
     
-    def send_query(self, query, file_name="", post_process=None):
+    def send_query(self, query, file_name="", post_process=None, schema=""):
         #print(query, '\n', file_name)
         
         process_id = str(uuid.uuid4())
         
-        quick_save_thread = QuickSaveThread(self.model, query, process_id, file_name, post_process)
+        quick_save_thread = QuickSaveThread(self.model, query, process_id, file_name, post_process, schema=schema)
         quick_save_thread.status_update.connect(lambda: self.update_process_state(process_id, "En progreso...", "in_progress"))
         quick_save_thread.finished.connect(
             lambda process_id, message, status, response_text: self.handle_query_completion(process_id, message, status, response_text)

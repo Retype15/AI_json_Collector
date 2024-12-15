@@ -6,9 +6,9 @@ from google.ai.generativelanguage_v1beta.types import content
 # Configure the API key (consider using environment variables for security)
 
 schema_str = ''
-ruta = os.path.dirname(os.path.abspath(__file__)) + "\\Json.json"
+ruta = os.path.dirname(os.path.abspath(__file__))
 
-with open(ruta, "r", encoding="utf-8") as file:
+with open(ruta + "/Json.json", "r", encoding="utf-8") as file:
     schema_str = file.read()
 
 # Crear el objeto Schema usando el diccionario
@@ -37,24 +37,40 @@ def create_schema(schema):
 
 
 class Gemini_20:
-    schema_dict = json.loads(schema_str)
-    response_schema = create_schema(schema_dict)
-    json_config = {
-        "temperature": 1,
-        "top_p": 0.95,
-        "top_k": 40,
-        "max_output_tokens": 8192,
-        "response_schema": response_schema,
-        "response_mime_type": "application/json",
-    }
-
-    def __init__(self):
-        genai.configure(api_key="AIzaSyCSf0Z8YiURr0SYSPDZe68K-zNkW4dMsNQ") 
+    schema_dict = ""
+    def __init__(self, schema=""):
+        if schema:
+            self.schema_dict = schema
+        else: 
+            self.schema_dict = json.loads(schema_str)
+            
+        response_schema = create_schema(self.schema_dict)
+        self.json_config = {
+            "temperature": 1,
+            "top_p": 0.95,
+            "top_k": 40,
+            "max_output_tokens": 8192,
+            "response_schema": response_schema,
+            "response_mime_type": "application/json",
+        }
+            
+        genai.configure(api_key="AIzaSyBOQwKlxo2UMSsk2-KaUt8SUc2XGzfr8MM") 
         self.model = genai.GenerativeModel(
             model_name="gemini-2.0-flash-exp",
             generation_config=self.json_config,
         )
         print("Gemini API Cargado correctamente...")
+        
+    def call_ai(self, query):
+        return self.model.generate_content(query)
+        
+    def set_ai_config(self, schema=""):
+        if schema:
+            json_config = create_schema(schema)
+            self.model = genai.GenerativeModel(
+                model_name="gemini-2.0-flash-exp",
+                generation_config=json_config,
+            )
 
 # Example usage:
 if __name__ == "__main__":
